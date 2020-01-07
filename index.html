@@ -68,97 +68,13 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" class="article-date">
-  <time datetime="2020-01-06T15:00:00.000Z" itemprop="datePublished">2020-01-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Boostnoteのバージョンは、<code>Boostnote 0.11.13</code>です。</p>
-<ul>
-<li>_config.ymlの記述<ul>
-<li><code>post_asset_folder: false</code>の状態にしておく。</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">(省略)</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link:</span><br><span class="line">  enable: true # Open external links in new tab</span><br><span class="line">  field: site # Apply to the whole site</span><br><span class="line">  exclude: &#39;&#39;</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">post_asset_folder: false</span><br><span class="line">relative_link: false</span><br><span class="line">future: true</span><br><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace: &#39;&#39;</span><br><span class="line">  wrap: true</span><br><span class="line">  hljs: false</span><br><span class="line"></span><br><span class="line">(省略)</span><br></pre></td></tr></table></figure>
-
-<h2><span id="ステップ1ページの作成">[ステップ1]ページの作成</span></h2><ul>
-<li>以下のコマンドでページを作成する。ここではimageというページを作成する例。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;image&quot;</span><br><span class="line">INFO  Created: ~\usr\source\_posts\image.md</span><br></pre></td></tr></table></figure>
-
-<h2><span id="ステップ2boostnoteで記事を作成する">[ステップ2]boostnoteで記事を作成する。</span></h2><ul>
-<li>画像を張り付けるなど、boostnoteのお作法で好きなように記事を作成する</li>
-</ul>
-<h2><span id="ステップ3記事を出力">[ステップ3]記事を出力</span></h2><ul>
-<li><p>File→export→MarkDownを選択</p>
-</li>
-<li><p>この際、先ほど作成したimage.mdを上書きする形でexportと保存を実行</p>
-</li>
-<li><p>上述の<code>_config.yml</code>の44行目のように<code>post_asset_folder: false</code>となっている場合、以下のようなフォルダ構成になるようにする。</p>
-</li>
-<li><p>作業としては、sourceフォルダの配下にimagesフォルダを新規作成する。</p>
-</li>
-</ul>
-<p><img src="/images/aedf8e76.PNG" alt="キャプチャ.PNG"></p>
-<h2><span id="ステップ4画像が出力されるようにファイル編集">[ステップ4]画像が出力されるようにファイル編集</span></h2><ul>
-<li>上書きする形でexportしたimage.mdを下記のように編集する。適当なエディタを使ってください。<ul>
-<li><code>attachements/xxxxx.png</code>となっているのを<code>/images/xxxx.png</code>に変更</li>
-<li>attachementsフォルダに配置されているxxxx.pngを<code>/source/images/</code>配下にコピーする。</li>
-</ul>
-</li>
-</ul>
-<h2><span id="ステップ5記事の確認">[ステップ5]記事の確認</span></h2><ul>
-<li><code>hexo server</code>コマンドで起動し、localhost:4000で確認。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<h2><span id="ステップ6記事のアップロード">[ステップ6]記事のアップロード</span></h2><ul>
-<li>問題なければ以下のコマンドでgithubにpushする</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
-
-
-<h2><span id="参考ページ">参考ページ</span></h2><p><a href="https://dotstud.io/blog/hexo-static-site-vol1/" target="_blank" rel="noopener">Node.js製の静的サイトジェネレータ「Hexo」で無料ブログ開発 vol.1 | dotstudio</a></p>
-<p><a href="http://magazine.a-n-t.jp/2017/08/blog-hexo-1/" target="_blank" rel="noopener">HEXOを使ってブログを構築しました。 その1 | ant magazine</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://shingo-omata.github.io/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" data-id="ck53vnes80000bsk309neapxn" class="article-share-link">共有</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/" rel="tag">IT</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-20200106" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/01/06/20200106/" class="article-date">
   <time datetime="2020-01-05T15:00:00.000Z" itemprop="datePublished">2020-01-06</time>
+  <time datetime="2020-01-06T07:17:03.546Z" itemprop="datePublished">更新日：2020-01-06</time>
 </a>
+
     
   </div>
   <div class="article-inner">
@@ -290,6 +206,94 @@
 
 
   
+    <article id="post-Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" class="article-date">
+  <time datetime="2020-01-05T15:00:00.000Z" itemprop="datePublished">2020-01-06</time>
+  <time datetime="2020-01-07T13:48:53.365Z" itemprop="datePublished">更新日：2020-01-07</time>
+</a>
+
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Boostnoteのバージョンは、<code>Boostnote 0.11.13</code>です。</p>
+<ul>
+<li>_config.ymlの記述<ul>
+<li><code>post_asset_folder: false</code>の状態にしておく。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">(省略)</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link:</span><br><span class="line">  enable: true # Open external links in new tab</span><br><span class="line">  field: site # Apply to the whole site</span><br><span class="line">  exclude: &#39;&#39;</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">post_asset_folder: false</span><br><span class="line">relative_link: false</span><br><span class="line">future: true</span><br><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace: &#39;&#39;</span><br><span class="line">  wrap: true</span><br><span class="line">  hljs: false</span><br><span class="line"></span><br><span class="line">(省略)</span><br></pre></td></tr></table></figure>
+
+<h2><span id="ステップ1ページの作成">[ステップ1]ページの作成</span></h2><ul>
+<li>以下のコマンドでページを作成する。ここではimageというページを作成する例。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;image&quot;</span><br><span class="line">INFO  Created: ~\usr\source\_posts\image.md</span><br></pre></td></tr></table></figure>
+
+<h2><span id="ステップ2boostnoteで記事を作成する">[ステップ2]boostnoteで記事を作成する。</span></h2><ul>
+<li>画像を張り付けるなど、boostnoteのお作法で好きなように記事を作成する</li>
+</ul>
+<h2><span id="ステップ3記事を出力">[ステップ3]記事を出力</span></h2><ul>
+<li><p>File→export→MarkDownを選択</p>
+</li>
+<li><p>この際、先ほど作成したimage.mdを上書きする形でexportと保存を実行</p>
+</li>
+<li><p>上述の<code>_config.yml</code>の44行目のように<code>post_asset_folder: false</code>となっている場合、以下のようなフォルダ構成になるようにする。</p>
+</li>
+<li><p>作業としては、sourceフォルダの配下にimagesフォルダを新規作成する。</p>
+</li>
+</ul>
+<p><img src="/images/aedf8e76.PNG" alt="キャプチャ.PNG"></p>
+<h2><span id="ステップ4画像が出力されるようにファイル編集">[ステップ4]画像が出力されるようにファイル編集</span></h2><ul>
+<li>上書きする形でexportしたimage.mdを下記のように編集する。適当なエディタを使ってください。<ul>
+<li><code>attachements/xxxxx.png</code>となっているのを<code>/images/xxxx.png</code>に変更</li>
+<li>attachementsフォルダに配置されているxxxx.pngを<code>/source/images/</code>配下にコピーする。</li>
+</ul>
+</li>
+</ul>
+<h2><span id="ステップ5記事の確認">[ステップ5]記事の確認</span></h2><ul>
+<li><code>hexo server</code>コマンドで起動し、localhost:4000で確認。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<h2><span id="ステップ6記事のアップロード">[ステップ6]記事のアップロード</span></h2><ul>
+<li>問題なければ以下のコマンドでgithubにpushする</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
+
+
+<h2><span id="参考ページ">参考ページ</span></h2><p><a href="https://dotstud.io/blog/hexo-static-site-vol1/" target="_blank" rel="noopener">Node.js製の静的サイトジェネレータ「Hexo」で無料ブログ開発 vol.1 | dotstudio</a></p>
+<p><a href="http://magazine.a-n-t.jp/2017/08/blog-hexo-1/" target="_blank" rel="noopener">HEXOを使ってブログを構築しました。 その1 | ant magazine</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://shingo-omata.github.io/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/" data-id="ck53vnes80000bsk309neapxn" class="article-share-link">共有</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/" rel="tag">IT</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
 
 
 </section>
@@ -303,7 +307,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">タグ</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" rel="tag">ダイエット</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" rel="tag">ダイエット</a></li></ul>
     </div>
   </div>
 
@@ -313,7 +317,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">タグクラウド</h3>
     <div class="widget tagcloud">
-      <a href="/tags/IT/" style="font-size: 10px;">IT</a> <a href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" style="font-size: 10px;">ダイエット</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/IT/" style="font-size: 10px;">IT</a> <a href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" style="font-size: 10px;">ダイエット</a>
     </div>
   </div>
 
@@ -335,11 +339,11 @@
       <ul>
         
           <li>
-            <a href="/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a>
+            <a href="/2020/01/06/20200106/">食べるだけで痩せる食材</a>
           </li>
         
           <li>
-            <a href="/2020/01/06/20200106/">食べるだけで痩せる食材</a>
+            <a href="/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a>
           </li>
         
       </ul>
