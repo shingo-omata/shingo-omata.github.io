@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shingo-omata.github.io/"/>
-  <updated>2020-01-05T15:00:00.000Z</updated>
+  <updated>2020-01-06T15:00:00.000Z</updated>
   <id>https://shingo-omata.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>食べるだけで痩せる食材</title>
-    <link href="https://shingo-omata.github.io/2020/01/06/20200106/"/>
-    <id>https://shingo-omata.github.io/2020/01/06/20200106/</id>
-    <published>2020-01-05T15:00:00.000Z</published>
-    <updated>2020-01-05T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;この記事は、運動もせずに日常生活の中に無理なく取り入れられる方法で、楽に健康的な体系を手に入れるための一例をまとめます。&lt;/li&gt;
-&lt;li&gt;「出っ張ってしまったおなかを少しでもへこませたい」、「でもきつい運動はちょっと、、、」、という方の参考になればと思います。
-      
-    
-    </summary>
-    
-    
-    
-      <category term="ダイエット" scheme="https://shingo-omata.github.io/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
-    
-  </entry>
   
   <entry>
     <title>Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</title>
