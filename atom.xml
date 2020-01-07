@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shingo-omata.github.io/"/>
-  <updated>2020-01-06T07:17:03.546Z</updated>
+  <updated>2020-01-05T15:00:00.000Z</updated>
   <id>https://shingo-omata.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shingo-omata.github.io/2020/01/06/20200106/"/>
     <id>https://shingo-omata.github.io/2020/01/06/20200106/</id>
     <published>2020-01-05T15:00:00.000Z</published>
-    <updated>2020-01-06T07:17:03.546Z</updated>
+    <updated>2020-01-05T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -45,7 +45,7 @@
     <link href="https://shingo-omata.github.io/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/"/>
     <id>https://shingo-omata.github.io/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</id>
     <published>2020-01-05T15:00:00.000Z</published>
-    <updated>2020-01-07T13:48:53.365Z</updated>
+    <updated>2020-01-06T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -64,6 +64,8 @@
       <category term="IT" scheme="https://shingo-omata.github.io/tags/IT/"/>
     
       <category term="Hexo" scheme="https://shingo-omata.github.io/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://shingo-omata.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
