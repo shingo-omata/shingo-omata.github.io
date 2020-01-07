@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>omathin blog</title>
+  
+  <subtitle>ITやサプリメントや野球関連について綴るページ</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://shingo-omata.github.io/"/>
+  <updated>2020-01-07T12:55:15.123Z</updated>
+  <id>https://shingo-omata.github.io/</id>
+  
+  <author>
+    <name>omathin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</title>
+    <link href="https://shingo-omata.github.io/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/"/>
+    <id>https://shingo-omata.github.io/2020/01/07/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</id>
+    <published>2020-01-06T15:00:00.000Z</published>
+    <updated>2020-01-07T12:55:15.123Z</updated>
+    
+    <content type="html"><![CDATA[<p>Boostnoteのバージョンは、<code>Boostnote 0.11.13</code>です。</p><ul><li>_config.ymlの記述<ul><li><code>post_asset_folder: false</code>の状態にしておく。</li></ul></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">(省略)</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link:</span><br><span class="line">  enable: true # Open external links in new tab</span><br><span class="line">  field: site # Apply to the whole site</span><br><span class="line">  exclude: &#39;&#39;</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">post_asset_folder: false</span><br><span class="line">relative_link: false</span><br><span class="line">future: true</span><br><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace: &#39;&#39;</span><br><span class="line">  wrap: true</span><br><span class="line">  hljs: false</span><br><span class="line"></span><br><span class="line">(省略)</span><br></pre></td></tr></table></figure><h2><span id="ステップ1ページの作成">[ステップ1]ページの作成</span></h2><ul><li>以下のコマンドでページを作成する。ここではimageというページを作成する例。</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;image&quot;</span><br><span class="line">INFO  Created: ~\usr\source\_posts\image.md</span><br></pre></td></tr></table></figure><h2><span id="ステップ2boostnoteで記事を作成する">[ステップ2]boostnoteで記事を作成する。</span></h2><ul><li>画像を張り付けるなど、boostnoteのお作法で好きなように記事を作成する</li></ul><h2><span id="ステップ3記事を出力">[ステップ3]記事を出力</span></h2><ul><li><p>File→export→MarkDownを選択</p></li><li><p>この際、先ほど作成したimage.mdを上書きする形でexportと保存を実行</p></li><li><p>上述の<code>_config.yml</code>の44行目のように<code>post_asset_folder: false</code>となっている場合、以下のようなフォルダ構成になるようにする。</p></li><li><p>作業としては、sourceフォルダの配下にimagesフォルダを新規作成する。</p></li></ul><p><img src="/images/aedf8e76.PNG" alt="キャプチャ.PNG"></p><h2><span id="ステップ4画像が出力されるようにファイル編集">[ステップ4]画像が出力されるようにファイル編集</span></h2><ul><li>上書きする形でexportしたimage.mdを下記のように編集する。適当なエディタを使ってください。<ul><li><code>attachements/xxxxx.png</code>となっているのを<code>/images/xxxx.png</code>に変更</li><li>attachementsフォルダに配置されているxxxx.pngを<code>/source/images/</code>配下にコピーする。</li></ul></li></ul><h2><span id="ステップ5記事の確認">[ステップ5]記事の確認</span></h2><ul><li><code>hexo server</code>コマンドで起動し、localhost:4000で確認。</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><h2><span id="ステップ6記事のアップロード">[ステップ6]記事のアップロード</span></h2><ul><li>問題なければ以下のコマンドでgithubにpushする</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure><h2><span id="参考ページ">参考ページ</span></h2><p><a href="https://dotstud.io/blog/hexo-static-site-vol1/" target="_blank" rel="noopener">Node.js製の静的サイトジェネレータ「Hexo」で無料ブログ開発 vol.1 | dotstudio</a></p><p><a href="http://magazine.a-n-t.jp/2017/08/blog-hexo-1/" target="_blank" rel="noopener">HEXOを使ってブログを構築しました。 その1 | ant magazine</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Boostnoteのバージョンは、&lt;code&gt;Boostnote 0.11.13&lt;/code&gt;です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;_config.ymlの記述&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;post_asset_folder: false&lt;/code&gt;の状態にしておく。&lt;/li
+      
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://shingo-omata.github.io/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>食べるだけで痩せる食材</title>
+    <link href="https://shingo-omata.github.io/2020/01/06/20200106/"/>
+    <id>https://shingo-omata.github.io/2020/01/06/20200106/</id>
+    <published>2020-01-05T15:00:00.000Z</published>
+    <updated>2020-01-06T07:17:03.546Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>この記事は、運動もせずに日常生活の中に無理なく取り入れられる方法で、楽に健康的な体系を手に入れるための一例をまとめます。</li><li>「出っ張ってしまったおなかを少しでもへこませたい」、「でもきつい運動はちょっと、、、」、という方の参考になればと思います。</li><li>（随時更新していきます）</li></ul><h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><ul><li><p>まずこの記事を読んでいる人の対象は以下とします。</p><ul><li><strong>医師からメタボリックシンドロームと診断された人が対象です。</strong><ul><li>つまり、ある程度普通体系である人が、筋肉ムキムキになるための手法ではありません。</li></ul></li></ul></li><li><p>暴飲暴食をしてしまってはさすがに難しい</p><ul><li>例えば、深夜に大盛のラーメンを毎日食べるなど、明らかに不摂生な食生活をしていては、良い効果は得られません。</li><li>1週間に1度という感じでたまになら許容範囲ですが、毎日暴飲暴食をしていながら痩せる、というのはさすがに難しいです。</li><li>ダイエットは食事が70%、運動が30%を占めているといっていいほど、食生活が重要です。たまになら良いですが、普段の食生活が乱れている場合は、そこから見直す必要はありますので注意が必要です。</li></ul></li></ul><h2 id="痩せる食材一覧"><a href="#痩せる食材一覧" class="headerlink" title="痩せる食材一覧"></a>痩せる食材一覧</h2><ul><li>もう結論を言ってしまいます。以下の食材を用いればよいです。<ul><li>焼き梅干し</li><li>ブロッコリースプラウト</li><li>特茶</li><li>からだすこやか茶W</li></ul></li></ul><ul><li>ただし、これらをむやみに摂取すれば良いというものではありません。これらを、<strong>適切なタイミングで適切な量を体内に取り入れることが重要です</strong></li><li>後半にどのタイミングでどの食材を摂取すれば良いかを以下にまとめていきたいと思います。</li></ul><h2 id="痩せる食材を取り入れるタイミングと量"><a href="#痩せる食材を取り入れるタイミングと量" class="headerlink" title="痩せる食材を取り入れるタイミングと量"></a>痩せる食材を取り入れるタイミングと量</h2><ul><li>以下に、一日のサイクルとして、朝、昼、夜、の3つに分け、それぞれのタイミングで何をどの程度摂取すれば良いかを記載したいと思います。</li></ul><h3 id="朝"><a href="#朝" class="headerlink" title="朝"></a>朝</h3><ul><li>焼き梅干し×2～3粒<ul><li>塩分が気になる人は、減塩の梅干しを使用しましょう。</li><li>焼き梅干しの作り方は、梅干しを耐熱皿に乗せ、ラップをかけて、電子レンジで30秒ほど温めればOKです。</li><li>この時、<strong>白いご飯を含む、糖質を控える/少なくする</strong>のが効果的です。焼き魚や温かいスープをするとなお良しです。</li></ul></li></ul><ul><li>特茶(500ml)<ul><li>出勤時にコンビニや、自動販売機で特茶を購入して飲みましょう。</li></ul></li></ul><h3 id="昼"><a href="#昼" class="headerlink" title="昼"></a>昼</h3><ul><li>昼食は通常通りとっていただいてOKです。<ul><li>焼き魚定食など、栄養バランスがとれていることが望ましいですが、ラーメンや丼ものなどでも問題ありません。</li></ul></li></ul><ul><li>からだすこやか茶W(350ml)<ul><li>昼食後すぐに1本のみましょう。</li></ul></li></ul><h3 id="夜"><a href="#夜" class="headerlink" title="夜"></a>夜</h3><ul><li><p>ブロッコリースプラウト</p><ul><li>サラダなどに一つまみ振りかけても良いですし、シーチキンと混ぜて食べられるとよいです。</li><li>加熱せずに生野菜として食べたほうがよいでしょう。</li></ul></li><li><p>夕食はお茶碗1杯程度の白ご飯と焼き魚にお味噌汁、といった和食がベターです。ちょっと頑張れる気持ちがあれば、炭水化物や油物を控えた食事にするとよいと思います。</p></li></ul><ul><li>からだすこやか茶w<ul><li>こちらも同様に食後すぐに350ml飲みましょう。</li></ul></li></ul><h3 id="まとめ"><a href="#まとめ" class="headerlink" title="まとめ"></a>まとめ</h3><ul><li>朝<ul><li>焼き梅干し×2～3粒</li><li>特茶(500ml)</li><li>糖質は控える。焼き魚や温かいスープをメインにする。</li></ul></li><li>昼<ul><li>通常通りの食事</li><li>食後にからだすこやか茶W</li></ul></li><li>夜<ul><li>ブロッコリースプラウト</li><li>からだすこやか茶W</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;この記事は、運動もせずに日常生活の中に無理なく取り入れられる方法で、楽に健康的な体系を手に入れるための一例をまとめます。&lt;/li&gt;
+&lt;li&gt;「出っ張ってしまったおなかを少しでもへこませたい」、「でもきつい運動はちょっと、、、」、という方の参考になればと思います。
+      
+    
+    </summary>
+    
+    
+    
+      <category term="ダイエット" scheme="https://shingo-omata.github.io/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
+    
+  </entry>
+  
+</feed>
