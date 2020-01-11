@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>omathin blog</title>
   <icon>https://shingo-omata.github.io/icon.png</icon>
-  <subtitle>ITやサプリメントや野球関連について綴るページ</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shingo-omata.github.io/"/>
