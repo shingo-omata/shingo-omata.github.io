@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>omathin blog</title>
-  <icon>https://shingo-omata.github.io/icon.png</icon>
+  <icon>https://omathin.com/icon.png</icon>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://shingo-omata.github.io/"/>
+  <link href="https://omathin.com/"/>
   <updated>2020-01-11T11:24:57.022Z</updated>
-  <id>https://shingo-omata.github.io/</id>
+  <id>https://omathin.com/</id>
   
   <author>
     <name>omathin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>[意識低めの人向け]食べるだけで痩せる方法</title>
-    <link href="https://shingo-omata.github.io/2020/01/09/%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E7%97%A9%E3%81%9B%E3%82%8B%E2%91%A0/"/>
-    <id>https://shingo-omata.github.io/2020/01/09/%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E7%97%A9%E3%81%9B%E3%82%8B%E2%91%A0/</id>
+    <link href="https://omathin.com/2020/01/09/%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E7%97%A9%E3%81%9B%E3%82%8B%E2%91%A0/"/>
+    <id>https://omathin.com/2020/01/09/%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E7%97%A9%E3%81%9B%E3%82%8B%E2%91%A0/</id>
     <published>2020-01-09T11:37:33.301Z</published>
     <updated>2020-01-11T11:24:57.022Z</updated>
     
@@ -37,14 +37,14 @@
     
     
     
-      <category term="ダイエット" scheme="https://shingo-omata.github.io/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
+      <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
     
   </entry>
   
   <entry>
     <title>[打率3割必達]野球で自分にあったバッティングフォームを確定させる方法</title>
-    <link href="https://shingo-omata.github.io/2020/01/08/test/"/>
-    <id>https://shingo-omata.github.io/2020/01/08/test/</id>
+    <link href="https://omathin.com/2020/01/08/test/"/>
+    <id>https://omathin.com/2020/01/08/test/</id>
     <published>2020-01-08T04:00:32.692Z</published>
     <updated>2020-01-11T12:23:59.163Z</updated>
     
@@ -63,16 +63,16 @@
     
     
     
-      <category term="野球" scheme="https://shingo-omata.github.io/tags/%E9%87%8E%E7%90%83/"/>
+      <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
     
-      <category term="バッティング" scheme="https://shingo-omata.github.io/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
+      <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
     
   </entry>
   
   <entry>
     <title>Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</title>
-    <link href="https://shingo-omata.github.io/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/"/>
-    <id>https://shingo-omata.github.io/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</id>
+    <link href="https://omathin.com/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/"/>
+    <id>https://omathin.com/2020/01/06/Hexo%EF%BC%8Bgithub%20pages%E3%81%A7%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%9F%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92Boostnote%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</id>
     <published>2020-01-05T15:00:00.000Z</published>
     <updated>2020-01-06T15:00:00.000Z</updated>
     
@@ -90,11 +90,11 @@
     
     
     
-      <category term="IT" scheme="https://shingo-omata.github.io/tags/IT/"/>
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="Hexo" scheme="https://shingo-omata.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
-      <category term="ブログ" scheme="https://shingo-omata.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
