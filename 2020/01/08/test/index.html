@@ -389,6 +389,18 @@ ga('send', 'pageview');
   </div>
 
   
+    <% if (site.posts.length){ %>
+  <div class="widget-wrap">
+      <h3 class="widget-title"><%= __('sponsor') %></h3>
+      <div class="widget">
+	      <!-- ad start -->
+	      <%- partial('_custom_ad/google_adsense') %>
+	      <!-- ad end -->
+      </div>
+  </div>
+<% } %>
+
+  
 </aside>
         
       </div>
