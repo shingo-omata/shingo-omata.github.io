@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-01-12T08:47:56.302Z</updated>
+  <updated>2020-01-12T12:06:11.004Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「子供を勉強させるにはどうすればいいの？」</title>
+    <link href="https://omathin.com/2020/01/12/study-for-child/"/>
+    <id>https://omathin.com/2020/01/12/study-for-child/</id>
+    <published>2020-01-12T12:04:34.839Z</published>
+    <updated>2020-01-12T12:06:11.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;images/bcfbee64.PNG&quot; alt=&quot;注：私の娘ではなくフリー素材の画像です&quot;&gt;&lt;/p&gt;
+&lt;p&gt;「うちの子供、全然勉強しないんだけど、どうすればいいかな？」&lt;/p&gt;
+&lt;p&gt;保育園や子供の習い事の送り迎えの立ち話で、こんなワードが出てきます。
+      
+    
+    </summary>
+    
+    
+    
+      <category term="育児" scheme="https://omathin.com/tags/%E8%82%B2%E5%85%90/"/>
+    
+      <category term="子育て" scheme="https://omathin.com/tags/%E5%AD%90%E8%82%B2%E3%81%A6/"/>
+    
+      <category term="勉強" scheme="https://omathin.com/tags/%E5%8B%89%E5%BC%B7/"/>
+    
+      <category term="教育" scheme="https://omathin.com/tags/%E6%95%99%E8%82%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>[怠け者向け]PCの設定ができなかった男がプログラミングができるようになるまで</title>
