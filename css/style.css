@@ -1327,6 +1327,15 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+.profile img {
+  width: 92%;
+}
+.profile .tc {
+  text-align: center;
+}
+.profile span.b {
+  font-weight: 600;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
