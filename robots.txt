@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /about-me/
 Disallow: /privacy-policy/
-Disallow: /archives/
 Disallow: /css/
 Disallow: /img/
 Disallow: /js/
