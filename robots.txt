@@ -1,6 +1,2 @@
 User-agent: *
-Disallow: /about-me/
-Disallow: /privacy-policy/
-Disallow: /img/
-Disallow: /js/
 Sitemap: /sitemap.xml
