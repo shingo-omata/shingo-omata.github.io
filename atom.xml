@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-01-16T03:29:01.795Z</updated>
+  <updated>2020-01-18T07:31:34.776Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</title>
+    <link href="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/"/>
+    <id>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</id>
+    <published>2020-01-18T07:11:49.594Z</published>
+    <updated>2020-01-18T07:31:34.776Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/79801501.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Git" scheme="https://omathin.com/tags/Git/"/>
+    
+      <category term="Visual Studio Code" scheme="https://omathin.com/tags/Visual-Studio-Code/"/>
+    
+      <category term="開発環境" scheme="https://omathin.com/tags/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83/"/>
+    
+  </entry>
   
   <entry>
     <title>[実体験]前十字靭帯再建手術で辛かったこと ~手術～入院編</title>
