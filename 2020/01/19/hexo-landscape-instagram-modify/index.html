@@ -27,7 +27,7 @@ ga('send', 'pageview');
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://omathin.com/images/home-office-336378_640.jpg">
 <meta property="article:published_time" content="2020-01-19T13:09:17.381Z">
-<meta property="article:modified_time" content="2020-01-19T13:16:49.553Z">
+<meta property="article:modified_time" content="2020-01-19T13:26:48.861Z">
 <meta property="article:author" content="omathin">
 <meta property="article:tag" content="IT">
 <meta property="article:tag" content="Hexo">
@@ -89,7 +89,7 @@ ga('send', 'pageview');
   <div class="article-meta">
     <a href="/2020/01/19/hexo-landscape-instagram-modify/" class="article-date">
   <time datetime="2020-01-19T13:09:17.381Z" itemprop="datePublished">作成日：2020-01-19</time>
-  <time datetime="2020-01-19T13:16:49.553Z" itemprop="datePublished">更新日：2020-01-19</time>
+  <time datetime="2020-01-19T13:26:48.861Z" itemprop="datePublished">更新日：2020-01-19</time>
 </a>
 
     
@@ -114,7 +114,7 @@ ga('send', 'pageview');
 
 <p>Hexo landscape themeで、Instagramの投稿を埋め込んだ記事を、スマートフォンで閲覧すると、幅があってない時の対処方法を記載します。</p>
 <p>結論としては、<code>/theme/landscape/source/css/_partial/</code>配下のmobile.stylファイルを修正すればOKです。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd &#x2F;thema&#x2F;landscape&#x2F;source&#x2F;css&#x2F;_partial&#x2F;</span><br><span class="line">vim mobile.styl</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd &#x2F;thema&#x2F;landscape&#x2F;source&#x2F;css&#x2F;_partial&#x2F;</span><br><span class="line">$ vim mobile.styl</span><br></pre></td></tr></table></figure>
 
 <p>以下のコードを一番下に追記。</p>
 <figure class="highlight css"><figcaption><span>mobile.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">728px</span>)&#123;</span><br><span class="line">  <span class="selector-class">.instagram-media</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">414px</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="number">100%</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">min-width</span>: initial <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
