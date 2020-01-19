@@ -18,15 +18,24 @@ ga('send', 'pageview');
 
 
   
-  <title>タグ: 手術 | omathin blog</title>
+  <title>[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る | omathin blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="omathin blog">
-<meta property="og:url" content="https://omathin.com/tags/%E6%89%8B%E8%A1%93/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る">
+<meta property="og:url" content="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/index.html">
 <meta property="og:site_name" content="omathin blog">
 <meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://omathin.com/images/home-office-336378_640.jpg">
+<meta property="article:published_time" content="2020-01-19T13:09:17.381Z">
+<meta property="article:modified_time" content="2020-01-19T13:16:49.553Z">
 <meta property="article:author" content="omathin">
+<meta property="article:tag" content="IT">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="スマホ">
+<meta property="article:tag" content="landscape">
+<meta property="article:tag" content="instagram">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://omathin.com/images/home-office-336378_640.jpg">
   
     <link rel="alternate" href="/atom.xml" title="omathin blog" type="application/atom+xml">
   
@@ -76,42 +85,83 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/01/16/knee-surgery/" class="archive-article-date">
-  <time datetime="2020-01-15T15:00:00.000Z" itemprop="datePublished">作成日：1月 16</time>
-  <time datetime="2020-01-19T13:14:30.396Z" itemprop="datePublished">更新日：1月 19</time>
+        <section id="main"><article id="post-hexo-landscape-instagram-modify" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/19/hexo-landscape-instagram-modify/" class="article-date">
+  <time datetime="2020-01-19T13:09:17.381Z" itemprop="datePublished">作成日：2020-01-19</time>
+  <time datetime="2020-01-19T13:16:49.553Z" itemprop="datePublished">更新日：2020-01-19</time>
 </a>
 
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/16/knee-surgery/">[実体験]前十字靭帯再建手術で辛かったこと ~手術～入院編</a>
+    <h1 class="article-title" itemprop="name">
+      [Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/images/home-office-336378_640.jpg" alt></p>
+<a id="more"></a>
 
+<p>Hexo landscape themeで、Instagramの投稿を埋め込んだ記事を、スマートフォンで閲覧すると、幅があってない時の対処方法を記載します。</p>
+<p>結論としては、<code>/theme/landscape/source/css/_partial/</code>配下のmobile.stylファイルを修正すればOKです。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd &#x2F;thema&#x2F;landscape&#x2F;source&#x2F;css&#x2F;_partial&#x2F;</span><br><span class="line">vim mobile.styl</span><br></pre></td></tr></table></figure>
+
+<p>以下のコードを一番下に追記。</p>
+<figure class="highlight css"><figcaption><span>mobile.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width:</span> <span class="number">728px</span>)&#123;</span><br><span class="line">  <span class="selector-class">.instagram-media</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">414px</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="number">100%</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">min-width</span>: initial <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<p>完了したら<code>hexo d -g</code>でデプロイすればOKです。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/" data-id="ck5l1hwr40000q8k34cvfdb5q" class="article-share-link">共有</a>
+      
+        <a href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/#disqus_thread" class="article-comment-link">コメント</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/instagram/" rel="tag">instagram</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/landscape/" rel="tag">landscape</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E3%82%B9%E3%83%9E%E3%83%9B/" rel="tag">スマホ</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/01/18/vscode-environment-with-gitbash/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前の記事</strong>
+      <div class="article-nav-title">Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<nav id="related-posts" class="article-inner" style="font-size: smaller">
+  <div class="article-entry">
+      <h2>関連記事</h2>
+          <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\06\hexo_post\" title="Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法" rel="bookmark">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\18\vscode-environment-with-gitbash\" title="Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順" rel="bookmark">Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\11\programing\" title="[Skill Hacks]プログラミング学習の第一歩はオンライン学習" rel="bookmark">[Skill Hacks]プログラミング学習の第一歩はオンライン学習</a></h3></div></li></ul>
+  </div>
+</nav>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 
 </section>
         
@@ -241,11 +291,13 @@ ga('send', 'pageview');
 <script>
   var disqus_shortname = 'omathin-blog';
   
+  var disqus_url = 'https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>

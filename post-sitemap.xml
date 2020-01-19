@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</loc>
+        <lastmod>2020-01-19T13:16:49.553Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <lastmod>2020-01-19T13:14:30.396Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
         <lastmod>2020-01-18T08:06:58.059Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,14 +50,6 @@
     <url>
         <loc>https://omathin.com/2020/01/12/study-for-child/</loc>
         <lastmod>2020-01-16T04:32:22.974Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-01-16T03:29:01.795Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

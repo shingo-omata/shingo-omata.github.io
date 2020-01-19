@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-01-18T08:06:58.059Z</updated>
+  <updated>2020-01-19T13:16:49.553Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る</title>
+    <link href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/"/>
+    <id>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</id>
+    <published>2020-01-19T13:09:17.381Z</published>
+    <updated>2020-01-19T13:16:49.553Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/home-office-336378_640.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
+    
+      <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
+    
+      <category term="instagram" scheme="https://omathin.com/tags/instagram/"/>
+    
+  </entry>
   
   <entry>
     <title>Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</title>
@@ -46,12 +73,12 @@
     <link href="https://omathin.com/2020/01/16/knee-surgery/"/>
     <id>https://omathin.com/2020/01/16/knee-surgery/</id>
     <published>2020-01-15T15:00:00.000Z</published>
-    <updated>2020-01-16T03:29:01.795Z</updated>
+    <updated>2020-01-19T13:14:30.396Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/3b645264.PNG&quot; alt=&quot;手術後の右足&quot;&gt;&lt;/p&gt;
-&lt;p&gt;右膝前十字靭帯を断裂し、再建手術を受けて復帰するまでの概要をまとめました。&lt;/p&gt;
+&lt;p&gt;右膝前十字靭帯を断裂し、再建手術を受けおわるまでの体験談をまとめました。&lt;/p&gt;
     
     </summary>
     
