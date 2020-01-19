@@ -1287,6 +1287,13 @@ pre .javascript .function {
     color: #fff;
   }
 }
+@media screen and (max-width: 728px) {
+  .instagram-media {
+    width: 414px !important;
+    max-width: 100% !important;
+    min-width: initial !important;
+  }
+}
 @media screen and (min-width: 768px) {
   #sidebar {
     display: inline;
