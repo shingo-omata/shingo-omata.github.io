@@ -142,11 +142,11 @@
   </entry>
   
   <entry>
-    <title>[Skill Hacks]プログラミング学習の第一歩はオンライン学習</title>
+    <title>[プログラミング学習]Progateの後はUdemyかSkillHacksがおすすめ</title>
     <link href="https://omathin.com/2020/01/11/programing/"/>
     <id>https://omathin.com/2020/01/11/programing/</id>
     <published>2020-01-11T14:16:59.649Z</published>
-    <updated>2020-01-16T04:39:11.257Z</updated>
+    <updated>2020-01-22T12:49:11.193Z</updated>
     
     <summary type="html">
     
@@ -168,6 +168,10 @@
       <category term="Ruby on Rails" scheme="https://omathin.com/tags/Ruby-on-Rails/"/>
     
       <category term="skill hacks" scheme="https://omathin.com/tags/skill-hacks/"/>
+    
+      <category term="git" scheme="https://omathin.com/tags/git/"/>
+    
+      <category term="github" scheme="https://omathin.com/tags/github/"/>
     
   </entry>
   
