@@ -18,28 +18,25 @@ ga('send', 'pageview');
 
 
   
-  <title>Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順 | omathin blog</title>
+  <title>docker-compose run web rails dbconsoleができない問題の対処 | omathin blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順">
-<meta property="og:url" content="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/index.html">
+  <meta name="description" content="タイトルに記載したコマンドを実行したらうまくいかなかったので備忘録的にまとめます。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="docker-compose run web rails dbconsoleができない問題の対処">
+<meta property="og:url" content="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/index.html">
 <meta property="og:site_name" content="omathin blog">
+<meta property="og:description" content="タイトルに記載したコマンドを実行したらうまくいかなかったので備忘録的にまとめます。">
 <meta property="og:locale" content="ja_JP">
-<meta property="og:image" content="https://omathin.com/images/home-office-336378_640.jpg">
-<meta property="og:image" content="https://omathin.com/images/458c767f.PNG">
-<meta property="og:image" content="https://omathin.com/images/c83e9d7c.PNG">
-<meta property="og:image" content="https://omathin.com/images/b1295374.png">
-<meta property="og:image" content="https://omathin.com/images/44fc293e.PNG">
-<meta property="og:image" content="https://omathin.com/images/79952f5a.PNG">
-<meta property="article:published_time" content="2020-01-18T07:11:49.594Z">
-<meta property="article:modified_time" content="2020-01-18T08:06:58.059Z">
+<meta property="article:published_time" content="2020-01-26T15:00:00.000Z">
+<meta property="article:modified_time" content="2020-01-27T07:41:01.945Z">
 <meta property="article:author" content="omathin">
 <meta property="article:tag" content="IT">
-<meta property="article:tag" content="Git">
-<meta property="article:tag" content="Visual Studio Code">
-<meta property="article:tag" content="開発環境">
+<meta property="article:tag" content="Ruby">
+<meta property="article:tag" content="Ruby on Rails">
+<meta property="article:tag" content="docker">
+<meta property="article:tag" content="docker-compose">
+<meta property="article:tag" content="mysql">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://omathin.com/images/home-office-336378_640.jpg">
   
     <link rel="alternate" href="/atom.xml" title="omathin blog" type="application/atom+xml">
   
@@ -91,11 +88,11 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-vscode-environment-with-gitbash" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-docker-compose-run-web-rails-dbconsole-error" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/01/18/vscode-environment-with-gitbash/" class="article-date">
-  <time datetime="2020-01-18T07:11:49.594Z" itemprop="datePublished">作成日：2020-01-18</time>
-  <time datetime="2020-01-18T08:06:58.059Z" itemprop="datePublished">更新日：2020-01-18</time>
+    <a href="/2020/01/27/docker-compose-run-web-rails-dbconsole-error/" class="article-date">
+  <time datetime="2020-01-26T15:00:00.000Z" itemprop="datePublished">作成日：2020-01-27</time>
+  <time datetime="2020-01-27T07:41:01.945Z" itemprop="datePublished">更新日：2020-01-27</time>
 </a>
 
     
@@ -107,7 +104,7 @@ ga('send', 'pageview');
         
   
     <h1 class="article-title" itemprop="name">
-      Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順
+      docker-compose run web rails dbconsoleができない問題の対処
     </h1>
   
 
@@ -115,149 +112,102 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/images/home-office-336378_640.jpg" alt></p>
+        <ul>
+<li>タイトルに記載したコマンドを実行したらうまくいかなかったので備忘録的にまとめます。</li>
+</ul>
 <a id="more"></a>
 
+
+<br>
+<br>
+
+
+
 <div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
 
-<h3><span id="目次">✓目次</span></h3></div>
+<h2><span id="環境">環境</span></h2></div>
 
+<p>Windows10 pro<br>Ruby 2.4.5<br>MySQLの5.7</p>
+<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
 
-<br>
-<br>
-
-<div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px; background-color: #ffffff;">
-
-<!-- toc -->
+<h2><span id="問題エラー内容">問題（エラー内容）</span></h2></div>
 
 <ul>
-<li><a href="#visual-studio-code">Visual Studio Code</a><ul>
-<li><a href="#visual-studio-codeの表記を日本語にする">Visual Studio Codeの表記を日本語にする</a><ul>
-<li><a href="#フォントサイズやデザインを変えたいとき">フォントサイズやデザインを変えたいとき</a></li>
+<li>以下のようなエラーが発生</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><a href="#git-for-windows">Git for windows</a><ul>
-<li><a href="#vscodeのターミナルをgit-for-windowsのbashにする">VScodeのターミナルをGit for Windowsのbashにする</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-
-</div>
+<figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose run web rails dbconsole</span><br><span class="line">Starting b74e972d_db_1 ... <span class="keyword">done</span></span><br><span class="line">Couldn<span class="string">'t find database client: mysql, mysql5. Check your $PATH and try again.</span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
 
 <br>
 <br>
 
 <div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
 
-<h3><span id="visual-studio-code">Visual Studio Code</span></h3></div>
+<h2><span id="原因">原因</span></h2></div>
+
 
 <ul>
-<li>マイクロソフトが開発したエディタ。Googleで検索してダウンロード。</li>
-<li>ダウンロードされたファイルをダブルクリック。Visual Studio Codeセットアップウィザードが開く。</li>
-<li>「次へ」を押下</li>
-<li>ライセンスを確認して「同意」を押下</li>
-<li>インストール先はそのままでOK。「次へ」を押下。</li>
-<li>追加タスクの選択のパートで以下の項目に✓をいれて「次へ」を押下。これらにチェックを入れておくと便利。<ul>
-<li>「エクスプローラーのファイルコンテキストメニューに[Codeで開く]アクションを追加する」</li>
-<li>「エクスプローラーのディレクトリコンテキストメニューに[Codeで開く]アクションを追加する」</li>
-<li>「サポートされているファイルの種類のエディターとして、Codeを登録する」</li>
-<li><img src="/images/458c767f.PNG" alt="キャプチャ.PNG"></li>
-</ul>
-</li>
-<li>「インストール」を押下。</li>
+<li>ローカルにMySQLアカウントがないからと想定</li>
 </ul>
 <div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
 
-<h4><span id="visual-studio-codeの表記を日本語にする">Visual Studio Codeの表記を日本語にする</span></h4></div>
+<h2><span id="対処">対処</span></h2></div>
 
 <ul>
-<li>Visual Studio Codeを開き、左側のメニューのExtentionを押下</li>
+<li>以下のページを基にdockerfileを書き換えれば良さそう<ul>
+<li><a href="https://qiita.com/skyriser/items/2cf98b747ed6577cc5ee" target="_blank" rel="noopener">docker-compose で Rails の開発環境を作る - Qiita</a></li>
 </ul>
-<p><img src="/images/c83e9d7c.PNG" alt></p>
+</li>
+</ul>
 <ul>
-<li>検索窓に「japanese」と入力し、パッケージを選択して「install」を押下してインストールする</li>
+<li>エラーが発生する場合のdockerfileは以下の通り</li>
 </ul>
-<p><img src="/images/b1295374.png" alt></p>
-<ul>
-<li>VScodeの右下に、以下が出力される。再起動が必要です、ということなので「Restart now」を押下</li>
-</ul>
-<p><img src="/images/44fc293e.PNG" alt></p>
-<ul>
-<li>日本語に変化！</li>
-</ul>
-<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
-
-<h5><span id="フォントサイズやデザインを変えたいとき">フォントサイズやデザインを変えたいとき</span></h5></div>
+<figure class="highlight yml"><figcaption><span>dockerfile</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">FROM</span> <span class="string">ruby:2.4.5</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">update</span> <span class="string">-qq</span> <span class="string">&amp;&amp;</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">-y</span> <span class="string">build-essential</span> <span class="string">nodejs</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">mkdir</span> <span class="string">/app</span></span><br><span class="line"><span class="string">WORKDIR</span> <span class="string">/app</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile</span> <span class="string">/app/Gemfile</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile.lock</span> <span class="string">/app/Gemfile.lock</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">bundle</span> <span class="string">install</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">.</span> <span class="string">/app</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>ファイル→基本設定→設定、を押下。<ul>
-<li>ここでフォントサイズを変更する。（お好みで）</li>
+<li>以下のように修正</li>
 </ul>
-</li>
-<li>ファイル→基本設定→配色テーマ<ul>
-<li>ここで見た目の配色を変更できる。</li>
-</ul>
-</li>
-</ul>
-<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
-
-<h3><span id="git-for-windows">Git for windows</span></h3></div>
+<figure class="highlight yml"><figcaption><span>dockerfile</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">FROM</span> <span class="string">ruby:2.4.5</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">update</span> <span class="string">-qq</span> <span class="string">&amp;&amp;</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">-y</span> <span class="string">build-essential</span> <span class="string">libpq-dev</span> <span class="string">postgresql-client</span> <span class="string">nodejs</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">mkdir</span> <span class="string">/app</span></span><br><span class="line"><span class="string">WORKDIR</span> <span class="string">/app</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile</span> <span class="string">/app/Gemfile</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile.lock</span> <span class="string">/app/Gemfile.lock</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">bundle</span> <span class="string">install</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">.</span> <span class="string">/app</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>ここからはターミナルをGit bashに変えたい人向けの設定です。</li>
-<li>ダウンロードする<ul>
-<li><a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Windows</a></li>
+<li>buildを実施</li>
 </ul>
-</li>
-<li>インストールを実行。<ul>
-<li>改行コードの設定に注意する</li>
-<li>仮想マシンからファイルを利用することが想定される場合は、仮想マシン側がUnixスタイルになっている。</li>
-<li>ダウンロードしたファイルがUnixスタイルにしておく必要がある。</li>
-<li><a href="https://qiita.com/yokoh9/items/1ec8099696ade0c1f36e" target="_blank" rel="noopener">windows環境の git で改行コードの自動変換に注意 - Qiita</a></li>
-<li><img src="/images/79952f5a.PNG" alt="キャプチャ.PNG"></li>
-</ul>
-</li>
-</ul>
-<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
-
-<h4><span id="vscodeのターミナルをgit-for-windowsのbashにする">VScodeのターミナルをGit for Windowsのbashにする</span></h4></div>
+<figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose build</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>以下の記事が参考になります<ul>
-<li><a href="https://qiita.com/psychoroid/items/63cc0ece70fce0f0cfc0" target="_blank" rel="noopener">WindowsのVSCodeでGit Bashをターミナルに設定する - Qiita</a></li>
+<li>同じエラーが発生。</li>
+<li>以下の記事を基に再度dockerfileを修正<ul>
+<li><a href="https://qiita.com/ryosk7/items/077ea98a88ec3df289c8" target="_blank" rel="noopener">docker-composeで、rails dbconsoleが使えなくてハマった話。 - Qiita</a></li>
 </ul>
 </li>
-<li>インストール後の作業<ul>
-<li>~/.bashrcをexport TERM=cygwinを設定する</li>
-<li>Vagrantファイルの言語モードをRubyに設定する場合は、以下のように設定する。<ul>
-<li>色分けされるので見やすくなる<ul>
-<li>VScodeのsettingを開き、検索画面でfiles.associationsと入力</li>
-<li>jsonファイルの編集画面を開き下記のように書き換える</li>
-<li>Ctrl + s で保存</li>
+<li>修正したdockerfileは以下の通り</li>
 </ul>
-</li>
+<figure class="highlight yml"><figcaption><span>Dockerfile</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">FROM</span> <span class="string">ruby:2.4.5</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">apt-get</span> <span class="string">update</span> <span class="string">-qq</span> <span class="string">&amp;&amp;</span> <span class="string">apt-get</span> <span class="string">install</span> <span class="string">-y</span> <span class="string">build-essential</span> <span class="string">libpq-dev</span> <span class="string">nodejs</span> <span class="string">mysql-client</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">mkdir</span> <span class="string">/app</span></span><br><span class="line"><span class="string">WORKDIR</span> <span class="string">/app</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile</span> <span class="string">/app/Gemfile</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">Gemfile.lock</span> <span class="string">/app/Gemfile.lock</span></span><br><span class="line"><span class="string">RUN</span> <span class="string">bundle</span> <span class="string">install</span></span><br><span class="line"><span class="string">COPY</span> <span class="string">.</span> <span class="string">/app</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>再度buildを実施</li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;terminal.integrated.shell.windows&quot;: &quot;C:\\Program Files\\Git\\bin\\bash.exe&quot;</span><br><span class="line"></span><br><span class="line">    &quot;files.associations&quot;: &#123;</span><br><span class="line">        &quot;Vagrantfile&quot;: &quot;ruby&quot;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose build</span><br></pre></td></tr></table></figure>
 
 
+<ul>
+<li>成功したので、dbconsoleを実行</li>
+</ul>
+<figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose run web rails dbconsole</span><br></pre></td></tr></table></figure>
 
+<ul>
+<li>パスワードを効かれた場合は、dokcer-compose.ymlに記載されている、<code>MYSQL_ROOT_PASSWORD:</code> に記述したパスワードを入力。</li>
+<li>これで成功するはず。</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/" data-id="ck5pe8mqm000568k30w330nmn" class="article-share-link">共有</a>
+      <a data-url="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/" data-id="ck5w4khzb000040k3a4hg2ynp" class="article-share-link">共有</a>
       
-        <a href="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/#disqus_thread" class="article-comment-link">コメント</a>
+        <a href="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/#disqus_thread" class="article-comment-link">コメント</a>
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/" rel="tag">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Visual-Studio-Code/" rel="tag">Visual Studio Code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83/" rel="tag">開発環境</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ruby/" rel="tag">Ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ruby-on-Rails/" rel="tag">Ruby on Rails</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker-compose/" rel="tag">docker-compose</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li></ul>
 
     </footer>
   </div>
@@ -265,19 +215,10 @@ ga('send', 'pageview');
     
 <nav id="article-nav">
   
-    <a href="/2020/01/19/hexo-landscape-instagram-modify/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">次の記事</strong>
-      <div class="article-nav-title">
-        
-          [Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/01/16/knee-surgery/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/01/26/knee-surgery-2/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">前の記事</strong>
-      <div class="article-nav-title">[実体験]前十字靭帯再建手術を受けて復帰するまで①[ケガ→手術→リハビリ開始まで]</div>
+      <div class="article-nav-title">[実体験]前十字靭帯再建手術を受けて復帰するまで②[手術後～退院まで]</div>
     </a>
   
 </nav>
@@ -288,7 +229,7 @@ ga('send', 'pageview');
 <nav id="related-posts" class="article-inner" style="font-size: smaller">
   <div class="article-entry">
       <h2>関連記事</h2>
-          <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\19\hexo-landscape-instagram-modify\" title="[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る" rel="bookmark">[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\06\hexo_post\" title="Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法" rel="bookmark">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\11\programing-study-next-of-progate\" title="[プログラミング学習]Progateの後はUdemyかSkillHacksがおすすめ" rel="bookmark">[プログラミング学習]Progateの後はUdemyかSkillHacksがおすすめ</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\27\docker-compose-run-web-rails-dbconsole-error\" title="docker-compose run web rails dbconsoleができない問題の対処" rel="bookmark">docker-compose run web rails dbconsoleができない問題の対処</a></h3></div></li></ul>
+          <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\11\programing-study-next-of-progate\" title="[プログラミング学習]Progateの後はUdemyかSkillHacksがおすすめ" rel="bookmark">[プログラミング学習]Progateの後はUdemyかSkillHacksがおすすめ</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\19\hexo-landscape-instagram-modify\" title="[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る" rel="bookmark">[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\06\hexo_post\" title="Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法" rel="bookmark">Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\01\18\vscode-environment-with-gitbash\" title="Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順" rel="bookmark">Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</a></h3></div></li></ul>
   </div>
 </nav>
 
@@ -413,7 +354,7 @@ ga('send', 'pageview');
 <script>
   var disqus_shortname = 'omathin-blog';
   
-  var disqus_url = 'https://omathin.com/2020/01/18/vscode-environment-with-gitbash/';
+  var disqus_url = 'https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/';
   
   (function(){
     var dsq = document.createElement('script');
