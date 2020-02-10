@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-01-27T07:41:01.945Z</updated>
+  <updated>2020-02-10T01:45:17.842Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[たった2つ]風邪にならないサプリメント</title>
+    <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
+    <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
+    <published>2020-02-09T15:00:00.000Z</published>
+    <updated>2020-02-10T01:45:17.842Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/89a8ecaa.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;「子供から良く風邪をうつされる」、「疲れが取れにくくなった」、「肌荒れが気になる」、といった悩みがあれば、参考になると思います。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
+    
+      <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
+    
+      <category term="体調管理" scheme="https://omathin.com/tags/%E4%BD%93%E8%AA%BF%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>docker-compose run web rails dbconsoleができない問題の対処</title>
@@ -52,7 +76,7 @@
     <link href="https://omathin.com/2020/01/26/knee-surgery-2/"/>
     <id>https://omathin.com/2020/01/26/knee-surgery-2/</id>
     <published>2020-01-25T15:00:00.000Z</published>
-    <updated>2020-02-01T13:18:19.295Z</updated>
+    <updated>2020-02-02T07:17:03.598Z</updated>
     
     <summary type="html">
     
@@ -87,9 +111,9 @@
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
       <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
     
@@ -102,7 +126,7 @@
     <link href="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/"/>
     <id>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</id>
     <published>2020-01-18T07:11:49.594Z</published>
-    <updated>2020-01-18T08:06:58.059Z</updated>
+    <updated>2020-02-10T01:32:20.762Z</updated>
     
     <summary type="html">
     
@@ -114,11 +138,11 @@
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="Git" scheme="https://omathin.com/tags/Git/"/>
+      <category term="visual studio code" scheme="https://omathin.com/tags/visual-studio-code/"/>
     
-      <category term="Visual Studio Code" scheme="https://omathin.com/tags/Visual-Studio-Code/"/>
+      <category term="git" scheme="https://omathin.com/tags/git/"/>
     
-      <category term="開発環境" scheme="https://omathin.com/tags/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83/"/>
+      <category term="git bash" scheme="https://omathin.com/tags/git-bash/"/>
     
   </entry>
   
@@ -223,11 +247,11 @@
     
       <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
     
+      <category term="git" scheme="https://omathin.com/tags/git/"/>
+    
       <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
     
       <category term="skill hacks" scheme="https://omathin.com/tags/skill-hacks/"/>
-    
-      <category term="git" scheme="https://omathin.com/tags/git/"/>
     
       <category term="github" scheme="https://omathin.com/tags/github/"/>
     
