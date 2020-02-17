@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-02-11T14:16:32.899Z</updated>
+  <updated>2020-02-17T11:07:19.292Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
     <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
     <published>2020-02-09T15:00:00.000Z</published>
-    <updated>2020-02-11T14:16:32.899Z</updated>
+    <updated>2020-02-17T11:07:19.292Z</updated>
     
     <summary type="html">
     
@@ -31,6 +31,8 @@
     </summary>
     
     
+    
+      <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
     
       <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
     
