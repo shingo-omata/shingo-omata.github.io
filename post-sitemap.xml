@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
+        <lastmod>2020-02-23T13:02:40.097Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
+        <lastmod>2020-02-17T11:15:51.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
         <lastmod>2020-02-17T11:07:19.292Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -18,14 +34,6 @@
     <url>
         <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
         <lastmod>2020-02-10T01:32:20.762Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
-        <lastmod>2020-02-02T07:17:03.598Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
