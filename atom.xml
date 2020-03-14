@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-02-17T11:07:19.292Z</updated>
+  <updated>2020-03-14T01:13:33.678Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dockerとは何か、メリット/デメリットまとめ</title>
+    <link href="https://omathin.com/2020/03/14/Docker/"/>
+    <id>https://omathin.com/2020/03/14/Docker/</id>
+    <published>2020-03-13T15:00:00.000Z</published>
+    <updated>2020-03-14T01:13:33.678Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/docker.PNG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>[たった2つ]風邪にならないサプリメント</title>
