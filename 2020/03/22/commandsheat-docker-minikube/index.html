@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-155874331-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+  <title>[チートシート]minikube, dockerコマンドまとめ | omathin blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="よく使うコマンドを一覧化しました。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[チートシート]minikube, dockerコマンドまとめ">
+<meta property="og:url" content="https://omathin.com/2020/03/22/commandsheat-docker-minikube/index.html">
+<meta property="og:site_name" content="omathin blog">
+<meta property="og:description" content="よく使うコマンドを一覧化しました。">
+<meta property="og:locale" content="ja_JP">
+<meta property="article:published_time" content="2020-03-21T15:00:00.000Z">
+<meta property="article:modified_time" content="2020-03-22T03:32:21.901Z">
+<meta property="article:author" content="omathin">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="コンテナ">
+<meta property="article:tag" content="kubernetes">
+<meta property="article:tag" content="minikube">
+<meta property="article:tag" content="コマンド">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@omathin">
+  
+    <link rel="alternate" href="/atom.xml" title="omathin blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+  <script data-ad-client="ca-pub-6448951289738527" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">omathin blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSSフィード"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="検索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://omathin.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-commandsheat-docker-minikube" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/22/commandsheat-docker-minikube/" class="article-date">
+  <time datetime="2020-03-21T15:00:00.000Z" itemprop="datePublished">作成日：2020-03-22</time>
+  <time datetime="2020-03-22T03:32:21.901Z" itemprop="datePublished">更新日：2020-03-22</time>
+</a>
+
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      [チートシート]minikube, dockerコマンドまとめ
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>よく使うコマンドを一覧化しました。</p>
+<a id="more"></a>
+
+
+<h2><span id="目次">✓目次</span></h2><div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px; background-color: #ffffff;">
+
+<!-- toc -->
+
+<ul>
+<li><a href="#version確認">Version確認</a><ul>
+<li><a href="#docker-version確認">docker version確認</a></li>
+<li><a href="#kubectl-version確認">kubectl version確認</a></li>
+</ul>
+</li>
+<li><a href="#kubernetesクラスタを操作minikube">kubernetesクラスタを操作(minikube)</a><ul>
+<li><a href="#minikube起動">minikube起動</a></li>
+<li><a href="#minikube停止">minikube停止</a></li>
+<li><a href="#状態確認">状態確認</a></li>
+<li><a href="#アドオン操作">アドオン操作</a><ul>
+<li><a href="#アドオン追加">アドオン追加</a></li>
+<li><a href="#アドオン削除">アドオン削除</a></li>
+<li><a href="#アドオン一覧確認">アドオン一覧確認</a></li>
+</ul>
+</li>
+<li><a href="#リソース作成">リソース作成</a></li>
+<li><a href="#リソース確認">リソース確認</a></li>
+<li><a href="#リソース削除">リソース削除</a><ul>
+<li><a href="#secretリソースのコマンド作成">Secretリソースのコマンド作成</a></li>
+</ul>
+</li>
+<li><a href="#podに入ってコンテナ実行">Podに入ってコンテナ実行</a></li>
+<li><a href="#podとホスト間でファイル転送">Podとホスト間でファイル転送</a><ul>
+<li><a href="#ファイル転送ホストpod">ファイル転送(ホスト→Pod)</a></li>
+<li><a href="#ファイル転送podホスト">ファイル転送(Pod→ホスト)</a></li>
+</ul>
+</li>
+<li><a href="#podの状態概況確認">Podの状態(概況)確認</a></li>
+<li><a href="#podのログ詳細を確認">Podのログ(詳細)を確認</a></li>
+<li><a href="#deploymentにおけるロールアウト履歴確認とロールバック">Deploymentにおけるロールアウト履歴確認とロールバック</a><ul>
+<li><a href="#ロールアウト履歴を表示">ロールアウト履歴を表示</a></li>
+<li><a href="#ロールバック">ロールバック</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#dockerコマンド">dockerコマンド</a><ul>
+<li><a href="#指定されたイメージ取得">指定されたイメージ取得</a></li>
+<li><a href="#イメージ一覧">イメージ一覧</a></li>
+<li><a href="#イメージ削除">イメージ削除</a></li>
+<li><a href="#コンテナ実行">コンテナ実行</a></li>
+<li><a href="#コンテナ停止">コンテナ停止</a></li>
+<li><a href="#コンテナ一覧">コンテナ一覧</a></li>
+<li><a href="#コンテナ削除指定型">コンテナ削除(指定型)</a></li>
+<li><a href="#コンテナ削除非指定型">コンテナ削除(非指定型)</a></li>
+<li><a href="#コンテナイメージ削除">コンテナ・イメージ削除</a></li>
+<li><a href="#ビルド">ビルド</a></li>
+<li><a href="#dockerイメージの公開dockerhub">Dockerイメージの公開(DockerHub)</a><ul>
+<li><a href="#dockerイメージにタグ名追加">Dockerイメージにタグ名追加</a></li>
+<li><a href="#dockerhubへログイン">DockerHubへログイン</a></li>
+<li><a href="#dockerhubへ公開">DockerHubへ公開</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+</div>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<hr>
+<br>
+<br>
+
+<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
+
+
+<h2><span id="version確認">Version確認</span></h2></div>
+
+
+<h3><span id="docker-version確認">docker version確認</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker version</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="kubectl-version確認">kubectl version確認</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl version</span><br></pre></td></tr></table></figure>
+
+<br>
+<br>
+
+<hr>
+<br>
+<br>
+
+
+<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
+
+<h2><span id="kubernetesクラスタを操作minikube">kubernetesクラスタを操作(minikube)</span></h2></div>
+
+<h3><span id="minikube起動">minikube起動</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube start</span><br></pre></td></tr></table></figure>
+
+<h3><span id="minikube停止">minikube停止</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube stop</span><br></pre></td></tr></table></figure>
+
+<h3><span id="状態確認">状態確認</span></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube status</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>ただし、実行環境がVirtualBoxではなくVMWare workstation等の場合は、<code>--vm-driver=none</code>をコマンドの末尾に付与する必要がある。例えば、移動する場合は以下の通り</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube start --vm-driver&#x3D;none</span><br></pre></td></tr></table></figure>
+
+<h3><span id="アドオン操作">アドオン操作</span></h3><ul>
+<li>アドオンはminikubeに付属している機能で、様々なオプションを追加削除できる。</li>
+</ul>
+<h4><span id="アドオン追加">アドオン追加</span></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube addons enable ADDON_NAME</span><br></pre></td></tr></table></figure>
+
+<h4><span id="アドオン削除">アドオン削除</span></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube addons disable ADDON_NAME</span><br></pre></td></tr></table></figure>
+
+<h4><span id="アドオン一覧確認">アドオン一覧確認</span></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ minikube addons list</span><br></pre></td></tr></table></figure>
+
+<h3><span id="リソース作成">リソース作成</span></h3><ul>
+<li>マニフェストファイルを作成したら、マニフェストファイルを指定してリソース作成/変更を行う<ul>
+<li>オプション:<ul>
+<li><code>-f &lt;filename&gt;</code>: マニフェストファイルパス</li>
+</ul>
+</li>
+<li>例：<code>kubectl apply -f hoge.yml</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl apply -f &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="リソース確認">リソース確認</span></h3><ul>
+<li>作成したリソースを確認<ul>
+<li>オプション<ul>
+<li><code>-f &lt;filename&gt;</code>: マニフェストファイルパス</li>
+<li><code>TYPE</code>: リソース種別(pod, replicasetなど)</li>
+</ul>
+</li>
+<li>例：<code>kubectl get pod</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl get [-f &lt;filename&gt; [TYPE]]</span><br></pre></td></tr></table></figure>
+
+<h3><span id="リソース削除">リソース削除</span></h3><ul>
+<li>指定したリソースを削除<ul>
+<li>オプション:<ul>
+<li><code>-f &lt;filename&gt;</code>: マニフェストファイルパス</li>
+<li><code>TYPE/NAME</code>: リソース種別 or リソース名</li>
+<li>参考（以下の<code>-o wide</code>オプションなどは、deleteコマンドにかかわらずgetコマンドでも使用可能。）<ul>
+<li><code>-o [wide|yaml]</code>: 出力形式を指定<ul>
+<li><code>wide</code>: 追加情報の表示</li>
+<li><code>yaml</code>: YAML形式で表示</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>例：<code>kubectl delete -f hoge.yml</code></li>
+<li>例：<code>kubectl get pod -o wide</code><ul>
+<li>getコマンドに<code>-o wide</code>オプションを付与することでPodのIPアドレスが確認できる。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl delete [-f &lt;filename&gt;] [TYPE&#x2F;NAME] [-o [wide | yaml]]</span><br></pre></td></tr></table></figure>
+
+<h4><span id="secretリソースのコマンド作成">Secretリソースのコマンド作成</span></h4><ul>
+<li>Secretとは機微情報を扱うリソース。Secretのような秘密データは運用として手動登録になる。<ul>
+<li>引数:<ul>
+<li>NAME: Secretリソース名</li>
+<li>OPTION: <ul>
+<li><code>--from-literal=KEY=VALUE</code>: キーバリューペアを指定して登録</li>
+<li><code>from-file=[KEY=]PATH</code>: ファイルを指定して登録</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl create secret generic NAME OPTION</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="podに入ってコンテナ実行">Podに入ってコンテナ実行</span></h3><ul>
+<li>Podを作成後、作成したPodに入りシェル操作を行えるようにする。<ul>
+<li>引数:<ul>
+<li>POD: 中に入りたいPod名</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl exec -it POD sh</span><br></pre></td></tr></table></figure>
+
+<h3><span id="podとホスト間でファイル転送">Podとホスト間でファイル転送</span></h3><h4><span id="ファイル転送ホストpod">ファイル転送(ホスト→Pod)</span></h4><ul>
+<li>指定されたファイルを指定された転送先に送る<ul>
+<li>引数:<ul>
+<li>src: 転送元ファイル名/フォルダ名。ホスト側のカレントディレクトリからの相対パスでファイルを指定する。</li>
+<li>pod-name: 転送先のPod名</li>
+<li>dest: 転送先フォルダ名/ファイル名</li>
+</ul>
+</li>
+<li>例：<code>kubectl cp ./hoge.txt debug:/var/tmp/hoge.txt</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl cp &lt;src&gt; &lt;pod-name&gt;:&lt;dest&gt;</span><br></pre></td></tr></table></figure>
+
+<h4><span id="ファイル転送podホスト">ファイル転送(Pod→ホスト)</span></h4><ul>
+<li>指定されたファイルを指定された転送先に送ります<ul>
+<li>引数:<ul>
+<li>pod-name: 転送元のPod名</li>
+<li>src: 転送元ファイル名/フォルダ名</li>
+<li>dest: 転送先フォルダ名/ファイル名</li>
+<li>例: <code>kubectl cp debug:/root/hoge.txt ./hoge.txt</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl cp &lt;pod-name&gt;:&lt;src&gt; &lt;dest&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="podの状態概況確認">Podの状態(概況)確認</span></h3><ul>
+<li>Podがうまく動作しなかったときに必要となる。<ul>
+<li>引数:<ul>
+<li>TYPE/NAME: リソース種別とリソース名を指定</li>
+</ul>
+</li>
+<li>例：<code>kubectl describe pod/debug</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl describe [TYPE&#x2F;NAME]</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="podのログ詳細を確認">Podのログ(詳細)を確認</span></h3><ul>
+<li>Podがうまく動作しなかったときに必要となる<ul>
+<li>引数:<ul>
+<li>TYPE/NAME: リソース種別とリソース名を指定</li>
+<li>–tail=n: 直近のnレコードだけ取得</li>
+</ul>
+</li>
+<li>例：<code>kubectl logs pod/nginx</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl logs [TYPE&#x2F;NAME] [--tail&#x3D;n]</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="deploymentにおけるロールアウト履歴確認とロールバック">Deploymentにおけるロールアウト履歴確認とロールバック</span></h3><h4><span id="ロールアウト履歴を表示">ロールアウト履歴を表示</span></h4><ul>
+<li>引数:<ul>
+<li>TYPE: リソース種別</li>
+<li>NAME: リソース名</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl rollout history TYPE&#x2F;NAME</span><br></pre></td></tr></table></figure>
+
+
+<h4><span id="ロールバック">ロールバック</span></h4><ul>
+<li>ロールバックの実施<ul>
+<li>引数:<ul>
+<li>TYPE: リソース種別</li>
+<li>NAME: リソース名</li>
+<li>–to-revision=N: 指定されたリビジョンに戻す。デフォルトは0(=直前の履歴)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ kubectl rollout undo TYPE&#x2F;NAME --to-revision&#x3D;N</span><br></pre></td></tr></table></figure>
+<br>
+<br>
+
+<hr>
+<br>
+<br>
+
+
+<div style="border-left: 10px solid #4c6cb3; border-bottom: 3px solid #4c6cb3; padding-left: 10px; padding-top: 0.1px; font-weight: bold; color: #000000;">
+
+<h2><span id="dockerコマンド">dockerコマンド</span></h2></div>
+
+<h3><span id="指定されたイメージ取得">指定されたイメージ取得</span></h3><ul>
+<li>引数：<ul>
+<li>NAME: Dockerイメージ名</li>
+<li>TAG: タグ名。省略した場合はlatestになる。<ul>
+<li>例：<code>docker image pull centos:7</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker image pull NAME[:TAG]</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull</span><br></pre></td></tr></table></figure>
+
+<h3><span id="イメージ一覧">イメージ一覧</span></h3><ul>
+<li>取得済みDockerイメージ一覧を表示<ul>
+<li>引数： なし</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker image ls</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker images</span><br></pre></td></tr></table></figure>
+
+<h3><span id="イメージ削除">イメージ削除</span></h3><ul>
+<li>指定されたイメージを削除<ul>
+<li>引数：<ul>
+<li>IMAGE: DockerイメージID</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[参考]Dockerイメージの削除には<code>docker image prune</code>というコマンドもある。<ul>
+<li>これは、使われていないイメージを一括削除してくれるコマンド。</li>
+<li>実際に作業するときは、このコマンドが使いやすい。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker image rm IMAGE</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker rmi</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="コンテナ実行">コンテナ実行</span></h3><ul>
+<li>指定されたイメージを実行する<ul>
+<li>引数：<ul>
+<li>OPTION<ul>
+<li><code>-d</code>:バックグラウンド実行</li>
+<li><code>-it</code>:shell実行する際に合わせて指定する<ul>
+<li>例：<code>docker container run -it NAME sh</code></li>
+</ul>
+</li>
+<li><code>-e KEY=VALUE</code>: 環境変数を与える</li>
+<li><code>--name NAME</code>: 実行時のコンテナ名を指定</li>
+<li><code>-p CONTANER:HOST</code>: コンテナポートをホストにマッピング</li>
+</ul>
+</li>
+<li>COMMAND: 実行時に上書きしたいコマンド<ul>
+<li>COMMANDは、Docker実行時にDockerコンテナに与えるコマンド。</li>
+</ul>
+</li>
+<li>例：<code>docker container run -d nginx:1.17.2-alpine</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker container run [OPTION] NAME[:TAG] [COMMAND]</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run</span><br></pre></td></tr></table></figure>
+
+
+
+<h3><span id="コンテナ停止">コンテナ停止</span></h3><ul>
+<li>指定したコンテナを停止する<ul>
+<li>引数:<ul>
+<li>CONTAINER: コンテナID</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker container stop CONTAINER</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker stop</span><br></pre></td></tr></table></figure>
+
+<h3><span id="コンテナ一覧">コンテナ一覧</span></h3><ul>
+<li>コンテナを一覧表示する<ul>
+<li>引数:<ul>
+<li>OPTION<ul>
+<li><code>-a</code>: 停止中のコンテナも表示<ul>
+<li>オプション指定しない場合、起動中のコンテナのみが表示される。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker container ls [OPTION]</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker ps</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="コンテナ削除指定型">コンテナ削除(指定型)</span></h3><ul>
+<li>指定されたコンテナを削除する<ul>
+<li>引数:<ul>
+<li>CONTAINER:Dockerコンテナ名</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker container rm CONTAINER</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>省略コマンドは以下</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker rm</span><br></pre></td></tr></table></figure>
+
+<h3><span id="コンテナ削除非指定型">コンテナ削除(非指定型)</span></h3><ul>
+<li>使用されていないコンテナを削除<ul>
+<li>引数:<ul>
+<li>なし</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker container prune</span><br></pre></td></tr></table></figure>
+
+<h3><span id="コンテナイメージ削除">コンテナ・イメージ削除</span></h3><ul>
+<li>使用されていないデータを削除<ul>
+<li>引数:<ul>
+<li>なし</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker system prune</span><br></pre></td></tr></table></figure>
+
+<h3><span id="ビルド">ビルド</span></h3><ul>
+<li>指定されたDockerfileを利用してDckerイメージを作詞絵<ul>
+<li>引数:<ul>
+<li>OPTION:<ul>
+<li><code>-t</code>: イメージ名を指定する。「ユーザ名/イメージ名:バージョン名」で指定する形式が一般的<ul>
+<li>例：<code>docker build -f hogehoge/test:v1.0.0</code></li>
+</ul>
+</li>
+<li><code>-f</code>: Dockerfileの名前を指定する</li>
+</ul>
+</li>
+<li>PATH: Dockerfileが保存されているパス</li>
+<li>例:<code>docker build -t test .</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker build [OPTION] PATH</span><br></pre></td></tr></table></figure>
+
+
+<h3><span id="dockerイメージの公開dockerhub">Dockerイメージの公開(DockerHub)</span></h3><h4><span id="dockerイメージにタグ名追加">Dockerイメージにタグ名追加</span></h4><ul>
+<li>引数:<ul>
+<li>SRC_NAME: タグ付けしたいDockerイメージ名</li>
+<li>TRG_NAME: 追加したいタグ名</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker tag SRC_NAME[:TAG] TRG[:TAG]</span><br></pre></td></tr></table></figure>
+
+
+<h4><span id="dockerhubへログイン">DockerHubへログイン</span></h4><ul>
+<li>引数:<ul>
+<li><code>-u USER</code>: ユーザ名</li>
+<li><code>-p PASSWORD</code>: パスワード</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker login [-u USER] [-p PASSWORD]</span><br></pre></td></tr></table></figure>
+
+
+<h4><span id="dockerhubへ公開">DockerHubへ公開</span></h4><ul>
+<li>引数:<ul>
+<li><code>IMAGE_NAME</code>: 公開したいDockerイメージ名</li>
+<li>例：<code>docker push hogehoge/test:v1.0.0</code></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker push IMAGE_NAME[:TAG]</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://omathin.com/2020/03/22/commandsheat-docker-minikube/" data-id="ck82hcf5n0000u8k3d4cxbqzq" class="article-share-link">共有</a>
+      
+        <a href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/#disqus_thread" class="article-comment-link">コメント</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/minikube/" rel="tag">minikube</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" rel="tag">コマンド</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/" rel="tag">コンテナ</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/14/Docker/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前の記事</strong>
+      <div class="article-nav-title">Dockerとは何か、メリット/デメリットまとめ</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<nav id="related-posts" class="article-inner" style="font-size: smaller">
+  <div class="article-entry">
+      <h2>関連記事</h2>
+      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\2020\03\14\Docker\" title="Dockerとは何か、メリット/デメリットまとめ" rel="bookmark">Dockerとは何か、メリット/デメリットまとめ</a></h3></div></li></ul>
+  </div>
+</nav>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">author</h3>
+    <div class="widget profile">
+      <!-- 190528 profile追加 -->
+      <div class="tc">
+        <img src="/images/fuji.PNG">
+      </div>
+      <div>
+        <span class="b" style="color:rgb(23, 196, 0);">草野球と筋トレが好きな雑食系エンジニア</span><br>
+        <br>オリジナルの楽痩せメソッドで20kgのダイエットに成功。<br>
+        オンライン学習マニア。特にUdemyでの学習が好き。<br>
+	週末は草野球。<br>
+	過去の自分が知りたかったことを中心に発信していきたいと思います<br>
+	資格：TOGAF9, ArchiMate3, ビジネスサプリメントアドバイザー等<br>
+        <ul>
+        <li><a class="twitter" href="https://twitter.com/omathin" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>  omathin</a></li>
+        <li><a class="twitter" href="https://www.instagram.com/shiroyama_jacks/?hl=ja" target="_blank" rel="noopener"><i class="fab fa-instagram"></i>  城山jacks</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグ</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IT/" rel="tag">IT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ruby/" rel="tag">Ruby</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ruby-on-Rails/" rel="tag">Ruby on Rails</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Udemy/" rel="tag">Udemy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker-compose/" rel="tag">docker-compose</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/" rel="tag">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git-bash/" rel="tag">git bash</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/instagram/" rel="tag">instagram</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/landscape/" rel="tag">landscape</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/minikube/" rel="tag">minikube</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/skill-hacks/" rel="tag">skill hacks</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/visual-studio-code/" rel="tag">visual studio code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" rel="tag">コマンド</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/" rel="tag">コンテナ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/" rel="tag">サプリメント</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B9%E3%83%9E%E3%83%9B/" rel="tag">スマホ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" rel="tag">ダイエット</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/" rel="tag">バッティング</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%96%E3%83%AD%E3%82%B0/" rel="tag">ブログ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag">プログラミング</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/" rel="tag">リハビリ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BD%93%E8%AA%BF%E7%AE%A1%E7%90%86/" rel="tag">体調管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%81%A5%E5%BA%B7/" rel="tag">健康</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/" rel="tag">前十字靭帯</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8B%89%E5%BC%B7/" rel="tag">勉強</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%90%E8%82%B2%E3%81%A6/" rel="tag">子育て</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%89%8B%E8%A1%93/" rel="tag">手術</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E8%82%B2/" rel="tag">教育</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9D%BE%E8%91%89%E3%81%A5%E3%81%88/" rel="tag">松葉づえ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%B2%E5%85%90/" rel="tag">育児</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%8E%E7%90%83/" rel="tag">野球</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグクラウド</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Docker/" style="font-size: 13.33px;">Docker</a> <a href="/tags/Hexo/" style="font-size: 13.33px;">Hexo</a> <a href="/tags/IT/" style="font-size: 20px;">IT</a> <a href="/tags/Ruby/" style="font-size: 13.33px;">Ruby</a> <a href="/tags/Ruby-on-Rails/" style="font-size: 13.33px;">Ruby on Rails</a> <a href="/tags/Udemy/" style="font-size: 13.33px;">Udemy</a> <a href="/tags/docker/" style="font-size: 10px;">docker</a> <a href="/tags/docker-compose/" style="font-size: 10px;">docker-compose</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/git-bash/" style="font-size: 10px;">git bash</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/instagram/" style="font-size: 10px;">instagram</a> <a href="/tags/kubernetes/" style="font-size: 10px;">kubernetes</a> <a href="/tags/landscape/" style="font-size: 10px;">landscape</a> <a href="/tags/minikube/" style="font-size: 10px;">minikube</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/skill-hacks/" style="font-size: 10px;">skill hacks</a> <a href="/tags/visual-studio-code/" style="font-size: 10px;">visual studio code</a> <a href="/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" style="font-size: 10px;">コマンド</a> <a href="/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/" style="font-size: 13.33px;">コンテナ</a> <a href="/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/" style="font-size: 10px;">サプリメント</a> <a href="/tags/%E3%82%B9%E3%83%9E%E3%83%9B/" style="font-size: 10px;">スマホ</a> <a href="/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/" style="font-size: 13.33px;">ダイエット</a> <a href="/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/" style="font-size: 13.33px;">バッティング</a> <a href="/tags/%E3%83%96%E3%83%AD%E3%82%B0/" style="font-size: 10px;">ブログ</a> <a href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" style="font-size: 10px;">プログラミング</a> <a href="/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/" style="font-size: 13.33px;">リハビリ</a> <a href="/tags/%E4%BD%93%E8%AA%BF%E7%AE%A1%E7%90%86/" style="font-size: 10px;">体調管理</a> <a href="/tags/%E5%81%A5%E5%BA%B7/" style="font-size: 10px;">健康</a> <a href="/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/" style="font-size: 16.67px;">前十字靭帯</a> <a href="/tags/%E5%8B%89%E5%BC%B7/" style="font-size: 10px;">勉強</a> <a href="/tags/%E5%AD%90%E8%82%B2%E3%81%A6/" style="font-size: 10px;">子育て</a> <a href="/tags/%E6%89%8B%E8%A1%93/" style="font-size: 16.67px;">手術</a> <a href="/tags/%E6%95%99%E8%82%B2/" style="font-size: 10px;">教育</a> <a href="/tags/%E6%9D%BE%E8%91%89%E3%81%A5%E3%81%88/" style="font-size: 10px;">松葉づえ</a> <a href="/tags/%E8%82%B2%E5%85%90/" style="font-size: 10px;">育児</a> <a href="/tags/%E9%87%8E%E7%90%83/" style="font-size: 13.33px;">野球</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">アーカイブ</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近の投稿</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/22/commandsheat-docker-minikube/">[チートシート]minikube, dockerコマンドまとめ</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/14/Docker/">Dockerとは何か、メリット/デメリットまとめ</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/10/vitamins-and-glutamine/">[たった2つ]風邪にならないサプリメント</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/01/matsuba/">[実体験]前十字靭帯再建手術を受けて復帰するまで③[自宅安静～抜糸～松葉づえ卒業まで]</a>
+          </li>
+        
+          <li>
+            <a href="/2020/01/27/docker-compose-run-web-rails-dbconsole-error/">docker-compose run web rails dbconsoleができない問題の対処</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 omathin<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'omathin-blog';
+  
+  var disqus_url = 'https://omathin.com/2020/03/22/commandsheat-docker-minikube/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

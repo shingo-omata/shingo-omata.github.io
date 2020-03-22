@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-03-14T01:26:59.921Z</updated>
+  <updated>2020-03-22T03:32:21.901Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[チートシート]minikube, dockerコマンドまとめ</title>
+    <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
+    <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
+    <published>2020-03-21T15:00:00.000Z</published>
+    <updated>2020-03-22T03:32:21.901Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;よく使うコマンドを一覧化しました。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="kubernetes" scheme="https://omathin.com/tags/kubernetes/"/>
+    
+      <category term="minikube" scheme="https://omathin.com/tags/minikube/"/>
+    
+      <category term="コマンド" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/"/>
+    
+  </entry>
   
   <entry>
     <title>Dockerとは何か、メリット/デメリットまとめ</title>
