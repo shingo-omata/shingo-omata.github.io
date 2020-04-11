@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-03-22T03:32:21.901Z</updated>
+  <updated>2020-04-11T14:36:37.316Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -17,15 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>[実体験]前十字靭帯再建手術を受けて復帰するまで④[長い長いリハビリ～復帰まで]</title>
+    <link href="https://omathin.com/2020/04/11/rehabilitation/"/>
+    <id>https://omathin.com/2020/04/11/rehabilitation/</id>
+    <published>2020-04-10T15:00:00.000Z</published>
+    <updated>2020-04-11T14:36:37.316Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/596291af.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
+    
+      <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
+    
+      <category term="トレーニング" scheme="https://omathin.com/tags/%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[チートシート]minikube, dockerコマンドまとめ</title>
     <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
     <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
     <published>2020-03-21T15:00:00.000Z</published>
-    <updated>2020-03-22T03:32:21.901Z</updated>
+    <updated>2020-04-11T14:39:59.919Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;よく使うコマンドを一覧化しました。&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/images/docker.PNG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;よく使うコマンドを一覧化しました。&lt;/p&gt;
     
     </summary>
     
