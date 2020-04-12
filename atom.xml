@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-12T05:04:23.036Z</updated>
+  <updated>2020-04-12T07:39:18.045Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
     <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-12T05:04:23.036Z</updated>
+    <updated>2020-04-12T07:39:18.045Z</updated>
     
     <summary type="html">
     
@@ -242,9 +242,9 @@
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
-    
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
     
       <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
     
@@ -269,9 +269,9 @@
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="visual studio code" scheme="https://omathin.com/tags/visual-studio-code/"/>
-    
       <category term="git" scheme="https://omathin.com/tags/git/"/>
+    
+      <category term="visual studio code" scheme="https://omathin.com/tags/visual-studio-code/"/>
     
       <category term="git bash" scheme="https://omathin.com/tags/git-bash/"/>
     
@@ -342,6 +342,8 @@
     
     
     
+      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
+    
       <category term="育児" scheme="https://omathin.com/tags/%E8%82%B2%E5%85%90/"/>
     
       <category term="子育て" scheme="https://omathin.com/tags/%E5%AD%90%E8%82%B2%E3%81%A6/"/>
@@ -349,8 +351,6 @@
       <category term="勉強" scheme="https://omathin.com/tags/%E5%8B%89%E5%BC%B7/"/>
     
       <category term="教育" scheme="https://omathin.com/tags/%E6%95%99%E8%82%B2/"/>
-    
-      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
     
   </entry>
   
@@ -376,13 +376,13 @@
     
       <category term="Ruby" scheme="https://omathin.com/tags/Ruby/"/>
     
-      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
-    
-      <category term="git" scheme="https://omathin.com/tags/git/"/>
-    
       <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
     
       <category term="skill hacks" scheme="https://omathin.com/tags/skill-hacks/"/>
+    
+      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
+    
+      <category term="git" scheme="https://omathin.com/tags/git/"/>
     
       <category term="github" scheme="https://omathin.com/tags/github/"/>
     
