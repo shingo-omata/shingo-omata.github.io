@@ -29,7 +29,7 @@ ga('send', 'pageview');
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://omathin.com/images/aedf8e76.PNG">
 <meta property="article:published_time" content="2020-01-05T15:00:00.000Z">
-<meta property="article:modified_time" content="2020-01-06T15:00:00.000Z">
+<meta property="article:modified_time" content="2020-04-11T15:00:00.000Z">
 <meta property="article:author" content="omathin">
 <meta property="article:tag" content="IT">
 <meta property="article:tag" content="Hexo">
@@ -92,7 +92,7 @@ ga('send', 'pageview');
   <div class="article-meta">
     <a href="/2020/01/06/hexo_post/" class="article-date">
   <time datetime="2020-01-05T15:00:00.000Z" itemprop="datePublished">作成日：2020-01-06</time>
-  <time datetime="2020-01-06T15:00:00.000Z" itemprop="datePublished">更新日：2020-01-07</time>
+  <time datetime="2020-04-11T15:00:00.000Z" itemprop="datePublished">更新日：2020-04-12</time>
 </a>
 
     
@@ -165,6 +165,10 @@ ga('send', 'pageview');
 <ul>
 <li>これで画像が表示されているはずです。</li>
 </ul>
+<h2><span id="備考">備考</span></h2><h3><span id="githubにpushした際-ページが表示されなくなる場合">githubにpushした際、ページが表示されなくなる場合</span></h3><p>ブログのドメイン名を記載したCNAMEファイルが、githubのリポジトリから消えている為です。</p>
+<p>githubにpushする前に、<code>hexo clean</code>コマンドでキャッシュの削除をすると、publicフォルダが丸々削除されてしまい、publicフォルダに<code>CNAME</code>ファイルが削除されてしまったことが原因だと思われる。</p>
+<p><code>CNAME</code>ファイルを作成し、publicフォルダに配置し、再度<code>hexo d -g</code>コマンドでgithubにpushしましょう。</p>
+<p>また<code>ads.txt</code>ファイルもpublicフォルダから削除されているので、こちらもpublicフォルダに配置してgithubにpushしましょう。</p>
 <h2><span id="参考ページ">参考ページ</span></h2><p><a href="https://dotstud.io/blog/hexo-static-site-vol1/" target="_blank" rel="noopener">Node.js製の静的サイトジェネレータ「Hexo」で無料ブログ開発 vol.1 | dotstudio</a></p>
 <p><a href="http://magazine.a-n-t.jp/2017/08/blog-hexo-1/" target="_blank" rel="noopener">HEXOを使ってブログを構築しました。 その1 | ant magazine</a></p>
 
