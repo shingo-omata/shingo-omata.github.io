@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-11T14:44:16.196Z</updated>
+  <updated>2020-04-12T03:51:12.229Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexoのicarusテーマのフォントの変え方</title>
+    <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
+    <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
+    <published>2020-04-10T15:00:00.000Z</published>
+    <updated>2020-04-12T03:51:12.229Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/images/06ef4d11.PNG&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更したいな、と思いました。&lt;/p&gt;
+&lt;p&gt;例えば、「直」は簡体字になってたりする&lt;br&gt;&lt;img src=
+      
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>[実体験]前十字靭帯再建手術を受けて復帰するまで④[長い長いリハビリ]</title>
@@ -135,9 +163,9 @@
     
       <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
     
-      <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
-    
       <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
+    
+      <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
     
       <category term="松葉づえ" scheme="https://omathin.com/tags/%E6%9D%BE%E8%91%89%E3%81%A5%E3%81%88/"/>
     
@@ -191,9 +219,9 @@
     
       <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
     
-      <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
-    
       <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
+    
+      <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
     
   </entry>
   
@@ -214,9 +242,9 @@
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
       <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
     
