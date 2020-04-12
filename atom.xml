@@ -72,6 +72,32 @@
   </entry>
   
   <entry>
+    <title>自然言語処理 -数学-</title>
+    <link href="https://omathin.com/2020/04/11/natural-language-processing-mathematics/"/>
+    <id>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</id>
+    <published>2020-04-10T15:00:00.000Z</published>
+    <updated>2020-04-12T15:50:01.319Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/geometry-1044090_640.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;自然言語処理の学習を進めるうえで把握しておくべき数学の知識をザーッと振り返られるように一覧化しました。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/categories/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="数学" scheme="https://omathin.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[チートシート]minikube, dockerコマンドまとめ</title>
     <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
     <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
