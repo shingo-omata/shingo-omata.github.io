@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
-        <lastmod>2020-04-12T09:56:57.523Z</lastmod>
+        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
+        <lastmod>2020-04-12T12:49:28.691Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,31 @@
 
     <url>
         <loc>https://omathin.com/2020/04/11/icarus-theme-change/</loc>
-        <lastmod>2020-04-12T07:39:18.045Z</lastmod>
+        <lastmod>2020-04-12T12:47:06.015Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <lastmod>2020-04-12T12:45:15.419Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
+        <lastmod>2020-04-12T12:44:44.858Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
+        <lastmod>2020-04-12T12:44:27.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -42,22 +66,6 @@
     <url>
         <loc>https://omathin.com/2020/03/14/Docker/</loc>
         <lastmod>2020-03-14T01:26:59.921Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
-        <lastmod>2020-03-07T09:53:25.718Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
-        <lastmod>2020-02-17T11:15:51.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -98,14 +106,6 @@
     <url>
         <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
         <lastmod>2020-01-27T07:41:01.945Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-01-23T03:57:19.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
