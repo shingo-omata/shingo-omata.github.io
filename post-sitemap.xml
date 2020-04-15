@@ -8,8 +8,32 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</loc>
-        <lastmod>2020-04-12T15:58:43.093Z</lastmod>
+        <loc>https://omathin.com/2020/01/09/easy_diet/</loc>
+        <lastmod>2020-04-15T00:48:21.002Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <lastmod>2020-04-15T00:43:37.550Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <lastmod>2020-04-15T00:35:38.997Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
+        <lastmod>2020-04-15T00:31:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +41,55 @@
 
     <url>
         <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
-        <lastmod>2020-04-12T12:49:28.691Z</lastmod>
+        <lastmod>2020-04-15T00:23:26.780Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
+        <lastmod>2020-04-15T00:19:31.563Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
+        <lastmod>2020-04-15T00:16:59.768Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/03/14/Docker/</loc>
+        <lastmod>2020-04-15T00:14:44.664Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</loc>
+        <lastmod>2020-04-15T00:09:20.494Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
+        <lastmod>2020-04-14T23:58:20.452Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</loc>
+        <lastmod>2020-04-14T23:17:13.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -32,72 +104,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-04-12T12:45:15.419Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
-        <lastmod>2020-04-12T12:44:44.858Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
-        <lastmod>2020-04-12T12:44:27.874Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/01/06/hexo_post/</loc>
         <lastmod>2020-04-11T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</loc>
-        <lastmod>2020-04-11T14:39:59.919Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/03/14/Docker/</loc>
-        <lastmod>2020-03-14T01:26:59.921Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
-        <lastmod>2020-02-17T11:07:19.292Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
-        <lastmod>2020-02-10T01:32:20.762Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
-        <lastmod>2020-02-01T07:42:39.701Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -138,14 +146,6 @@
     <url>
         <loc>https://omathin.com/2020/01/12/study-for-child/</loc>
         <lastmod>2020-01-16T04:32:22.974Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/09/easy_diet/</loc>
-        <lastmod>2020-01-13T16:05:54.555Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
