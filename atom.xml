@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-15T14:33:55.570Z</updated>
+  <updated>2020-04-16T00:41:13.801Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>認知症は若い頃の食事も影響する</title>
+    <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
+    <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
+    <published>2020-04-15T15:00:00.000Z</published>
+    <updated>2020-04-16T00:41:13.801Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/top-view-1248955_640.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;認知症予防についてまとめてみました。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
+    
+      <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>【簡単】Anaconda Navigatorによるpython環境構築</title>
@@ -514,29 +538,6 @@
       <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
     
       <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo＋github pagesで構築したブログをBoostnoteを用いて更新する方法</title>
-    <link href="https://omathin.com/2020/01/06/hexo_post/"/>
-    <id>https://omathin.com/2020/01/06/hexo_post/</id>
-    <published>2020-01-05T15:00:00.000Z</published>
-    <updated>2020-04-11T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;備忘的記事です。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
