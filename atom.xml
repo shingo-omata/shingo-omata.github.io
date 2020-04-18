@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-18T06:34:33.620Z</updated>
+  <updated>2020-04-18T11:18:37.639Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ベジタリアンは健康なのか？</title>
+    <link href="https://omathin.com/2020/04/18/veganism/"/>
+    <id>https://omathin.com/2020/04/18/veganism/</id>
+    <published>2020-04-18T10:45:28.000Z</published>
+    <updated>2020-04-18T11:18:37.639Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/fruits-155616_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;本記事では、以下の論文で報告されている内容を基に、「菜食主義が健康や長寿に好影響をおよぼすのかどうか」についてまとめたいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31895244&quot;&gt;Veganism, aging and longevity: new insight into old concepts. - PubMed - NCBI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="健康" scheme="https://omathin.com/categories/%E5%81%A5%E5%BA%B7/"/>
+    
+    
+      <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
+    
+      <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>【自然言語処理】word2vecで使われるニューラルネットワーク【CBOWとskip-gram】</title>
@@ -526,25 +553,6 @@
       <category term="skill hacks" scheme="https://omathin.com/tags/skill-hacks/"/>
     
       <category term="github" scheme="https://omathin.com/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[意識低めの人向け]食べるだけで痩せる方法</title>
-    <link href="https://omathin.com/2020/01/09/easy_diet/"/>
-    <id>https://omathin.com/2020/01/09/easy_diet/</id>
-    <published>2020-01-09T11:37:33.301Z</published>
-    <updated>2020-04-16T12:51:33.524Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/23a630b6.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
     
   </entry>
   
