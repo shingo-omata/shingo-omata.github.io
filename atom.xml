@@ -49,7 +49,7 @@
     <link href="https://omathin.com/2020/04/18/veganism/"/>
     <id>https://omathin.com/2020/04/18/veganism/</id>
     <published>2020-04-18T10:45:28.000Z</published>
-    <updated>2020-04-18T11:18:37.639Z</updated>
+    <updated>2020-04-19T01:51:57.842Z</updated>
     
     <summary type="html">
     
@@ -62,7 +62,7 @@
     </summary>
     
     
-      <category term="健康" scheme="https://omathin.com/categories/%E5%81%A5%E5%BA%B7/"/>
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
@@ -76,7 +76,7 @@
     <link href="https://omathin.com/2020/04/18/word2vec-overview/"/>
     <id>https://omathin.com/2020/04/18/word2vec-overview/</id>
     <published>2020-04-18T02:01:28.000Z</published>
-    <updated>2020-04-18T06:34:33.620Z</updated>
+    <updated>2020-04-19T01:50:05.337Z</updated>
     
     <summary type="html">
     
@@ -88,7 +88,7 @@
     </summary>
     
     
-      <category term="自然言語処理" scheme="https://omathin.com/categories/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+      <category term="AI" scheme="https://omathin.com/categories/AI/"/>
     
     
       <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
@@ -104,7 +104,7 @@
     <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
     <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
     <published>2020-04-15T15:00:00.000Z</published>
-    <updated>2020-04-16T12:31:33.429Z</updated>
+    <updated>2020-04-19T01:56:26.296Z</updated>
     
     <summary type="html">
     
@@ -115,6 +115,8 @@
     
     </summary>
     
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
@@ -128,7 +130,7 @@
     <link href="https://omathin.com/2020/04/15/anaconda-enviroment/"/>
     <id>https://omathin.com/2020/04/15/anaconda-enviroment/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-16T12:36:10.399Z</updated>
+    <updated>2020-04-19T01:55:33.520Z</updated>
     
     <summary type="html">
     
@@ -139,6 +141,8 @@
     
     </summary>
     
+    
+      <category term="Development environment" scheme="https://omathin.com/categories/Development-environment/"/>
     
     
       <category term="Anaconda" scheme="https://omathin.com/tags/Anaconda/"/>
@@ -158,7 +162,7 @@
     <link href="https://omathin.com/2020/04/15/cbnoildiet/"/>
     <id>https://omathin.com/2020/04/15/cbnoildiet/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-16T12:34:37.070Z</updated>
+    <updated>2020-04-19T01:56:05.444Z</updated>
     
     <summary type="html">
     
@@ -169,6 +173,8 @@
     
     </summary>
     
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
@@ -214,7 +220,7 @@
     <link href="https://omathin.com/2020/04/11/natural-language-processing-mathematics/"/>
     <id>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-16T12:54:28.808Z</updated>
+    <updated>2020-04-19T01:50:39.098Z</updated>
     
     <summary type="html">
     
@@ -224,7 +230,7 @@
     </summary>
     
     
-      <category term="自然言語処理" scheme="https://omathin.com/categories/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+      <category term="AI" scheme="https://omathin.com/categories/AI/"/>
     
     
       <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
@@ -265,7 +271,7 @@
     <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
     <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
     <published>2020-03-21T15:00:00.000Z</published>
-    <updated>2020-04-15T00:09:20.494Z</updated>
+    <updated>2020-04-19T02:11:36.563Z</updated>
     
     <summary type="html">
     
@@ -274,6 +280,8 @@
     
     </summary>
     
+    
+      <category term="Infrastracture" scheme="https://omathin.com/categories/Infrastracture/"/>
     
     
       <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
@@ -293,7 +301,7 @@
     <link href="https://omathin.com/2020/03/14/Docker/"/>
     <id>https://omathin.com/2020/03/14/Docker/</id>
     <published>2020-03-13T15:00:00.000Z</published>
-    <updated>2020-04-15T00:14:44.664Z</updated>
+    <updated>2020-04-19T02:11:01.307Z</updated>
     
     <summary type="html">
     
@@ -301,6 +309,8 @@
     
     </summary>
     
+    
+      <category term="Infrastructure" scheme="https://omathin.com/categories/Infrastructure/"/>
     
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
@@ -316,7 +326,7 @@
     <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
     <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
     <published>2020-02-09T15:00:00.000Z</published>
-    <updated>2020-04-16T12:43:58.822Z</updated>
+    <updated>2020-04-19T01:53:39.476Z</updated>
     
     <summary type="html">
     
@@ -325,6 +335,8 @@
     
     </summary>
     
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
@@ -342,7 +354,7 @@
     <link href="https://omathin.com/2020/02/01/matsuba/"/>
     <id>https://omathin.com/2020/02/01/matsuba/</id>
     <published>2020-01-31T15:00:00.000Z</published>
-    <updated>2020-04-18T01:49:51.614Z</updated>
+    <updated>2020-04-19T01:52:10.496Z</updated>
     
     <summary type="html">
     
@@ -353,7 +365,7 @@
     </summary>
     
     
-      <category term="健康" scheme="https://omathin.com/categories/%E5%81%A5%E5%BA%B7/"/>
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
@@ -371,7 +383,7 @@
     <link href="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/"/>
     <id>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</id>
     <published>2020-01-26T15:00:00.000Z</published>
-    <updated>2020-04-18T13:28:13.392Z</updated>
+    <updated>2020-04-19T01:47:22.967Z</updated>
     
     <summary type="html">
     
@@ -383,6 +395,8 @@
     
     </summary>
     
+    
+      <category term="Infrastructure" scheme="https://omathin.com/categories/Infrastructure/"/>
     
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
@@ -429,7 +443,7 @@
     <link href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/"/>
     <id>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</id>
     <published>2020-01-19T13:09:17.381Z</published>
-    <updated>2020-01-19T13:26:48.861Z</updated>
+    <updated>2020-04-19T02:13:15.509Z</updated>
     
     <summary type="html">
     
@@ -456,7 +470,7 @@
     <link href="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/"/>
     <id>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</id>
     <published>2020-01-18T07:11:49.594Z</published>
-    <updated>2020-04-19T01:29:11.761Z</updated>
+    <updated>2020-04-19T01:48:45.994Z</updated>
     
     <summary type="html">
     
@@ -464,6 +478,8 @@
     
     </summary>
     
+    
+      <category term="Development environment" scheme="https://omathin.com/categories/Development-environment/"/>
     
     
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
@@ -481,7 +497,7 @@
     <link href="https://omathin.com/2020/01/16/knee-surgery/"/>
     <id>https://omathin.com/2020/01/16/knee-surgery/</id>
     <published>2020-01-15T15:00:00.000Z</published>
-    <updated>2020-04-18T01:43:13.730Z</updated>
+    <updated>2020-04-19T01:52:29.446Z</updated>
     
     <summary type="html">
     
@@ -491,7 +507,7 @@
     </summary>
     
     
-      <category term="健康" scheme="https://omathin.com/categories/%E5%81%A5%E5%BA%B7/"/>
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
     
     
       <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
@@ -505,7 +521,7 @@
     <link href="https://omathin.com/2020/01/13/baseball-batting2/"/>
     <id>https://omathin.com/2020/01/13/baseball-batting2/</id>
     <published>2020-01-13T09:20:41.072Z</published>
-    <updated>2020-01-29T04:29:20.270Z</updated>
+    <updated>2020-04-19T02:12:49.610Z</updated>
     
     <summary type="html">
     
@@ -515,6 +531,8 @@
     
     </summary>
     
+    
+      <category term="Sports" scheme="https://omathin.com/categories/Sports/"/>
     
     
       <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
@@ -528,7 +546,7 @@
     <link href="https://omathin.com/2020/01/12/study-for-child/"/>
     <id>https://omathin.com/2020/01/12/study-for-child/</id>
     <published>2020-01-12T12:04:34.839Z</published>
-    <updated>2020-01-16T04:32:22.974Z</updated>
+    <updated>2020-04-19T02:13:36.711Z</updated>
     
     <summary type="html">
     
@@ -538,6 +556,8 @@
     
     </summary>
     
+    
+      <category term="Method" scheme="https://omathin.com/categories/Method/"/>
     
     
       <category term="育児" scheme="https://omathin.com/tags/%E8%82%B2%E5%85%90/"/>
