@@ -231,11 +231,11 @@
       <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
     
     
-      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
-    
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
   </entry>
   
@@ -270,7 +270,7 @@
     <link href="https://omathin.com/2020/04/11/rehabilitation/"/>
     <id>https://omathin.com/2020/04/11/rehabilitation/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-19T09:50:55.780Z</updated>
+    <updated>2020-04-21T00:01:09.932Z</updated>
     
     <summary type="html">
     
@@ -378,13 +378,11 @@
     <link href="https://omathin.com/2020/02/01/matsuba/"/>
     <id>https://omathin.com/2020/02/01/matsuba/</id>
     <published>2020-01-31T15:00:00.000Z</published>
-    <updated>2020-04-19T01:52:10.496Z</updated>
+    <updated>2020-04-21T00:05:37.422Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/8826e5e4.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;前の記事で前十字靭帯再建手術後、退院までの1週間をまとめました。&lt;/p&gt;
-&lt;iframe class=&quot;hatenablogcard&quot; style=&quot;width: 100%; height: 155px; max-width: 680px;&quot; src=&quot;https://hatenablog-parts.com/embed?url=https://omathin.com/2020/01/26/knee-surgery-2/&quot; width=&quot;300&quot; height=&quot;150&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
     
     </summary>
     
@@ -463,6 +461,33 @@
   </entry>
   
   <entry>
+    <title>[打率3割必達]野球で自分にあったバッティングフォームを確定させる方法~実際のフォーム~</title>
+    <link href="https://omathin.com/2020/01/22/baseball-batting2/"/>
+    <id>https://omathin.com/2020/01/22/baseball-batting2/</id>
+    <published>2020-01-21T15:00:00.000Z</published>
+    <updated>2020-01-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以下の記事で、自分の打撃フォームを見つける方法を紹介しました。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe class=&quot;hatenablogcard&quot; style=&quot;width: 100%; height: 155px; max-width: 680px;&quot; src=&quot;https://hatenablog-parts.com/embed?url=https://omathin.com/2020/01/08/baseball_batting/&quot; width=&quot;300&quot; height=&quot;150&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;ここでは、上記の方法で確立させた私の打撃フォームを公開したいと思います。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Sports" scheme="https://omathin.com/categories/Sports/"/>
+    
+    
+      <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
+    
+      <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[打率3割必達]野球で自分にあったバッティングフォームを確定させる方法</title>
     <link href="https://omathin.com/2020/01/22/baseball_batting/"/>
     <id>https://omathin.com/2020/01/22/baseball_batting/</id>
@@ -500,9 +525,9 @@
     
     
     
-      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
-    
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
       <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
     
@@ -536,30 +561,6 @@
       <category term="git" scheme="https://omathin.com/tags/git/"/>
     
       <category term="git bash" scheme="https://omathin.com/tags/git-bash/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[実体験]前十字靭帯再建手術を受けて復帰するまで①[ケガ→手術→リハビリ開始まで]</title>
-    <link href="https://omathin.com/2020/01/16/knee-surgery/"/>
-    <id>https://omathin.com/2020/01/16/knee-surgery/</id>
-    <published>2020-01-15T15:00:00.000Z</published>
-    <updated>2020-04-19T01:52:29.446Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/3b645264.webp&quot; alt=&quot;手術後の右足&quot;&gt;&lt;/p&gt;
-&lt;p&gt;右膝前十字靭帯を断裂し、再建手術を受け、復帰に向けたリハビリに入る前までの体験談をまとめました。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
-    
-      <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
     
   </entry>
   
