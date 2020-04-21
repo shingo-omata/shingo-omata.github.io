@@ -9,7 +9,15 @@
 
     <url>
         <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-04-21T12:15:09.307Z</lastmod>
+        <lastmod>2020-04-21T13:40:48.396Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
+        <lastmod>2020-04-21T13:39:10.561Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -50,14 +58,6 @@
     <url>
         <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
         <lastmod>2020-04-19T07:31:30.114Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
-        <lastmod>2020-04-19T02:42:36.203Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
