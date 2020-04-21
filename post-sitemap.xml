@@ -9,15 +9,7 @@
 
     <url>
         <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-04-21T11:47:59.410Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/09/easy_diet/</loc>
-        <lastmod>2020-04-21T11:23:47.145Z</lastmod>
+        <lastmod>2020-04-21T12:15:09.307Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,6 +26,14 @@
     <url>
         <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
         <lastmod>2020-04-21T00:01:09.932Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/09/easy_diet/</loc>
+        <lastmod>2020-04-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
