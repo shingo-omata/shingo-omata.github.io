@@ -45,7 +45,7 @@
     <link href="https://omathin.com/2020/04/19/hatenablocard-favicon-error/"/>
     <id>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</id>
     <published>2020-04-19T00:04:27.000Z</published>
-    <updated>2020-04-21T14:49:28.148Z</updated>
+    <updated>2020-04-23T21:40:51.256Z</updated>
     
     <summary type="html">
     
@@ -73,15 +73,11 @@
     <link href="https://omathin.com/2020/04/18/veganism/"/>
     <id>https://omathin.com/2020/04/18/veganism/</id>
     <published>2020-04-18T10:45:28.000Z</published>
-    <updated>2020-04-23T12:21:24.330Z</updated>
+    <updated>2020-04-23T21:33:40.330Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/fruits-155616_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;本記事では、以下の論文で報告されている内容を基に、「菜食主義が健康や長寿に好影響をおよぼすのかどうか」についてまとめたいと思います。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31895244&quot;&gt;Veganism, aging and longevity: new insight into old concepts. - PubMed - NCBI&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      「菜食主義が健康や長寿に好影響をおよぼすのかどうか」についてまとめたいと思います。野菜中心の食事は健康と関連しているが、必ずしも死亡率を低下させるものではないことが分かりました。
     
     </summary>
     
@@ -183,14 +179,11 @@
     <link href="https://omathin.com/2020/04/15/cbnoildiet/"/>
     <id>https://omathin.com/2020/04/15/cbnoildiet/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-23T12:28:32.750Z</updated>
+    <updated>2020-04-23T21:32:39.996Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/background-2277_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;糖質制限ダイエットと脂質制限ダイエットについてまとめてみました。&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      低脂肪ダイエットと低炭水化物ダイエットの減量効果と参加者の遺伝子パターンやインスリン分泌との関係を調べた結果、減量効果に有意差はなく、遺伝子やインスリンとの関連もみられなかった、という米国スタンフォード大学からの研究報告がありました。
     
     </summary>
     
@@ -203,6 +196,36 @@
       <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
     
       <category term="健康" scheme="https://omathin.com/tags/%E5%81%A5%E5%BA%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexoのicarusテーマのフォントの変え方</title>
+    <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
+    <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
+    <published>2020-04-10T15:00:00.000Z</published>
+    <updated>2020-04-12T12:47:06.015Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/images/06ef4d11.PNG&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更したいな、と思いました。&lt;/p&gt;
+&lt;p&gt;例えば、「所」だと下図の左側のような表記になっており、日本人から
+      
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
@@ -229,36 +252,6 @@
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
       <category term="数学" scheme="https://omathin.com/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexoのicarusテーマのフォントの変え方</title>
-    <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
-    <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
-    <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-12T12:47:06.015Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;/images/06ef4d11.PNG&quot; alt&gt;&lt;/p&gt;
-&lt;p&gt;Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更したいな、と思いました。&lt;/p&gt;
-&lt;p&gt;例えば、「所」だと下図の左側のような表記になっており、日本人から
-      
-    
-    </summary>
-    
-    
-      <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
-    
-      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
     
   </entry>
   
@@ -307,9 +300,9 @@
     
       <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
     
-      <category term="kubernetes" scheme="https://omathin.com/tags/kubernetes/"/>
-    
       <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="kubernetes" scheme="https://omathin.com/tags/kubernetes/"/>
     
       <category term="minikube" scheme="https://omathin.com/tags/minikube/"/>
     
@@ -521,9 +514,9 @@
     
     
     
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
       <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
     
