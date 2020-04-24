@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-24T10:57:35.927Z</updated>
+  <updated>2020-04-19T10:06:41.079Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>本ブログの免責事項</title>
-    <link href="https://omathin.com/2020/04/24/disclaimer/"/>
-    <id>https://omathin.com/2020/04/24/disclaimer/</id>
-    <published>2020-04-24T10:52:26.000Z</published>
-    <updated>2020-04-24T10:57:35.927Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;code&gt;https://omathin.com/&lt;/code&gt;（以下、「当サイト」とします。）における免責事項は、下記の通りです。&lt;/p&gt;
-&lt;h3&gt;&lt;span id=&quot;コメントについて&quot;&gt;コメントについて&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;次の各号に掲げる内容を含むコメントは
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>マジメすぎると不幸になる話</title>
@@ -544,6 +523,33 @@
       <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
     
       <category term="instagram" scheme="https://omathin.com/tags/instagram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio Codeをインストールし、ターミナルをGit bashに変更する手順</title>
+    <link href="https://omathin.com/2020/01/18/vscode-environment-with-gitbash/"/>
+    <id>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</id>
+    <published>2020-01-18T07:11:49.594Z</published>
+    <updated>2020-04-19T01:48:45.994Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/home-office-336378_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Development environment" scheme="https://omathin.com/categories/Development-environment/"/>
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="visual studio code" scheme="https://omathin.com/tags/visual-studio-code/"/>
+    
+      <category term="git" scheme="https://omathin.com/tags/git/"/>
+    
+      <category term="git bash" scheme="https://omathin.com/tags/git-bash/"/>
     
   </entry>
   
