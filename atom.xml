@@ -38,23 +38,6 @@
   </entry>
   
   <entry>
-    <title>本ブログについて</title>
-    <link href="https://omathin.com/2020/04/24/about-this-blog/"/>
-    <id>https://omathin.com/2020/04/24/about-this-blog/</id>
-    <published>2020-04-23T23:37:24.000Z</published>
-    <updated>2020-04-24T10:53:51.941Z</updated>
-    
-    <summary type="html">
-    
-      ITとサプリメントまたは健康で人生を設計する１人の人間が、自らの知見を記事として情報発信するブログです。
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>マジメすぎると不幸になる話</title>
     <link href="https://omathin.com/2020/04/19/happy-method/"/>
     <id>https://omathin.com/2020/04/19/happy-method/</id>
@@ -534,6 +517,33 @@
       <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
     
       <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る</title>
+    <link href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/"/>
+    <id>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</id>
+    <published>2020-01-19T13:09:17.381Z</published>
+    <updated>2020-04-19T02:27:53.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/home-office-336378_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
+    
+      <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
+    
+      <category term="instagram" scheme="https://omathin.com/tags/instagram/"/>
     
   </entry>
   
