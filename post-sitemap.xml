@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
+        <lastmod>2020-04-29T01:27:28.050Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
+        <lastmod>2020-04-29T01:25:57.302Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
         <lastmod>2020-04-25T01:02:27.609Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -170,22 +186,6 @@
     <url>
         <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
         <lastmod>2020-04-19T01:50:05.337Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
-        <lastmod>2020-04-19T01:48:45.994Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
-        <lastmod>2020-04-19T01:47:22.967Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
