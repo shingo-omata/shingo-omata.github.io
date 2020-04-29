@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-29T06:50:17.303Z</updated>
+  <updated>2020-04-29T08:02:18.130Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://omathin.com/2020/04/29/doc2vec-overview/"/>
     <id>https://omathin.com/2020/04/29/doc2vec-overview/</id>
     <published>2020-04-29T01:48:30.000Z</published>
-    <updated>2020-04-29T06:50:17.303Z</updated>
+    <updated>2020-04-29T08:02:18.130Z</updated>
     
     <summary type="html">
     
@@ -46,12 +46,11 @@
     <link href="https://omathin.com/2020/04/19/happy-method/"/>
     <id>https://omathin.com/2020/04/19/happy-method/</id>
     <published>2020-04-19T08:58:40.000Z</published>
-    <updated>2020-04-19T10:06:41.079Z</updated>
+    <updated>2020-04-29T08:19:41.162Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/freedom-307791_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Stay Home期間ということで、メンタリストDaiGoさんのYoutube動画をたまたま見ました。&lt;/p&gt;
 &lt;p&gt;その内容がとても面白かったことと、私自身の心にとどめておきたいと思ったので記事にまとめました。&lt;/p&gt;
     
@@ -70,12 +69,11 @@
     <link href="https://omathin.com/2020/04/19/hatenablocard-favicon-error/"/>
     <id>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</id>
     <published>2020-04-19T00:04:27.000Z</published>
-    <updated>2020-04-23T21:40:51.256Z</updated>
+    <updated>2020-04-29T08:14:16.659Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/mistake-3085712_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Hexo(Icarusテーマ)で、はてなブログカードを使用した際に、faviconがうまく表示されなかったので、解消法を備忘録的にまとめます。&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
     
@@ -98,7 +96,7 @@
     <link href="https://omathin.com/2020/04/18/veganism/"/>
     <id>https://omathin.com/2020/04/18/veganism/</id>
     <published>2020-04-18T10:45:28.000Z</published>
-    <updated>2020-04-23T21:33:40.330Z</updated>
+    <updated>2020-04-29T08:18:12.151Z</updated>
     
     <summary type="html">
     
@@ -121,7 +119,7 @@
     <link href="https://omathin.com/2020/04/18/word2vec-overview/"/>
     <id>https://omathin.com/2020/04/18/word2vec-overview/</id>
     <published>2020-04-18T02:01:28.000Z</published>
-    <updated>2020-04-29T04:03:31.640Z</updated>
+    <updated>2020-04-29T08:02:24.862Z</updated>
     
     <summary type="html">
     
@@ -146,7 +144,7 @@
     <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
     <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
     <published>2020-04-15T15:00:00.000Z</published>
-    <updated>2020-04-25T00:52:01.912Z</updated>
+    <updated>2020-04-29T08:05:33.318Z</updated>
     
     <summary type="html">
     
@@ -169,14 +167,11 @@
     <link href="https://omathin.com/2020/04/15/anaconda-enviroment/"/>
     <id>https://omathin.com/2020/04/15/anaconda-enviroment/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-19T01:55:33.520Z</updated>
+    <updated>2020-04-29T08:23:47.928Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/anatomy-1751201_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;自然言語処理の勉強のために、Anacondaを使って環境構築したのでその方法をまとめます。&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      自然言語処理の勉強のために、Anacondaを使って環境構築したのでその方法をまとめます。
     
     </summary>
     
@@ -201,7 +196,7 @@
     <link href="https://omathin.com/2020/04/15/cbnoildiet/"/>
     <id>https://omathin.com/2020/04/15/cbnoildiet/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-25T00:52:15.823Z</updated>
+    <updated>2020-04-29T07:58:26.812Z</updated>
     
     <summary type="html">
     
@@ -226,16 +221,11 @@
     <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
     <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-12T12:47:06.015Z</updated>
+    <updated>2020-04-29T08:26:12.727Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;img src=&quot;/images/06ef4d11.PNG&quot; alt&gt;&lt;/p&gt;
-&lt;p&gt;Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更したいな、と思いました。&lt;/p&gt;
-&lt;p&gt;例えば、「所」だと下図の左側のような表記になっており、日本人から
-      
+      Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更したいな、と思いました。
     
     </summary>
     
@@ -256,12 +246,11 @@
     <link href="https://omathin.com/2020/04/11/natural-language-processing-mathematics/"/>
     <id>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-19T01:50:39.098Z</updated>
+    <updated>2020-04-29T08:25:11.207Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/geometry-1044090_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;自然言語処理の学習を進めるうえで把握しておくべき数学の知識をザーッと振り返られるように一覧化しました。&lt;/p&gt;
+      自然言語処理の学習を進めるうえで把握しておくべき数学の知識をザーッと振り返られるように一覧化しました。
     
     </summary>
     
@@ -282,11 +271,11 @@
     <link href="https://omathin.com/2020/04/11/rehabilitation/"/>
     <id>https://omathin.com/2020/04/11/rehabilitation/</id>
     <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-25T01:02:27.609Z</updated>
+    <updated>2020-04-29T08:04:40.285Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/596291af.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -307,11 +296,11 @@
     <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
     <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
     <published>2020-03-21T15:00:00.000Z</published>
-    <updated>2020-04-19T02:17:46.406Z</updated>
+    <updated>2020-04-29T08:22:17.267Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/docker.PNG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;よく使うコマンドを一覧化しました。&lt;/p&gt;
     
     </summary>
@@ -337,11 +326,11 @@
     <link href="https://omathin.com/2020/03/14/Docker/"/>
     <id>https://omathin.com/2020/03/14/Docker/</id>
     <published>2020-03-13T15:00:00.000Z</published>
-    <updated>2020-04-19T02:11:01.307Z</updated>
+    <updated>2020-04-29T08:00:23.610Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/docker.PNG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -362,7 +351,7 @@
     <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
     <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
     <published>2020-02-09T15:00:00.000Z</published>
-    <updated>2020-04-24T13:59:05.394Z</updated>
+    <updated>2020-04-29T07:35:34.711Z</updated>
     
     <summary type="html">
     
@@ -389,7 +378,7 @@
     <link href="https://omathin.com/2020/02/01/matsuba/"/>
     <id>https://omathin.com/2020/02/01/matsuba/</id>
     <published>2020-01-31T15:00:00.000Z</published>
-    <updated>2020-04-25T00:51:18.125Z</updated>
+    <updated>2020-04-29T08:17:35.967Z</updated>
     
     <summary type="html">
     
@@ -451,7 +440,7 @@
     <link href="https://omathin.com/2020/01/26/knee-surgery-2/"/>
     <id>https://omathin.com/2020/01/26/knee-surgery-2/</id>
     <published>2020-01-25T15:00:00.000Z</published>
-    <updated>2020-04-25T00:51:32.241Z</updated>
+    <updated>2020-04-29T08:09:41.920Z</updated>
     
     <summary type="html">
     
@@ -507,7 +496,14 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/1823d2ba.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;私は毎週末に草野球をしています。&lt;/p&gt;
+&lt;p&gt;しかし、チームの中ではクリーンナップを打つような強打者ではありませんでした。&lt;/p&gt;
+&lt;p&gt;打率は良くて2割前半。長打もたまにしか打てない。&lt;br&gt;そんな感じです。&lt;/p&gt;
+&lt;p&gt;しかし、2
+      
     
     </summary>
     
@@ -526,11 +522,12 @@
     <link href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/"/>
     <id>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</id>
     <published>2020-01-19T13:09:17.381Z</published>
-    <updated>2020-04-19T02:27:53.967Z</updated>
+    <updated>2020-04-29T08:20:41.036Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/home-office-336378_640.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Hexo landscape themeで、Instagramの投稿を埋め込んだ記事を、スマートフォンで閲覧すると、幅があってない時の対処方法を記載します。&lt;/p&gt;
     
     </summary>
     
