@@ -42,6 +42,29 @@
   </entry>
   
   <entry>
+    <title>【Hexo】Icarusテーマのサムネイル位置を変更する方法</title>
+    <link href="https://omathin.com/2020/04/29/icarus-thumbnail-custom/"/>
+    <id>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</id>
+    <published>2020-04-29T01:48:30.000Z</published>
+    <updated>2020-04-29T09:19:31.394Z</updated>
+    
+    <summary type="html">
+    
+      デフォルトの設定では、タイトルの上部にサムネイル画像が配置されます。その位置を変更する方法をまとめました。
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
+    
+  </entry>
+  
+  <entry>
     <title>マジメすぎると不幸になる話</title>
     <link href="https://omathin.com/2020/04/19/happy-method/"/>
     <id>https://omathin.com/2020/04/19/happy-method/</id>
@@ -504,34 +527,6 @@
       <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
     
       <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Hexo landscape]スマホで閲覧した際にInstagramの幅がはみ出る</title>
-    <link href="https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/"/>
-    <id>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</id>
-    <published>2020-01-19T13:09:17.381Z</published>
-    <updated>2020-04-29T08:20:41.036Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Hexo landscape themeで、Instagramの投稿を埋め込んだ記事を、スマートフォンで閲覧すると、幅があってない時の対処方法を記載します。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="IT" scheme="https://omathin.com/tags/IT/"/>
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="スマホ" scheme="https://omathin.com/tags/%E3%82%B9%E3%83%9E%E3%83%9B/"/>
-    
-      <category term="landscape" scheme="https://omathin.com/tags/landscape/"/>
-    
-      <category term="instagram" scheme="https://omathin.com/tags/instagram/"/>
     
   </entry>
   
