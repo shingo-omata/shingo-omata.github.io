@@ -8,32 +8,24 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
-        <lastmod>2020-04-29T14:53:39.448Z</lastmod>
+        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
+        <lastmod>2020-04-29T16:37:35.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</loc>
-        <lastmod>2020-04-29T14:18:27.685Z</lastmod>
+        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
+        <lastmod>2020-04-29T16:37:33.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/15/anaconda-enviroment/</loc>
-        <lastmod>2020-04-29T10:52:25.738Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/11/icarus-theme-change/</loc>
-        <lastmod>2020-04-29T10:44:19.857Z</lastmod>
+        <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
+        <lastmod>2020-04-29T16:37:26.932Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -58,14 +50,6 @@
     <url>
         <loc>https://omathin.com/2020/01/08/about-this-blog/</loc>
         <lastmod>2020-04-29T08:28:53.340Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</loc>
-        <lastmod>2020-04-29T08:25:11.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -112,14 +96,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
-        <lastmod>2020-04-29T08:17:35.967Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
         <lastmod>2020-04-29T08:09:41.920Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -146,22 +122,6 @@
     <url>
         <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
         <lastmod>2020-04-29T08:02:35.166Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
-        <lastmod>2020-04-29T08:02:24.862Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
-        <lastmod>2020-04-29T08:02:18.130Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -200,6 +160,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</loc>
+        <lastmod>2020-04-29T01:48:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/01/08/disclaimer/</loc>
         <lastmod>2020-04-24T10:59:25.726Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -216,8 +184,40 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/04/15/anaconda-enviroment/</loc>
+        <lastmod>2020-04-14T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/01/06/hexo_post/</loc>
         <lastmod>2020-04-11T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/icarus-theme-change/</loc>
+        <lastmod>2020-04-10T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</loc>
+        <lastmod>2020-04-10T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
+        <lastmod>2020-04-10T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
