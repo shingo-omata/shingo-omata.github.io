@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
+        <lastmod>2020-04-29T08:39:20.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/01/08/about-this-blog/</loc>
         <lastmod>2020-04-29T08:28:53.340Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -178,14 +186,6 @@
     <url>
         <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
         <lastmod>2020-04-29T07:35:34.711Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
-        <lastmod>2020-04-29T01:25:57.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
