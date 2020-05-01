@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-29T16:37:35.644Z</updated>
+  <updated>2020-04-30T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【pipが使えない？】Cloud9でtweepyをインストールする方法</title>
+    <link href="https://omathin.com/2020/05/01/twitter-api-tweepy-error/"/>
+    <id>https://omathin.com/2020/05/01/twitter-api-tweepy-error/</id>
+    <published>2020-05-01T06:43:07.000Z</published>
+    <updated>2020-04-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      TwitterのAPIを利用するライブラリであるTweepyのインストール方法です。Cloud9環境で実施しています。確認できたエラー、それに対する対応についてもまとめています。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="twitter" scheme="https://omathin.com/tags/twitter/"/>
+    
+  </entry>
   
   <entry>
     <title>【自然言語処理】doc2vecとは何か?dmpv, DBOWも解説</title>
@@ -197,7 +218,7 @@
     </summary>
     
     
-      <category term="Development environment" scheme="https://omathin.com/categories/Development-environment/"/>
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
     
     
       <category term="Anaconda" scheme="https://omathin.com/tags/Anaconda/"/>
@@ -491,30 +512,6 @@
 &lt;iframe class=&quot;hatenablogcard&quot; style=&quot;width: 100%; height: 155px; max-width: 680px;&quot; src=&quot;https://hatenablog-parts.com/embed?url=https://omathin.com/2020/01/22/baseball_batting/&quot; width=&quot;300&quot; height=&quot;150&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;ここでは、上記の方法で確立させた私の打撃フォームを公開したいと思います。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Sports" scheme="https://omathin.com/categories/Sports/"/>
-    
-    
-      <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
-    
-      <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[打率3割必達]野球で自分にあったバッティングフォームを確定させる方法</title>
-    <link href="https://omathin.com/2020/01/22/baseball_batting/"/>
-    <id>https://omathin.com/2020/01/22/baseball_batting/</id>
-    <published>2020-01-21T15:00:00.000Z</published>
-    <updated>2020-01-21T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;私なりに考え抜いて行き着いた、自分のバッティングフォームの確立の仕方をまとめてみました。&lt;/p&gt;
-&lt;p&gt;好調、不調の波が少なくなりました。&lt;/p&gt;
     
     </summary>
     

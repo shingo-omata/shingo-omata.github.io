@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
+        <lastmod>2020-05-01T09:19:34.093Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/05/01/twitter-api-tweepy-error/</loc>
+        <lastmod>2020-04-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/04/16/dementia-and-diet/</loc>
         <lastmod>2020-04-30T06:14:51.510Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -130,14 +146,6 @@
     <url>
         <loc>https://omathin.com/2020/03/14/Docker/</loc>
         <lastmod>2020-04-29T08:00:23.610Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
-        <lastmod>2020-04-29T07:59:34.773Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
