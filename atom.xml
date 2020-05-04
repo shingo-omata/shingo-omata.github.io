@@ -65,11 +65,11 @@
     <link href="https://omathin.com/2020/04/29/doc2vec-overview/"/>
     <id>https://omathin.com/2020/04/29/doc2vec-overview/</id>
     <published>2020-04-29T01:48:30.000Z</published>
-    <updated>2020-05-04T06:12:36.614Z</updated>
+    <updated>2020-05-04T15:06:55.103Z</updated>
     
     <summary type="html">
     
-      doc2vecとは何か。dmpv, DBOWというdoc2vecの理解に必要な技術をわかりやすくまとめてみました。
+      doc2vecとはword2vecを単語レベルではなく、文または文章でも扱えるように拡張したものです。文や文章をベクトル化することができます。dmpv, DBOWというdoc2vecの理解に必要な技術をわかりやすくまとめてみました。
     
     </summary>
     
@@ -113,7 +113,7 @@
     <link href="https://omathin.com/2020/04/19/happy-method/"/>
     <id>https://omathin.com/2020/04/19/happy-method/</id>
     <published>2020-04-19T08:58:40.000Z</published>
-    <updated>2020-05-04T06:10:29.360Z</updated>
+    <updated>2020-05-04T15:03:41.508Z</updated>
     
     <summary type="html">
     
@@ -134,7 +134,7 @@
     <link href="https://omathin.com/2020/04/19/hatenablocard-favicon-error/"/>
     <id>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</id>
     <published>2020-04-19T00:04:27.000Z</published>
-    <updated>2020-05-04T10:18:43.034Z</updated>
+    <updated>2020-05-04T15:23:45.109Z</updated>
     
     <summary type="html">
     
@@ -157,7 +157,7 @@
     <link href="https://omathin.com/2020/04/18/veganism/"/>
     <id>https://omathin.com/2020/04/18/veganism/</id>
     <published>2020-04-18T10:45:28.000Z</published>
-    <updated>2020-05-04T10:20:57.185Z</updated>
+    <updated>2020-05-04T15:28:20.450Z</updated>
     
     <summary type="html">
     
@@ -178,11 +178,11 @@
     <link href="https://omathin.com/2020/04/18/word2vec-overview/"/>
     <id>https://omathin.com/2020/04/18/word2vec-overview/</id>
     <published>2020-04-18T02:01:28.000Z</published>
-    <updated>2020-05-04T06:00:29.520Z</updated>
+    <updated>2020-05-04T14:31:54.985Z</updated>
     
     <summary type="html">
     
-      word2vecとは何か。分散表現、CBOW、skip-gramというword2vecの理解に必要な技術をわかりやすくまとめてみました。
+      word2vecとは何か。word2vecは、分散表現を作成することができるツールです。分散表現、CBOW、skip-gram、何れかのニューラルネットワークを活用して実現されます。word2vecの理解に必要な技術をわかりやすくまとめてみました。
     
     </summary>
     
@@ -203,7 +203,7 @@
     <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
     <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
     <published>2020-04-15T15:00:00.000Z</published>
-    <updated>2020-05-04T10:22:08.984Z</updated>
+    <updated>2020-05-04T15:58:58.243Z</updated>
     
     <summary type="html">
     
@@ -249,7 +249,7 @@
     <link href="https://omathin.com/2020/04/15/cbnoildiet/"/>
     <id>https://omathin.com/2020/04/15/cbnoildiet/</id>
     <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-05-04T10:20:50.968Z</updated>
+    <updated>2020-05-04T15:24:28.545Z</updated>
     
     <summary type="html">
     
@@ -343,7 +343,7 @@
     <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
     <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
     <published>2020-03-21T15:00:00.000Z</published>
-    <updated>2020-05-04T10:16:41.271Z</updated>
+    <updated>2020-05-04T15:13:07.144Z</updated>
     
     <summary type="html">
     
@@ -369,7 +369,7 @@
     <link href="https://omathin.com/2020/03/14/Docker/"/>
     <id>https://omathin.com/2020/03/14/Docker/</id>
     <published>2020-03-13T15:00:00.000Z</published>
-    <updated>2020-05-04T06:05:20.218Z</updated>
+    <updated>2020-05-04T14:37:09.434Z</updated>
     
     <summary type="html">
     
@@ -392,7 +392,7 @@
     <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
     <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
     <published>2020-02-09T15:00:00.000Z</published>
-    <updated>2020-05-04T10:23:01.954Z</updated>
+    <updated>2020-05-04T16:02:37.350Z</updated>
     
     <summary type="html">
     
@@ -415,7 +415,7 @@
     <link href="https://omathin.com/2020/02/01/matsuba/"/>
     <id>https://omathin.com/2020/02/01/matsuba/</id>
     <published>2020-01-31T15:00:00.000Z</published>
-    <updated>2020-05-04T10:22:00.714Z</updated>
+    <updated>2020-05-04T15:57:53.133Z</updated>
     
     <summary type="html">
     
@@ -438,7 +438,7 @@
     <link href="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/"/>
     <id>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</id>
     <published>2020-01-26T15:00:00.000Z</published>
-    <updated>2020-05-04T10:18:03.132Z</updated>
+    <updated>2020-05-04T15:15:17.934Z</updated>
     
     <summary type="html">
     
@@ -459,7 +459,7 @@
     <link href="https://omathin.com/2020/01/26/knee-surgery-2/"/>
     <id>https://omathin.com/2020/01/26/knee-surgery-2/</id>
     <published>2020-01-25T15:00:00.000Z</published>
-    <updated>2020-05-04T06:07:00.162Z</updated>
+    <updated>2020-05-04T14:49:35.352Z</updated>
     
     <summary type="html">
     
