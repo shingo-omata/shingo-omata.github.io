@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-04-30T15:00:00.000Z</updated>
+  <updated>2020-05-02T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。</title>
+    <link href="https://omathin.com/2020/05/03/keras-nn-basic/"/>
+    <id>https://omathin.com/2020/05/03/keras-nn-basic/</id>
+    <published>2020-05-03T04:51:02.000Z</published>
+    <updated>2020-05-02T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ニューラルネットワークとはどのようなものか。kerasという機械学習を簡単に使うためのライブラリを使ってまとめました。高校の数学でならったsin(サイン)関数をつかって、学習→予測をしてみたいと思います。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="keras" scheme="https://omathin.com/tags/keras/"/>
+    
+  </entry>
   
   <entry>
     <title>【pipが使えない？】Cloud9でtweepyをインストールする方法</title>
@@ -213,7 +236,7 @@
     
     <summary type="html">
     
-      自然言語処理の勉強のために、Anacondaを使って環境構築したのでその方法をまとめます。
+      プログラミング環境の構築で挫折したことありませんか？絶対に挫折しない環境構築方法を紹介します。人気No1プログラミング言語であるPythonを学ぶための環境構築は、Anacondaを使えば安心です。人工知能や自然言語処理の勉強のために必要なライブラリのインストール方法もまとめています。
     
     </summary>
     
@@ -495,33 +518,6 @@
       <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
     
       <category term="手術" scheme="https://omathin.com/tags/%E6%89%8B%E8%A1%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[打率3割必達]野球で自分にあったバッティングフォームを確定させる方法~実際のフォーム~</title>
-    <link href="https://omathin.com/2020/01/22/baseball-batting2/"/>
-    <id>https://omathin.com/2020/01/22/baseball-batting2/</id>
-    <published>2020-01-21T15:00:00.000Z</published>
-    <updated>2020-01-21T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;以下の記事で、自分の打撃フォームを見つける方法を紹介しました。&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;iframe class=&quot;hatenablogcard&quot; style=&quot;width: 100%; height: 155px; max-width: 680px;&quot; src=&quot;https://hatenablog-parts.com/embed?url=https://omathin.com/2020/01/22/baseball_batting/&quot; width=&quot;300&quot; height=&quot;150&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;ここでは、上記の方法で確立させた私の打撃フォームを公開したいと思います。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Sports" scheme="https://omathin.com/categories/Sports/"/>
-    
-    
-      <category term="野球" scheme="https://omathin.com/tags/%E9%87%8E%E7%90%83/"/>
-    
-      <category term="バッティング" scheme="https://omathin.com/tags/%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
     
   </entry>
   
