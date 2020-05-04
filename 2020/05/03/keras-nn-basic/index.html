@@ -3,7 +3,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
-        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-05-03T04:51:02.000Z" title="2020-05-03T04:51:02.000Z">2020-05-03</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">36分 read (About 5398 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="/images/anatomy-1751201_640.webp" alt="【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。"></span></div><div class="content"><p><br><br></p>
+        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-05-03T04:51:02.000Z" title="2020-05-03T04:51:02.000Z">2020-05-03</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">36分 read (About 5442 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="/images/anatomy-1751201_640.webp" alt="【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。"></span></div><div class="content"><p><br><br></p>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><p>ニューラルネットワークとはどのようなものかをkerasという機械学習を簡単に使うためのライブラリを使ってまとめました。高校の数学でならったsin(サイン)関数をつかって、学習→予測をしてみたいと思います。</p>
 <p><br></p>
 <a id="more"></a>
@@ -16,17 +16,19 @@
 <li><a href="#u正解データsin関数の作成とグラフ描画u"><u>正解データ（sin関数）の作成とグラフ描画</u></a></li>
 </ul>
 </li>
-<li><a href="#uニューラルネットワークの構築u"><u>ニューラルネットワークの構築</u></a><ul>
+<li><a href="#uニューラルネットワークの構築-学習-予測u"><u>ニューラルネットワークの構築、学習、予測</u></a><ul>
 <li><a href="#uニューラルネットワークの設定u"><u>ニューラルネットワークの設定</u></a></li>
-<li><a href="#uニューラルネットワークの構築u-1"><u>ニューラルネットワークの構築</u></a><ul>
+<li><a href="#uニューラルネットワークの構築u"><u>ニューラルネットワークの構築</u></a><ul>
 <li><a href="#u1セット目入力層と中間層の追加u"><u>1セット目(入力層と中間層)の追加</u></a></li>
 <li><a href="#u2セット目中間層と出力層の追加u"><u>2セット目(中間層と出力層)の追加</u></a></li>
 <li><a href="#uコンパイルu"><u>コンパイル</u></a></li>
-<li><a href="#u学習u"><u>学習</u></a></li>
-<li><a href="#u学習の推移をグラフで確認u"><u>学習の推移をグラフで確認</u></a></li>
-<li><a href="#u学習済ニューラルネットワークを使用して予測u"><u>学習済ニューラルネットワークを使用して予測</u></a></li>
 </ul>
 </li>
+<li><a href="#uニューラルネットワークを用いて学習u"><u>ニューラルネットワークを用いて学習</u></a><ul>
+<li><a href="#u学習の推移をグラフで確認u"><u>学習の推移をグラフで確認</u></a></li>
+</ul>
+</li>
+<li><a href="#u学習済ニューラルネットワークを使用して予測u"><u>学習済ニューラルネットワークを使用して予測</u></a></li>
 </ul>
 </li>
 </ul>
@@ -68,12 +70,12 @@
 <p>そして、<code>plt.plot(x, t)</code>で、横軸をx、縦軸をtとし、<code>plt.show()</code>とすることで、描画したグラフを出力させます。※plt.show()の記述が無くてもグラフが描画されたりしますが、そこは気にしない。</p>
 <p>コードを実行すると以下のようにサイン関数のグラフが出力されます。</p>
 <p><img src="/images/keras_1.PNG" alt></p>
-<h1><span id="ニューラルネットワークの構築"><u>ニューラルネットワークの構築</u></span></h1><p>ここから、Kerasを使ってニューラルネットワークを構築します。</p>
+<h1><span id="ニューラルネットワークの構築-学習-予測"><u>ニューラルネットワークの構築、学習、予測</u></span></h1><p>ここから、Kerasを使ってニューラルネットワークの構築し、sin関数を学習し、入力データを用いて予測を行います。</p>
 <p>ここで構築するのは、入力層のニューロン数が1, 中間層のニューロン数が20、出力層のニューロン数が1の3層のニューラルネットワークです。</p>
-<p>ソースコードは以下の通りです。</p>
+<h2><span id="ニューラルネットワークの設定"><u>ニューラルネットワークの設定</u></span></h2><p>ソースコードは以下の通りです。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> keras.models <span class="keyword">import</span> Sequential</span><br><span class="line"><span class="keyword">from</span> keras.layers <span class="keyword">import</span> Dense</span><br><span class="line"></span><br><span class="line"><span class="comment"># ニューラルネットワークの設定</span></span><br><span class="line">n_in = <span class="number">1</span>  <span class="comment"># 入力層のニューロン数</span></span><br><span class="line">n_mid = <span class="number">20</span>  <span class="comment"># 中間層のニューロン数</span></span><br><span class="line">n_out = <span class="number">1</span>  <span class="comment"># 出力層のニューロン数</span></span><br><span class="line"></span><br><span class="line">batch_size = <span class="number">8</span>  <span class="comment"># バッチサイズ</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 入力層、中間層、出力層の３層のニューラルネットワークを構築</span></span><br><span class="line">model = Sequential()</span><br><span class="line">model.add(Dense(n_mid, input_shape=(n_in,), activation=<span class="string">"sigmoid"</span>))  <span class="comment"># 活性化関数にシグモイド関数</span></span><br><span class="line">model.add(Dense(n_out, activation=<span class="string">"linear"</span>))  <span class="comment"># 活性化関数に恒等関数</span></span><br><span class="line">model.compile(loss=<span class="string">"mean_squared_error"</span>, optimizer=<span class="string">"sgd"</span>)  <span class="comment"># 損失関数に二乗誤差、最適化アルゴリズムにSGDを使用してコンパイル</span></span><br><span class="line">print(model.summary())</span><br></pre></td></tr></table></figure>
 <p>少し複雑に思うかもしれませんが、一つ一つ説明していきます。</p>
-<h2><span id="ニューラルネットワークの設定"><u>ニューラルネットワークの設定</u></span></h2><p>入力層のニューロン数が1, 中間層のニューロン数が20、出力層のニューロン数が1、なのでニューラルネットワークの設定として、</p>
+<p>入力層のニューロン数が1, 中間層のニューロン数が20、出力層のニューロン数が1、なのでニューラルネットワークの設定として、</p>
 <ul>
 <li>入力層のニューロン数を<code>n_in = 1</code></li>
 <li>中間層のニューロン数を<code>n_mid = 20</code></li>
@@ -137,7 +139,7 @@
 <p>1セット目のパラメータ数が40となっているのはなぜでしょうか。</p>
 <p>1セット目に着目すると、ニューロン数 1の入力層からニューロン数 20の中間層に20個のデータが送られ、それぞれのニューロンで活性化関数を適用し、出力されるデータの数が20となります。このParam #というのは、入出力の合計データ数の40を示しているのでは、と想定しています。</p>
 <p>出力層も同様に、ニューロン数 20の中間層からニューロン数 1の出力層に20のデータが送られ、ニューロン数1の出力層の活性化関数に当てはめて出力されるデータが1つなので、入出力データの総和の21が示されている、と理解しています。</p>
-<h3><span id="学習"><u>学習</u></span></h3><p>ここから、構築したニューラルネットワークを用いて学習を行います。</p>
+<h2><span id="ニューラルネットワークを用いて学習"><u>ニューラルネットワークを用いて学習</u></span></h2><p>ここから、構築したニューラルネットワークを用いて学習を行います。</p>
 <p>学習は、fit()メソッドを使います。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">history = model.fit(x, t, batch_size=batch_size, epochs=<span class="number">2000</span>, validation_split=<span class="number">0.1</span>)  <span class="comment"># 10%のデータを検証用に使う</span></span><br></pre></td></tr></table></figure>
 <p>modelのfitメソッドに、先ほどの入力xと正解t、バッチサイズ、エポック数、バリデーションスプリットを設定しています。</p>
@@ -152,7 +154,7 @@
 <p><img src="/images/keras_4.PNG" alt></p>
 <p>検証用のデータは青いラインで、訓練用のデータがオレンジのラインです。</p>
 <p>両者ともに、エポック数を重ねると順調に下がっています。</p>
-<h3><span id="学習済ニューラルネットワークを使用して予測"><u>学習済ニューラルネットワークを使用して予測</u></span></h3><p>predict()メソッドを用いることで、学習済みのニューラルネットワークを使用して予測を行うことができます。</p>
+<h2><span id="学習済ニューラルネットワークを使用して予測"><u>学習済ニューラルネットワークを使用して予測</u></span></h2><p>predict()メソッドを用いることで、学習済みのニューラルネットワークを使用して予測を行うことができます。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">plt.plot(x, model.predict(x))  <span class="comment"># 予測を行う</span></span><br><span class="line">plt.plot(x, t)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 <p>最初に、入力xと入力xをpredictメソッドに入れた結果をプロットします。</p>
 <p>predictメソッドに入力値を渡すだけで、予測データの出力を得ることができます。</p>
@@ -195,7 +197,7 @@
                     fold: 'unfolded'
                 }
             }
-        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to Top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Zurück nach oben" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
             if (typeof $.fn.lightGallery === 'function') {
                 $('.article').lightGallery({ selector: '.gallery-item' });
             }
