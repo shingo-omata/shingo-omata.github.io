@@ -8,6 +8,94 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
+        <lastmod>2020-05-04T06:12:36.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</loc>
+        <lastmod>2020-05-04T06:12:14.435Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
+        <lastmod>2020-05-04T06:11:39.492Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</loc>
+        <lastmod>2020-05-04T06:11:06.070Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</loc>
+        <lastmod>2020-05-04T06:10:44.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/19/happy-method/</loc>
+        <lastmod>2020-05-04T06:10:29.360Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
+        <lastmod>2020-05-04T06:07:00.162Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <lastmod>2020-05-04T06:06:29.274Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/03/14/Docker/</loc>
+        <lastmod>2020-05-04T06:05:20.218Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
+        <lastmod>2020-05-04T06:00:29.520Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <lastmod>2020-05-04T05:58:52.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/05/03/keras-nn-basic/</loc>
         <lastmod>2020-05-02T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -56,40 +144,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
-        <lastmod>2020-04-29T16:37:35.644Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/02/01/matsuba/</loc>
         <lastmod>2020-04-29T16:37:33.803Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
-        <lastmod>2020-04-29T16:37:26.932Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</loc>
-        <lastmod>2020-04-29T09:30:57.769Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
-        <lastmod>2020-04-29T08:39:20.614Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -112,64 +168,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</loc>
-        <lastmod>2020-04-29T08:22:17.267Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</loc>
-        <lastmod>2020-04-29T08:20:41.036Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/19/happy-method/</loc>
-        <lastmod>2020-04-29T08:19:41.162Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/04/18/veganism/</loc>
         <lastmod>2020-04-29T08:18:12.151Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
-        <lastmod>2020-04-29T08:09:41.920Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2020-04-29T08:06:13.128Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
-        <lastmod>2020-04-29T08:02:35.166Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/03/14/Docker/</loc>
-        <lastmod>2020-04-29T08:00:23.610Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
