@@ -17,6 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>オブジェクト指向のクラスをシンプルに理解する</title>
+    <link href="https://omathin.com/2020/05/05/class-practice/"/>
+    <id>https://omathin.com/2020/05/05/class-practice/</id>
+    <published>2020-05-05T06:22:51.000Z</published>
+    <updated>2020-05-04T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      プログラミングを学習すると、高い確率で「オブジェクト指向」という言葉に誰しもが悩まされると思います。本記事では、とてもシンプルにオブジェクト指向のClassの使い方をまとめます。実際にご自身のプログラミング環境で手を動かしながら勉強してみてください。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
+    
+      <category term="オブジェクト指向" scheme="https://omathin.com/tags/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91/"/>
+    
+      <category term="クラス" scheme="https://omathin.com/tags/%E3%82%AF%E3%83%A9%E3%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Hexo】Icarusテーマで作成される記事のタイトル、h2、h3のデザインを変更</title>
     <link href="https://omathin.com/2020/05/05/Icarus-h2h3title-change/"/>
     <id>https://omathin.com/2020/05/05/Icarus-h2h3title-change/</id>
@@ -453,27 +478,6 @@
       <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
     
       <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker-compose run web rails dbconsoleができない問題の対処</title>
-    <link href="https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/"/>
-    <id>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</id>
-    <published>2020-01-26T15:00:00.000Z</published>
-    <updated>2020-01-26T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      タイトルに記載したコマンドを実行したらうまくいかなかったので備忘録的にまとめます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="エラー" scheme="https://omathin.com/tags/%E3%82%A8%E3%83%A9%E3%83%BC/"/>
     
   </entry>
   
