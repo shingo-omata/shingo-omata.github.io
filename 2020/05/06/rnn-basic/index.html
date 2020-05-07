@@ -3,7 +3,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
-        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-05-06T10:16:54.000Z" title="2020-05-06T10:16:54.000Z">2020-05-06</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">38分 read (About 5678 words)</span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="/images/anatomy-1751201_640.webp" alt="【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。"></span></div><div class="content"><p><br><br></p>
+        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-05-06T10:16:54.000Z" title="2020-05-06T10:16:54.000Z">2020-05-06</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">38分 read (About 5633 words)</span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="/images/anatomy-1751201_640.webp" alt="【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。"></span></div><div class="content"><p><br><br></p>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><a id="more"></a>
 <h2><span id="目次">✓目次</span></h2><!-- toc -->
 <ul>
@@ -34,13 +34,13 @@
 <h2><span id="本記事の対象者">本記事の対象者</span></h2><ul>
 <li><strong>ニューラルネットワークとは何かを理解している人。</strong><br><br></li>
 <li><strong>pythonの基本を理解している人。</strong><br><br></li>
-<li><strong>以下の記事で、Kerasを使ってニューラルネットワークとはどのようなものかをまとめているので、参考にしてみてください。</strong></li>
+<li><strong>Kerasでニューラルネットワークを作ったことがある人</strong><br><br></li>
 </ul>
+<p>以下の記事で、Kerasを使ってニューラルネットワークとはどのようなものかをまとめているので、参考にしてみてください。</p>
 <iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://omathin.com/2020/05/03/keras-nn-basic/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 <h2><span id="rnnとはなにか">RNNとはなにか</span></h2><p>RNNは「リカレントニューラルネットワーク」の略です。</p>
 <p>RNNとは、過去のデータを基に、これからどのような処理をするのかを判断することが得意なニューラルネットワークです。</p>
-<p>時系列データを扱うのが得意なニューラルネットワークとも言われます。</p>
-<p>時系列データとは、時間変化するデータのことで、具体的な時系列データのの一例は以下です。</p>
+<p>時系列データを扱うのが得意なニューラルネットワークとも言われ、具体的には以下のような時系列データをあつかったりします。</p>
 <ul>
 <li><strong>株価</strong><br><br></li>
 <li><strong>音声データ</strong><br><br></li>
@@ -48,15 +48,13 @@
 <li><strong>文書</strong><br><br></li>
 <li><strong>気象</strong><br><br></li>
 </ul>
-<p>これ以外にも様々あります。</p>
 <p>RNNではこの時系列データを入力および正解として扱います。</p>
-<p>RNNの特徴は、以下の図に示すように、中間層がループする構造を取ります。</p>
+<p>RNNの特徴は、以下の図に示すように、中間層がループする構造を取る点です。</p>
 <p><img src="/images/RNN_0.png" alt="RNNの特徴概略"></p>
 <p>中間層がループする構造とは、中間層の出力が入力層からの次の入力とセットで、中間層への入力になるということです。</p>
 <p>このように、自ら出力したデータを再び入力データとしてループすることを再帰といいます。</p>
 <p>そのためRNNは、「再帰型ニューラルネットワーク」と言い換えられたりもします。</p>
 <p>このような特徴から、RNNは過去のデータを保持することになるため、過去のデータを用いて判断を行うことができるのです。</p>
-<p>過去の経験をもとに、これからどうするのか、というのを判断できるということです。</p>
 <p>時間\( t\)の経過に沿った動作を図で表すと以下のようになります。</p>
 <p><img src="/images/RNN_0.5.png" alt="時間tの経過に沿ったRNNの動作概略"></p>
 <p>時間が経過すればするほど、中間層が何層にもつながり、ある意味深いニューラルネットワークになることが分かります。</p>
