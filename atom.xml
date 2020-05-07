@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-04T15:00:00.000Z</updated>
+  <updated>2020-05-05T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。</title>
+    <link href="https://omathin.com/2020/05/06/rnn-basic/"/>
+    <id>https://omathin.com/2020/05/06/rnn-basic/</id>
+    <published>2020-05-06T10:16:54.000Z</published>
+    <updated>2020-05-05T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      RNNとは、過去のデータを基に、これからどのような処理をするのかを判断することが得意なニューラルネットワークです。Pythonでノイズを含めたサイン関数を用意し、RNNを構築し、学習させたあと、学習済みモデルを使用して予測を行ってみました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="RNN" scheme="https://omathin.com/tags/RNN/"/>
+    
+  </entry>
   
   <entry>
     <title>オブジェクト指向のクラスをシンプルに理解する</title>
@@ -455,29 +478,6 @@
       <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
     
       <category term="風邪予防" scheme="https://omathin.com/tags/%E9%A2%A8%E9%82%AA%E4%BA%88%E9%98%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[実体験]前十字靭帯再建手術を受けて復帰するまで③[自宅安静～抜糸～松葉づえ卒業まで]</title>
-    <link href="https://omathin.com/2020/02/01/matsuba/"/>
-    <id>https://omathin.com/2020/02/01/matsuba/</id>
-    <published>2020-01-31T15:00:00.000Z</published>
-    <updated>2020-01-31T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      抜糸は痛いのか。松葉づえ生活ってどうなのか、等手術後の生活に不安がある方向けの記事です。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
-    
-      <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
     
   </entry>
   
