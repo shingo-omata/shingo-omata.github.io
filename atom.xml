@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-05T15:00:00.000Z</updated>
+  <updated>2020-05-07T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【プログラミング】SkillHacks受講後にオススメのUdemy講座</title>
+    <link href="https://omathin.com/2020/05/08/skill-hacks-next-step-udemy/"/>
+    <id>https://omathin.com/2020/05/08/skill-hacks-next-step-udemy/</id>
+    <published>2020-05-08T07:06:41.000Z</published>
+    <updated>2020-05-07T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      SkillHacks受講後の学習計画にお悩みではありませんか？SkillHacksの後に受講をお勧めするUdemy講座をまとめました。SkillHacks受講後にUdemyを受講し、プログラミングスキルを更に高めましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
+    
+      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
+    
+      <category term="SkillHacks" scheme="https://omathin.com/tags/SkillHacks/"/>
+    
+  </entry>
   
   <entry>
     <title>【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。</title>
@@ -455,29 +480,6 @@
       <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
     
       <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【抵抗力向上】メジャーリーガーも推奨する風邪予防サプリメント</title>
-    <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
-    <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
-    <published>2020-02-09T15:00:00.000Z</published>
-    <updated>2020-02-09T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      「子供から良く風邪をうつされる」、「疲れが取れにくくなった」、「肌荒れが気になる」、といった悩みがあれば、参考になると思います。紹介するサプリメントを摂取すれば、ほぼ風邪をひかなくなります。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
-    
-      <category term="風邪予防" scheme="https://omathin.com/tags/%E9%A2%A8%E9%82%AA%E4%BA%88%E9%98%B2/"/>
     
   </entry>
   
