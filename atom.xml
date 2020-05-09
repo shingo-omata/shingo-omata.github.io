@@ -387,29 +387,6 @@
   </entry>
   
   <entry>
-    <title>自然言語処理 -数学-</title>
-    <link href="https://omathin.com/2020/04/11/natural-language-processing-mathematics/"/>
-    <id>https://omathin.com/2020/04/11/natural-language-processing-mathematics/</id>
-    <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-10T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      自然言語処理の学習を進めるうえで把握しておくべき数学の知識をザーッと振り返られるように一覧化しました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
-    
-      <category term="数学" scheme="https://omathin.com/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>[実体験]前十字靭帯再建手術を受けて復帰するまで④[長い長いリハビリ]</title>
     <link href="https://omathin.com/2020/04/11/rehabilitation/"/>
     <id>https://omathin.com/2020/04/11/rehabilitation/</id>
@@ -480,6 +457,29 @@
       <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
     
       <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【抵抗力向上】メジャーリーガーも推奨する風邪予防サプリメント</title>
+    <link href="https://omathin.com/2020/02/10/vitamins-and-glutamine/"/>
+    <id>https://omathin.com/2020/02/10/vitamins-and-glutamine/</id>
+    <published>2020-02-09T15:00:00.000Z</published>
+    <updated>2020-02-09T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      「子供から良く風邪をうつされる」、「疲れが取れにくくなった」、「肌荒れが気になる」、といった悩みがあれば、参考になると思います。紹介するサプリメントを摂取すれば、ほぼ風邪をひかなくなります。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
+    
+      <category term="風邪予防" scheme="https://omathin.com/tags/%E9%A2%A8%E9%82%AA%E4%BA%88%E9%98%B2/"/>
     
   </entry>
   
