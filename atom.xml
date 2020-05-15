@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-13T15:00:00.000Z</updated>
+  <updated>2020-05-14T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>EPAと葉酸は精神疾患に有用である可能性がある</title>
+    <link href="https://omathin.com/2020/05/15/spl-mental-health/"/>
+    <id>https://omathin.com/2020/05/15/spl-mental-health/</id>
+    <published>2020-05-15T10:08:55.000Z</published>
+    <updated>2020-05-14T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      EPAと葉酸が精神疾患に有用であることが分かりました。精神疾患の患者数は厚生労働省の発表によると増加傾向にあり、うつや自殺の対策が求められています。EPA、葉酸が一助になるかもしれません。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="EPA" scheme="https://omathin.com/tags/EPA/"/>
+    
+      <category term="葉酸" scheme="https://omathin.com/tags/%E8%91%89%E9%85%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>【AI】LSTMでサンドウィッチマンの漫才を学習して予測させてみた</title>
@@ -459,29 +482,6 @@
       <category term="minikube" scheme="https://omathin.com/tags/minikube/"/>
     
       <category term="コマンド" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Dockerとは何か、メリット/デメリットまとめ</title>
-    <link href="https://omathin.com/2020/03/14/Docker/"/>
-    <id>https://omathin.com/2020/03/14/Docker/</id>
-    <published>2020-03-13T15:00:00.000Z</published>
-    <updated>2020-03-13T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      「仮想化」、「Docker」、聞いたことあってなんとなくわかるけど、何ができるのか、何がうれしいのか、従来のホスト型仮想化と比較した場合のメリットデメリットは何なのかを知りたくないですか？「仮想環境とは」から始まり、Dockerのメリットデメリットまでまとめています。従来のホスト型仮想環境とDockerの違いは、ゲストOSの有無です。そこからひも解いてメリット、デメリットをまとめています。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
     
   </entry>
   
