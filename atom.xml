@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-19T13:38:20.053Z</updated>
+  <updated>2020-05-19T13:41:35.062Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>icarus_bulma</title>
+    <link href="https://omathin.com/2020/05/19/icarus-bulma/"/>
+    <id>https://omathin.com/2020/05/19/icarus-bulma/</id>
+    <published>2020-05-19T13:41:35.000Z</published>
+    <updated>2020-05-19T13:41:35.062Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>【翻訳技術】seq2seqを実装しながら理解してみた</title>
     <link href="https://omathin.com/2020/05/17/seq2seq-study/"/>
     <id>https://omathin.com/2020/05/17/seq2seq-study/</id>
     <published>2020-05-17T08:46:49.000Z</published>
-    <updated>2020-05-19T13:38:20.053Z</updated>
+    <updated>2020-05-19T13:46:16.825Z</updated>
     
     <summary type="html">
     
@@ -454,31 +469,6 @@
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[実体験]前十字靭帯再建手術を受けて復帰するまで④[長い長いリハビリ]</title>
-    <link href="https://omathin.com/2020/04/11/rehabilitation/"/>
-    <id>https://omathin.com/2020/04/11/rehabilitation/</id>
-    <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-05-01T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      7か月のリハビリをまとめました。復帰までリハビリの内容、復帰を早めるためにリハビリ期間中に工夫したことと効果、リハビリ期間中、辛かったことと乗り越え方をまとめています。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="前十字靭帯" scheme="https://omathin.com/tags/%E5%89%8D%E5%8D%81%E5%AD%97%E9%9D%AD%E5%B8%AF/"/>
-    
-      <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
-    
-      <category term="トレーニング" scheme="https://omathin.com/tags/%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/"/>
     
   </entry>
   
