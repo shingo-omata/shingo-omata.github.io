@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-14T15:00:00.000Z</updated>
+  <updated>2020-05-19T13:38:20.053Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【翻訳技術】seq2seqを実装しながら理解してみた</title>
+    <link href="https://omathin.com/2020/05/17/seq2seq-study/"/>
+    <id>https://omathin.com/2020/05/17/seq2seq-study/</id>
+    <published>2020-05-17T08:46:49.000Z</published>
+    <updated>2020-05-19T13:38:20.053Z</updated>
+    
+    <summary type="html">
+    
+      日本語から英語に翻訳するなどの用途で活用されるseq2seqをputhonで実装しながら仕組みを理解しました。cos関数をsin関数に翻訳してみたいと思います。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="seq2seq" scheme="https://omathin.com/tags/seq2seq/"/>
+    
+  </entry>
   
   <entry>
     <title>EPAと葉酸は精神疾患に有用である可能性がある</title>
@@ -456,32 +479,6 @@
       <category term="リハビリ" scheme="https://omathin.com/tags/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA/"/>
     
       <category term="トレーニング" scheme="https://omathin.com/tags/%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[チートシート]minikube, dockerコマンドまとめ</title>
-    <link href="https://omathin.com/2020/03/22/commandsheat-docker-minikube/"/>
-    <id>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</id>
-    <published>2020-03-21T15:00:00.000Z</published>
-    <updated>2020-03-21T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;よく使うコマンドを一覧化しました。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Docker" scheme="https://omathin.com/tags/Docker/"/>
-    
-      <category term="minikube" scheme="https://omathin.com/tags/minikube/"/>
-    
-      <category term="コマンド" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/"/>
     
   </entry>
   
