@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-18T15:00:00.000Z</updated>
+  <updated>2020-05-20T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】更新日を表示させる方法</title>
+    <link href="https://omathin.com/2020/05/21/hexo-icarus-updated/"/>
+    <id>https://omathin.com/2020/05/21/hexo-icarus-updated/</id>
+    <published>2020-05-20T15:00:00.000Z</published>
+    <updated>2020-05-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      HexoでIcarusテーマを適用すると、更新日の表示がありません。本記事であIvarus(v3.0)で更新日を表示させる方法をまとめています。また、Font Awesomeという文字アイコンを用いて、視覚的に記事作成日と更新日が分かるようにしました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】Icarusテーマで強調メッセージブロックを使う方法</title>
@@ -456,29 +479,6 @@
       <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
     
       <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexoのicarusテーマのフォントの変え方</title>
-    <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
-    <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
-    <published>2020-04-10T15:00:00.000Z</published>
-    <updated>2020-04-10T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更しました。その方法をまとめたので、Icarusの初期設定時の参考にしてください。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
