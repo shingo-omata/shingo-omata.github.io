@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <lastmod>2020-05-23T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/05/21/hexo-icarus-updated/</loc>
         <lastmod>2020-05-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -58,14 +66,6 @@
     <url>
         <loc>https://omathin.com/2020/01/22/baseball_batting/</loc>
         <lastmod>2020-05-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
-        <lastmod>2020-05-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
