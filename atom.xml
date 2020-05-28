@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-23T15:00:00.000Z</updated>
+  <updated>2020-05-27T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】Icarusテーマで画像を中心に寄せる方法</title>
+    <link href="https://omathin.com/2020/05/28/hexo-image-center/"/>
+    <id>https://omathin.com/2020/05/28/hexo-image-center/</id>
+    <published>2020-05-27T15:00:00.000Z</published>
+    <updated>2020-05-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      HexoでIcarusテーマを適用すると、画像が左よりになってしまいます。記事に掲載させる画像を中心に寄せたので、その方法をまとめたいと思います。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
+    
+  </entry>
   
   <entry>
     <title>【ダイエットメニュー】プロテイン＋冷凍ブルーベリーが脂肪燃焼に最適だった</title>
@@ -454,31 +477,6 @@
     
     
       <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【簡単】Anaconda Navigatorによるpython環境構築</title>
-    <link href="https://omathin.com/2020/04/15/anaconda-enviroment/"/>
-    <id>https://omathin.com/2020/04/15/anaconda-enviroment/</id>
-    <published>2020-04-14T15:00:00.000Z</published>
-    <updated>2020-04-14T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      プログラミング環境の構築で挫折したことありませんか？絶対に挫折しない環境構築方法を紹介します。人気No1プログラミング言語であるPythonを学ぶための環境構築は、Anacondaを使えば安心です。人工知能や自然言語処理の勉強のために必要なライブラリのインストール方法もまとめています。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Anaconda" scheme="https://omathin.com/tags/Anaconda/"/>
-    
-      <category term="python" scheme="https://omathin.com/tags/python/"/>
-    
-      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
     
   </entry>
   
