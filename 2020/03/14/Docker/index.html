@@ -3,9 +3,10 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
-        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="fas fa-clock">作成日:</i><time class="level-item" dateTime="2020-03-13T15:00:00.000Z" title="2020-03-13T15:00:00.000Z">2020-03-14</time><i class="fas fa-wrench">更新日:</i><time class="level-item" dateTime="2020-03-13T15:00:00.000Z" title="2020-03-13T15:00:00.000Z">2020-03-14</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">18分 read (About 2752 words)</span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">Dockerとは何か、メリット/デメリットまとめ</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://omathin.com/images/docker.PNG" alt="Dockerとは何か、メリット/デメリットまとめ"></span></div><div class="content"><p><br><br></p>
+        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="fas fa-clock">作成日:</i><time class="level-item" dateTime="2020-03-13T15:00:00.000Z" title="2020-03-13T15:00:00.000Z">2020-03-14</time><i class="fas fa-wrench">更新日:</i><time class="level-item" dateTime="2020-03-13T15:00:00.000Z" title="2020-03-13T15:00:00.000Z">2020-03-14</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span><span class="level-item">19分 read (About 2865 words)</span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">Dockerとは何か、メリット/デメリットまとめ</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://omathin.com/images/docker.PNG" alt="Dockerとは何か、メリット/デメリットまとめ"></span></div><div class="content"><p><br><br></p>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><a id="more"></a>
-<h2><span id="目次">✓目次</span></h2><!-- toc -->
+<h2><span id="目次">✓目次</span></h2><p><br></p>
+<!-- toc -->
 <ul>
 <li><a href="#この記事の対象者">この記事の対象者</a></li>
 <li><a href="#仮想環境とは">仮想環境とは</a></li>
@@ -27,49 +28,50 @@
 <li><a href="#まとめ">まとめ</a></li>
 </ul>
 <!-- tocstop -->
+<h2><span id="この記事の対象者">この記事の対象者</span></h2><p><br></p>
+<div style="padding-top: 40px; padding-bottom: 36px; padding-right: 10px; padding-left: 20px; margin-left: 10px; margin-bottom: 20px; border: 1px dashed #4865b2; background-color: #f8f9ff">
+
+・　「仮想化」、「Docker」、聞いたことあってなんとなくわかるけど、ちゃんと理解していない気がする人向け<br><br>
+・　だけど細かい内容ではなく概要レベルで何なのか、何がうれしいのかを知りたい、という人向け
+
+</div>  
+
+<h2><span id="仮想環境とは">仮想環境とは</span></h2><p><br></p>
+<p>シンプルに言ってしまえば、下図におけるゲストOSとアプリの部分を「仮想環境」と述べることが多いです。</p>
 <p><br></p>
-<hr>
-<h2><span id="この記事の対象者">この記事の対象者</span></h2><ul>
-<li><strong>「仮想化」、「Docker」、聞いたことあってなんとなくわかるけど、ちゃんと理解していない気がする人向け</strong><br><br></li>
-<li><strong>だけど細かい内容ではなく概要レベルで何なのか、何がうれしいのかを知りたい、という人向け</strong></li>
-</ul>
-<h2><span id="仮想環境とは">仮想環境とは</span></h2><ul>
-<li>シンプルに言ってしまえば、下図におけるゲストとアプリの部分が「仮想環境」と述べることが多いです。</li>
-</ul>
 <p><img src="/images/766e9b6d.png" alt="仮想環境とは"></p>
-<ul>
-<li>ホストOSというのは、我々が普段使っているノートPCのOSを指します。</li>
-<li>そのPCにOracle VirtualBoxとかVMWare Workstation Playerというソフトウェアをインストールし、その中にUbuntuとかCentOSと呼ばれるゲストOSを導入してアプリを動作させている、という構成の場合、ゲストOSからアプリのことを仮想環境といいます。</li>
-<li>この辺りは、実際に環境構築して手を動かしてみるとよくわかると思います。</li>
-</ul>
-<h2><span id="dockerとは">Dockerとは</span></h2><ul>
-<li>Docker社が提供しているコンテナ型アプリケーション実行環境<ul>
-<li>Docker自体はGoで作られている。</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>Dockerには、Docker Community Edition(Docker CE)とDocker Enterprise Edition(Docker EE)が存在する<ul>
-<li>Docker EEは有料版で、Docker CEは無償版</li>
-<li>有料版は、Docker社が認定したコンテナやプラグインが利用できたり、イメージのセキュリティスキャンが行われる等の恩恵が受けられる。</li>
-<li>基本的なDockerの機能は、無償版と有償版、共に利用できる。</li>
-<li>無償版は、さらに Stable版と、Edge版の2種類が存在する。<ul>
-<li>Stable版は4半期ごとにリリースされ、Edge版は1か月ごとにリリースされる。</li>
-<li>最新版を使いたい場合は、Edge版を選択する。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2><span id="従来の仮想化とコンテナ型仮想化の違い">従来の仮想化とコンテナ型仮想化の違い</span></h2><ul>
-<li>従来のホスト型仮想化とコンテナ型仮想化の違いは、コンテナ型仮想化は、<strong>ゲストOSを持たない</strong>、という点です。</li>
-</ul>
+<p><br></p>
+<p>ホストOSというのは、我々が普段使っているノートPCのOSを指します。</p>
+<p>そのPCにOracle VirtualBoxとかVMWare Workstation Playerというソフトウェアをインストールし、その中にUbuntuとかCentOSと呼ばれるゲストOSを導入してアプリを動作させている、という構成の場合、ゲストOSからアプリのことを仮想環境といいます。</p>
+<p>この辺りは、実際に環境構築して手を動かしてみるとよくわかると思います。</p>
+<h2><span id="dockerとは">Dockerとは</span></h2><p><br></p>
+<p>Docker社が提供しているコンテナ型アプリケーション実行環境を指します。</p>
+<p>Docker自体はGoで作られており、Dockerには、Docker Community Edition(Docker CE)とDocker Enterprise Edition(Docker EE)が存在します。</p>
+<p>Docker EEは有料版で、Docker CEは無償版になります。</p>
+<p>有料版は、Docker社が認定したコンテナやプラグインが利用できたり、イメージのセキュリティスキャンが行われる等の恩恵が受けられます。基本的なDockerの機能は、無償版と有償版、共に利用できます。また、無償版は、さらに Stable版と、Edge版の2種類が存在します。</p>
+<p>Stable版は4半期ごとにリリースされ、Edge版は1か月ごとにリリースされます。</p>
+<p>最新版を使いたい場合は、Edge版を選択しましょう。</p>
+<h2><span id="従来の仮想化とコンテナ型仮想化の違い">従来の仮想化とコンテナ型仮想化の違い</span></h2><p><br></p>
+<p>従来のホスト型仮想化とコンテナ型仮想化の違いは、コンテナ型仮想化は、<strong>ゲストOSを持たない</strong>、という点です。</p>
+<p><br></p>
 <p><img src="/images/c728da11.png" alt="ホスト型仮想化とコンテナ型仮想化の違い"></p>
-<ul>
-<li>ホスト型仮想化は、ハイパーバイザというミドルウェア上に各々のアプリを動作させるために、専有されたゲストOSを用意する。</li>
-<li>コンテナ型仮想化は、ゲストOSを必要とせず、ホストOSのカーネルを用いて(共有して)動作している。</li>
-</ul>
-<h2><span id="ホスト型仮想化-vs-コンテナ型仮想化">ホスト型仮想化 vs コンテナ型仮想化</span></h2><h3><span id="その1仮想化のオーバーヘッド">その①：「仮想化のオーバーヘッド」</span></h3><ul>
+<p>ホスト型仮想化は、ハイパーバイザというミドルウェア上に各々のアプリを動作させるために、専有されたゲストOSを用意します。</p>
+<p>一方、コンテナ型仮想化は、ゲストOSを必要とせず、ホストOSのカーネルを用いて(共有して)動作する仕組みを取ります。</p>
+<h2><span id="ホスト型仮想化-vs-コンテナ型仮想化">ホスト型仮想化 vs コンテナ型仮想化</span></h2><p><br></p>
+<p>以下4つの観点で比較します。</p>
+<div style="padding-top: 40px; padding-bottom: 36px; padding-right: 10px; padding-left: 20px; margin-left: 10px; margin-bottom: 20px; border: 1px dashed #4865b2; background-color: #f8f9ff">
+
+
+・ その①：「仮想化のオーバーヘッド」<br><br>
+・ その②：「アプリケーション実行の再現性」<br><br>
+・ その③：「OSの自由度」<br><br>
+・ その④： 「分離レベル」
+
+
+</div>
+
+
+<h3><span id="その1仮想化のオーバーヘッド">その①：「仮想化のオーバーヘッド」</span></h3><ul>
 <li>ホスト型仮想化<ul>
 <li>リソース(CPUやメモリの使用率など)の面で、オーバーヘッドが多く、起動や停止に時間がかかる</li>
 </ul>
@@ -117,48 +119,51 @@
 <tr>
 <th style="text-align:left">項目</th>
 <th>ホスト型仮想化</th>
-<th style="text-align:right">コンテナ型仮想化</th>
+<th>コンテナ型仮想化</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left"><strong>オーバーヘッド</strong></td>
 <td>多</td>
-<td style="text-align:right">少</td>
+<td>少</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>アプリ実行の再現性</strong></td>
 <td>低</td>
-<td style="text-align:right">高</td>
+<td>高</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>OSの自由度</strong></td>
 <td>高</td>
-<td style="text-align:right">低</td>
+<td>低</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>分離レベル</strong></td>
 <td>高</td>
-<td style="text-align:right">低</td>
+<td>低</td>
 </tr>
 </tbody>
 </table>
 </div>
-<h2><span id="dockerイメージとdockerコンテナ">DockerイメージとDockerコンテナ</span></h2><ul>
-<li>DockerイメージとDockerコンテナの違いを把握しておくことは、今後Dockerを実際に使ったり、kubernetesと言われるコンテナオーケストレーションツールを活用する際など、重要になってきますので、以降で簡単にまとめておきます。</li>
-</ul>
-<h3><span id="dockerイメージとは">Dockerイメージとは</span></h3><ul>
+<h2><span id="dockerイメージとdockerコンテナ">DockerイメージとDockerコンテナ</span></h2><p><br></p>
+<p>DockerイメージとDockerコンテナの違いを把握しておくことは、今後Dockerを実際に使ったり、kubernetesと言われるコンテナオーケストレーションツールを活用する際など、重要になってきます。</p>
+<p>以降で簡単にまとめておきます。</p>
+<h3><span id="dockerイメージとは">Dockerイメージとは</span></h3><p><br></p>
+<ul>
 <li>Dockerイメージとは、コンテナ実行に必要なファイルをまとめたファイルシステム<ul>
 <li>Webサーバだったら、Apacheが既に含まれているもの。そのほかRubyの実行環境が入っていたりもする。要するに最初からパッケージ化されていて、実行環境を定義したもの。</li>
 <li>aufsなどの特殊なファイルシステムが使用されている。aufs (AnotherUnionFS) は Linux のファイルシステムサービスであり、複数の異なるファイルシステム (ブランチと呼ばれる) のファイルやディレクトリ同士を透過的に重ねる (マージする) ことができる技術。</li>
 </ul>
 </li>
 </ul>
-<h3><span id="dockerコンテナとは">Dockerコンテナとは</span></h3><ul>
+<h3><span id="dockerコンテナとは">Dockerコンテナとは</span></h3><p><br></p>
+<ul>
 <li>Dockerコンテナとは、Dockerイメージを実行してできる実際の実行環境。</li>
 <li>Dockerイメージが実行環境のテンプレートであり、Dockerコンテナは、このテンプレートを用いて構築された実際の環境、と理解しておけばよい。</li>
 </ul>
-<h3><span id="参考docker-hubとは">[参考]Docker Hubとは</span></h3><ul>
+<h3><span id="参考docker-hubとは">[参考]Docker Hubとは</span></h3><p><br></p>
+<ul>
 <li>Dockerイメージのレジストリサービス<ul>
 <li><a href="https://hub.docker.com">https://hub.docker.com</a></li>
 </ul>
@@ -200,7 +205,7 @@
                     fold: 'unfolded'
                 }
             }
-        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Kembali ke atas" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to Top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
             if (typeof $.fn.lightGallery === 'function') {
                 $('.article').lightGallery({ selector: '.gallery-item' });
             }
