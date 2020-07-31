@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-05-27T15:00:00.000Z</updated>
+  <updated>2020-07-30T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Swagger EditorをDockerで動かす方法</title>
+    <link href="https://omathin.com/2020/07/31/swagger-get-start/"/>
+    <id>https://omathin.com/2020/07/31/swagger-get-start/</id>
+    <published>2020-07-30T15:00:00.000Z</published>
+    <updated>2020-07-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      SwaggerはOpen APIを作成、表示、利用するツール郡です。Docker Playgroundという環境で手軽にSwagger Editorの環境を整え、使うことができますのでその方法を紹介します。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="API" scheme="https://omathin.com/tags/API/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】Icarusテーマで画像を中心に寄せる方法</title>
@@ -456,27 +481,6 @@
       <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
     
       <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>青年期の食生活が中年期以降の認知機能に影響を与える【全粒粉は肝臓にもいい】</title>
-    <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
-    <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
-    <published>2020-04-15T15:00:00.000Z</published>
-    <updated>2020-04-29T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      今食べているものが認知症に影響を与えているということをご存じですか？ビタミンB6と全粒粉類の摂取量は、認知機能の改善に直接的な影響を与えていたようです。全粒粉は肝臓にも良いことも分かりました。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
     
   </entry>
   
