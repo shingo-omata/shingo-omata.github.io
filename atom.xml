@@ -35,9 +35,9 @@
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
       <category term="Git" scheme="https://omathin.com/tags/Git/"/>
+    
+      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
   </entry>
   
@@ -50,7 +50,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+      Visual Studio Codeを起動し、左側の拡張機能をクリックし、「Swagger viewer」と検索窓に入力して検索しましょう。Shift + Alt + Pの3つのキーを押下してください。 するとVisual Studio Codeの右側に、Swagger UIが表示されます。
     
     </summary>
     
@@ -58,11 +58,11 @@
       <category term="IT" scheme="https://omathin.com/categories/IT/"/>
     
     
-      <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
-    
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+      <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
     
   </entry>
   
@@ -83,13 +83,13 @@
       <category term="IT" scheme="https://omathin.com/categories/IT/"/>
     
     
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
-    
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
     
   </entry>
   
