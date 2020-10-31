@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-08-01T15:00:00.000Z</updated>
+  <updated>2020-10-30T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>REST API設計時に気を付ける主なポイント</title>
+    <link href="https://omathin.com/2020/10/31/swagger-editor-design-firststep/"/>
+    <id>https://omathin.com/2020/10/31/swagger-editor-design-firststep/</id>
+    <published>2020-10-30T15:00:00.000Z</published>
+    <updated>2020-10-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      REST APIを設計する際に気を付けるポイントは数多く存在します。その中でも、特に気を付けるべきポイントに絞って、記事をまとめてみました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="API" scheme="https://omathin.com/tags/API/"/>
+    
+      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+  </entry>
   
   <entry>
     <title>Gitリポジトリを用いてSwaggerを起動する方法</title>
@@ -466,27 +489,6 @@
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>マジメすぎると不幸になる話</title>
-    <link href="https://omathin.com/2020/04/19/happy-method/"/>
-    <id>https://omathin.com/2020/04/19/happy-method/</id>
-    <published>2020-04-18T15:00:00.000Z</published>
-    <updated>2020-04-18T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      仕事はまじめに取り組まずにふざけたほうが成果も出るし評価も高くなる仕組みをご存じですか？研究結果に基づき、まじめにきっちり仕事をせずに遊び心を持って仕事をするほうが良いことが分かりました。何のために仕事をしているのか？という疑問に対する答えが見つかるかもしれません。
-    
-    </summary>
-    
-    
-      <category term="Method" scheme="https://omathin.com/categories/Method/"/>
-    
-    
-      <category term="仕事" scheme="https://omathin.com/tags/%E4%BB%95%E4%BA%8B/"/>
     
   </entry>
   
