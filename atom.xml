@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-10-30T15:00:00.000Z</updated>
+  <updated>2020-10-31T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【入門】Swagger EditorでOpen APIを作る</title>
+    <link href="https://omathin.com/2020/11/01/openapi-helloworld/"/>
+    <id>https://omathin.com/2020/11/01/openapi-helloworld/</id>
+    <published>2020-10-31T15:00:00.000Z</published>
+    <updated>2020-10-31T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorをで作成する際はは基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="API" scheme="https://omathin.com/tags/API/"/>
+    
+      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+  </entry>
   
   <entry>
     <title>REST API設計時に気を付ける主なポイント</title>
@@ -69,7 +92,7 @@
     <link href="https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/"/>
     <id>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</id>
     <published>2020-07-31T15:00:00.000Z</published>
-    <updated>2020-07-31T15:00:00.000Z</updated>
+    <updated>2020-10-31T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -466,29 +489,6 @@
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】ブログカード内のファビコンが表示されない問題の対処</title>
-    <link href="https://omathin.com/2020/04/19/hatenablocard-favicon-error/"/>
-    <id>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</id>
-    <published>2020-04-18T15:00:00.000Z</published>
-    <updated>2020-04-20T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Hexo(Icarusテーマ)で、はてなブログカードを使用した際に、faviconがうまく表示されなかったので、解消法を備忘録的にまとめます。同様の悩みがある場合は、この記事で解決される可能性があります。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   

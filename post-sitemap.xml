@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
+        <lastmod>2020-10-31T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/11/01/openapi-helloworld/</loc>
+        <lastmod>2020-10-31T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/07/31/swagger-get-start/</loc>
         <lastmod>2020-10-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -26,14 +42,6 @@
     <url>
         <loc>https://omathin.com/2020/08/02/swagger-git/</loc>
         <lastmod>2020-08-01T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
-        <lastmod>2020-07-31T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
