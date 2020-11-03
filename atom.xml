@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-10-31T15:00:00.000Z</updated>
+  <updated>2020-11-01T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://omathin.com/2020/11/01/openapi-helloworld/"/>
     <id>https://omathin.com/2020/11/01/openapi-helloworld/</id>
     <published>2020-10-31T15:00:00.000Z</published>
-    <updated>2020-10-31T15:00:00.000Z</updated>
+    <updated>2020-11-01T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorをで作成する際はは基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
+      Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorで作成する際は基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
     
     </summary>
     
