@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-12-09T15:00:00.000Z</updated>
+  <updated>2020-05-18T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -17,246 +17,10 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【入門】OpenShiftを用いてビルドとデプロイメントを行う方法</title>
-    <link href="https://omathin.com/2020/12/10/openshift-builds-and-deployments/"/>
-    <id>https://omathin.com/2020/12/10/openshift-builds-and-deployments/</id>
-    <published>2020-12-09T15:00:00.000Z</published>
-    <updated>2020-12-09T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      RedHatが提供するOpenShiftを活用してPython on Flaskアプリをビルドする方法をまとめました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="OpenShift" scheme="https://omathin.com/tags/OpenShift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【環境構築】OpenShiftの環境設定方法</title>
-    <link href="https://omathin.com/2020/12/05/get-start-openshift/"/>
-    <id>https://omathin.com/2020/12/05/get-start-openshift/</id>
-    <published>2020-12-04T15:00:00.000Z</published>
-    <updated>2020-12-04T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      RedHatが提供するOpenShiftの環境構築方法をまとめます。本記事ではMinishiftを使って開発やテストを目的とした簡単なOpenShift環境を設定する方法になります。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="OpenShift" scheme="https://omathin.com/tags/OpenShift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【入門】Swagger EditorでOpen APIを作る</title>
-    <link href="https://omathin.com/2020/11/01/openapi-helloworld/"/>
-    <id>https://omathin.com/2020/11/01/openapi-helloworld/</id>
-    <published>2020-10-31T15:00:00.000Z</published>
-    <updated>2020-11-01T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorで作成する際は基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>REST API設計時に気を付ける主なポイント</title>
-    <link href="https://omathin.com/2020/10/31/swagger-editor-design-firststep/"/>
-    <id>https://omathin.com/2020/10/31/swagger-editor-design-firststep/</id>
-    <published>2020-10-30T15:00:00.000Z</published>
-    <updated>2020-10-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      REST APIを設計する際に気を付けるポイントは数多く存在します。その中でも、特に気を付けるべきポイントに絞って、記事をまとめてみました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Gitリポジトリを用いてSwaggerを起動する方法</title>
-    <link href="https://omathin.com/2020/08/02/swagger-git/"/>
-    <id>https://omathin.com/2020/08/02/swagger-git/</id>
-    <published>2020-08-01T15:00:00.000Z</published>
-    <updated>2020-08-01T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      GithubにあるSwagger Editorのリポジトリを活用してSwagger Editorを起動するには、Swagger EditorのリポジトリのReleasesから任意のバージョンのSwagger Editorのソースコードをダウンロードし、index.htmlを起動するだけでOKです。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-      <category term="Git" scheme="https://omathin.com/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Visual Studio CodeでSwagger viewerを導入する方法</title>
-    <link href="https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/"/>
-    <id>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</id>
-    <published>2020-07-31T15:00:00.000Z</published>
-    <updated>2020-10-31T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Visual Studio Codeを起動し、左側の拡張機能をクリックし、「Swagger viewer」と検索窓に入力して検索しましょう。Shift + Alt + Pの3つのキーを押下してください。 するとVisual Studio Codeの右側に、Swagger UIが表示されます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-      <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Swagger EditorをDockerで動かす方法</title>
-    <link href="https://omathin.com/2020/07/31/swagger-get-start/"/>
-    <id>https://omathin.com/2020/07/31/swagger-get-start/</id>
-    <published>2020-07-30T15:00:00.000Z</published>
-    <updated>2020-10-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      SwaggerはOpen APIを作成、表示、利用するツール郡です。Docker Playgroundという環境で手軽にSwagger Editorの環境を整え、使うことができますのでその方法を紹介します。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】Icarusテーマで画像を中心に寄せる方法</title>
-    <link href="https://omathin.com/2020/05/28/hexo-image-center/"/>
-    <id>https://omathin.com/2020/05/28/hexo-image-center/</id>
-    <published>2020-05-27T15:00:00.000Z</published>
-    <updated>2020-05-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      HexoでIcarusテーマを適用すると、画像が左よりになってしまいます。記事に掲載させる画像を中心に寄せたので、その方法をまとめたいと思います。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【ダイエットメニュー】プロテイン＋冷凍ブルーベリーが脂肪燃焼に最適だった</title>
-    <link href="https://omathin.com/2020/05/24/blueberries-improve/"/>
-    <id>https://omathin.com/2020/05/24/blueberries-improve/</id>
-    <published>2020-05-23T15:00:00.000Z</published>
-    <updated>2020-05-23T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      プロテインと冷凍ブルーベリーが脂肪燃焼に最適です。1日に1カップのブルベリーを摂取することにより、血管機能、脂質代謝の改善がもたらされることが分かりました。the american hournal of clinical nutritionに掲載された論文を紹介するとともに、おいしいプロテイン＆冷凍ブルーベリーを紹介します。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
-    
-      <category term="ブルーベリー" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%99%E3%83%AA%E3%83%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】更新日を表示させる方法</title>
-    <link href="https://omathin.com/2020/05/21/hexo-icarus-updated/"/>
-    <id>https://omathin.com/2020/05/21/hexo-icarus-updated/</id>
-    <published>2020-05-20T15:00:00.000Z</published>
-    <updated>2020-05-20T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      HexoでIcarusテーマを適用すると、更新日の表示がありません。本記事であIvarus(v3.0)で更新日を表示させる方法をまとめています。また、Font Awesomeという文字アイコンを用いて、視覚的に記事作成日と更新日が分かるようにしました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Hexo】Icarusテーマで強調メッセージブロックを使う方法</title>
     <link href="https://omathin.com/2020/05/19/icarus-bulma/"/>
     <id>https://omathin.com/2020/05/19/icarus-bulma/</id>
-    <published>2020-05-18T15:00:00.000Z</published>
+    <published>2020-05-19T13:41:35.000Z</published>
     <updated>2020-05-18T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -281,8 +45,8 @@
     <title>【翻訳技術】seq2seqを実装しながら理解してみた</title>
     <link href="https://omathin.com/2020/05/17/seq2seq-study/"/>
     <id>https://omathin.com/2020/05/17/seq2seq-study/</id>
-    <published>2020-05-16T15:00:00.000Z</published>
-    <updated>2020-12-08T15:00:00.000Z</updated>
+    <published>2020-05-17T08:46:49.000Z</published>
+    <updated>2020-05-20T12:18:25.487Z</updated>
     
     <summary type="html">
     
@@ -304,7 +68,7 @@
     <title>EPAと葉酸は精神疾患に有用である可能性がある</title>
     <link href="https://omathin.com/2020/05/15/spl-mental-health/"/>
     <id>https://omathin.com/2020/05/15/spl-mental-health/</id>
-    <published>2020-05-14T15:00:00.000Z</published>
+    <published>2020-05-15T10:08:55.000Z</published>
     <updated>2020-05-14T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -327,7 +91,7 @@
     <title>【AI】LSTMでサンドウィッチマンの漫才を学習して予測させてみた</title>
     <link href="https://omathin.com/2020/05/11/lstm-sandwich/"/>
     <id>https://omathin.com/2020/05/11/lstm-sandwich/</id>
-    <published>2020-05-10T15:00:00.000Z</published>
+    <published>2020-05-11T09:01:49.000Z</published>
     <updated>2020-05-13T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -352,7 +116,7 @@
     <title>【プログラミング】SkillHacks受講後にオススメのUdemy講座</title>
     <link href="https://omathin.com/2020/05/08/skill-hacks-next-step-udemy/"/>
     <id>https://omathin.com/2020/05/08/skill-hacks-next-step-udemy/</id>
-    <published>2020-05-07T15:00:00.000Z</published>
+    <published>2020-05-08T07:06:41.000Z</published>
     <updated>2020-05-07T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -377,7 +141,7 @@
     <title>【RNN基礎】RNNとはなにか？Pythonで実装しながらちゃんと理解してみる。</title>
     <link href="https://omathin.com/2020/05/06/rnn-basic/"/>
     <id>https://omathin.com/2020/05/06/rnn-basic/</id>
-    <published>2020-05-05T15:00:00.000Z</published>
+    <published>2020-05-06T10:16:54.000Z</published>
     <updated>2020-05-05T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -397,33 +161,10 @@
   </entry>
   
   <entry>
-    <title>【Hexo】Icarusテーマで作成される記事のタイトル、h2、h3のデザインを変更</title>
-    <link href="https://omathin.com/2020/05/05/Icarus-h2h3title-change/"/>
-    <id>https://omathin.com/2020/05/05/Icarus-h2h3title-change/</id>
-    <published>2020-05-04T15:00:00.000Z</published>
-    <updated>2020-05-04T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      作成した記事を読みやすいデザインにしませんか？本ブログはIcarus(v3.0)というテーマを採用しておりますが、h2タグやh3タグにborder-leftをつけて記事の可読性を上げたいな、とおもっていました。本記事では、それらのカスタマイズ方法をまとめました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>オブジェクト指向のクラスをシンプルに理解する</title>
     <link href="https://omathin.com/2020/05/05/class-practice/"/>
     <id>https://omathin.com/2020/05/05/class-practice/</id>
-    <published>2020-05-04T15:00:00.000Z</published>
+    <published>2020-05-05T06:22:51.000Z</published>
     <updated>2020-05-04T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -445,10 +186,33 @@
   </entry>
   
   <entry>
+    <title>【Hexo】Icarusテーマで作成される記事のタイトル、h2、h3のデザインを変更</title>
+    <link href="https://omathin.com/2020/05/05/Icarus-h2h3title-change/"/>
+    <id>https://omathin.com/2020/05/05/Icarus-h2h3title-change/</id>
+    <published>2020-05-05T01:24:12.000Z</published>
+    <updated>2020-05-04T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      作成した記事を読みやすいデザインにしませんか？本ブログはIcarus(v3.0)というテーマを採用しておりますが、h2タグやh3タグにborder-leftをつけて記事の可読性を上げたいな、とおもっていました。本記事では、それらのカスタマイズ方法をまとめました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。</title>
     <link href="https://omathin.com/2020/05/03/keras-nn-basic/"/>
     <id>https://omathin.com/2020/05/03/keras-nn-basic/</id>
-    <published>2020-05-02T15:00:00.000Z</published>
+    <published>2020-05-03T04:51:02.000Z</published>
     <updated>2020-05-02T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -471,7 +235,7 @@
     <title>【pipが使えない？】Cloud9でtweepyをインストールする方法</title>
     <link href="https://omathin.com/2020/05/01/twitter-api-tweepy-error/"/>
     <id>https://omathin.com/2020/05/01/twitter-api-tweepy-error/</id>
-    <published>2020-04-30T15:00:00.000Z</published>
+    <published>2020-05-01T06:43:07.000Z</published>
     <updated>2020-04-30T15:00:00.000Z</updated>
     
     <summary type="html">
@@ -485,6 +249,236 @@
     
     
       <category term="twitter" scheme="https://omathin.com/tags/twitter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【自然言語処理】doc2vecとは何か?dmpv, DBOWも解説</title>
+    <link href="https://omathin.com/2020/04/29/doc2vec-overview/"/>
+    <id>https://omathin.com/2020/04/29/doc2vec-overview/</id>
+    <published>2020-04-29T01:48:30.000Z</published>
+    <updated>2020-04-28T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      doc2vecとはword2vecを単語レベルではなく、文または文章でも扱えるように拡張したものです。文や文章をベクトル化することができます。dmpv, DBOWというdoc2vecの理解に必要な技術をわかりやすくまとめてみました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="doc2vec" scheme="https://omathin.com/tags/doc2vec/"/>
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】Icarusテーマのサムネイル位置やサイズを変更する方法</title>
+    <link href="https://omathin.com/2020/04/29/icarus-thumbnail-custom/"/>
+    <id>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</id>
+    <published>2020-04-29T01:48:30.000Z</published>
+    <updated>2020-04-29T01:48:30.000Z</updated>
+    
+    <summary type="html">
+    
+      デフォルトの設定では、タイトルの上部にサムネイル画像が配置されます。その位置を変更する方法をまとめました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>マジメすぎると不幸になる話</title>
+    <link href="https://omathin.com/2020/04/19/happy-method/"/>
+    <id>https://omathin.com/2020/04/19/happy-method/</id>
+    <published>2020-04-19T08:58:40.000Z</published>
+    <updated>2020-04-18T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      仕事はまじめに取り組まずにふざけたほうが成果も出るし評価も高くなる仕組みをご存じですか？研究結果に基づき、まじめにきっちり仕事をせずに遊び心を持って仕事をするほうが良いことが分かりました。何のために仕事をしているのか？という疑問に対する答えが見つかるかもしれません。
+    
+    </summary>
+    
+    
+      <category term="Method" scheme="https://omathin.com/categories/Method/"/>
+    
+    
+      <category term="仕事" scheme="https://omathin.com/tags/%E4%BB%95%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】ブログカード内のファビコンが表示されない問題の対処</title>
+    <link href="https://omathin.com/2020/04/19/hatenablocard-favicon-error/"/>
+    <id>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</id>
+    <published>2020-04-19T00:04:27.000Z</published>
+    <updated>2020-04-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Hexo(Icarusテーマ)で、はてなブログカードを使用した際に、faviconがうまく表示されなかったので、解消法を備忘録的にまとめます。同様の悩みがある場合は、この記事で解決される可能性があります。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ベジタリアンは健康なのか？</title>
+    <link href="https://omathin.com/2020/04/18/veganism/"/>
+    <id>https://omathin.com/2020/04/18/veganism/</id>
+    <published>2020-04-18T10:45:28.000Z</published>
+    <updated>2020-04-22T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      「菜食主義が健康や長寿に好影響をおよぼすのかどうか」についてまとめたいと思います。野菜中心の食事は健康と関連しているが、必ずしも死亡率を低下させるものではないことが分かりました。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【自然言語処理】word2vecとは何か？CBOWとskip-gramも解説</title>
+    <link href="https://omathin.com/2020/04/18/word2vec-overview/"/>
+    <id>https://omathin.com/2020/04/18/word2vec-overview/</id>
+    <published>2020-04-18T02:01:28.000Z</published>
+    <updated>2020-04-17T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      word2vecとは何か。word2vecは、分散表現を作成することができるツールです。分散表現、CBOW、skip-gram、何れかのニューラルネットワークを活用して実現されます。word2vecの理解に必要な技術をわかりやすくまとめてみました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青年期の食生活が中年期以降の認知機能に影響を与える【全粒粉は肝臓にもいい】</title>
+    <link href="https://omathin.com/2020/04/16/dementia-and-diet/"/>
+    <id>https://omathin.com/2020/04/16/dementia-and-diet/</id>
+    <published>2020-04-15T15:00:00.000Z</published>
+    <updated>2020-04-29T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      今食べているものが認知症に影響を与えているということをご存じですか？ビタミンB6と全粒粉類の摂取量は、認知機能の改善に直接的な影響を与えていたようです。全粒粉は肝臓にも良いことも分かりました。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="食事" scheme="https://omathin.com/tags/%E9%A3%9F%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【簡単】Anaconda Navigatorによるpython環境構築</title>
+    <link href="https://omathin.com/2020/04/15/anaconda-enviroment/"/>
+    <id>https://omathin.com/2020/04/15/anaconda-enviroment/</id>
+    <published>2020-04-14T15:00:00.000Z</published>
+    <updated>2020-04-14T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      プログラミング環境の構築で挫折したことありませんか？絶対に挫折しない環境構築方法を紹介します。人気No1プログラミング言語であるPythonを学ぶための環境構築は、Anacondaを使えば安心です。人工知能や自然言語処理の勉強のために必要なライブラリのインストール方法もまとめています。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Anaconda" scheme="https://omathin.com/tags/Anaconda/"/>
+    
+      <category term="python" scheme="https://omathin.com/tags/python/"/>
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【比較】糖質制限 vs 脂質制限</title>
+    <link href="https://omathin.com/2020/04/15/cbnoildiet/"/>
+    <id>https://omathin.com/2020/04/15/cbnoildiet/</id>
+    <published>2020-04-14T15:00:00.000Z</published>
+    <updated>2020-04-22T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      低脂肪ダイエットと低炭水化物ダイエットの減量効果と参加者の遺伝子パターンやインスリン分泌との関係を調べた結果、減量効果に有意差はなく、遺伝子やインスリンとの関連もみられなかった、という米国スタンフォード大学からの研究報告がありました。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="ダイエット" scheme="https://omathin.com/tags/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/"/>
+    
+      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexoのicarusテーマのフォントの変え方</title>
+    <link href="https://omathin.com/2020/04/11/icarus-theme-change/"/>
+    <id>https://omathin.com/2020/04/11/icarus-theme-change/</id>
+    <published>2020-04-10T15:00:00.000Z</published>
+    <updated>2020-04-10T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Icarusのテーマを早速適用してみると、中国語っぽいフォントになっているので変更しました。その方法をまとめたので、Icarusの初期設定時の参考にしてください。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   

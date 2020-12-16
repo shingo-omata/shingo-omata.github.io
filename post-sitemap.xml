@@ -8,80 +8,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/03/14/Docker/</loc>
-        <lastmod>2020-12-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/12/10/openshift-builds-and-deployments/</loc>
-        <lastmod>2020-12-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/05/17/seq2seq-study/</loc>
-        <lastmod>2020-12-08T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
-        <lastmod>2020-12-05T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/12/05/get-start-openshift/</loc>
-        <lastmod>2020-12-04T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/11/01/openapi-helloworld/</loc>
-        <lastmod>2020-11-01T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
-        <lastmod>2020-10-31T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/07/31/swagger-get-start/</loc>
-        <lastmod>2020-10-30T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/10/31/swagger-editor-design-firststep/</loc>
-        <lastmod>2020-10-30T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/08/02/swagger-git/</loc>
-        <lastmod>2020-08-01T15:00:00.000Z</lastmod>
+        <lastmod>2020-05-20T12:18:25.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -89,39 +17,7 @@
 
     <url>
         <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
-        <lastmod>2020-05-29T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/05/28/hexo-image-center/</loc>
-        <lastmod>2020-05-27T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/05/24/blueberries-improve/</loc>
-        <lastmod>2020-05-23T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
-        <lastmod>2020-05-23T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/05/21/hexo-icarus-updated/</loc>
-        <lastmod>2020-05-20T15:00:00.000Z</lastmod>
+        <lastmod>2020-05-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -154,6 +50,14 @@
     <url>
         <loc>https://omathin.com/2020/01/22/baseball_batting/</loc>
         <lastmod>2020-05-09T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <lastmod>2020-05-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -217,6 +121,14 @@
 
     <url>
         <loc>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</loc>
+        <lastmod>2020-04-29T01:48:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
         <lastmod>2020-04-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -320,6 +232,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/03/14/Docker/</loc>
+        <lastmod>2020-03-13T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
         <lastmod>2020-02-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -377,7 +297,7 @@
 
     <url>
         <loc>https://omathin.com/2020/01/08/about-this-blog/</loc>
-        <lastmod>2020-01-07T15:00:00.000Z</lastmod>
+        <lastmod>2020-01-07T23:37:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
