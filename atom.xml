@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-12-09T15:00:00.000Z</updated>
+  <updated>2020-12-19T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【自然言語処理】Transformerとは何か</title>
+    <link href="https://omathin.com/2020/12/20/what-is-transformer/"/>
+    <id>https://omathin.com/2020/12/20/what-is-transformer/</id>
+    <published>2020-12-19T15:00:00.000Z</published>
+    <updated>2020-12-19T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Transformerとは、ディープラーニングモデルの一つで、主に自然言語処理の分野で使用されます。自然言語処理などの時系列データを処理するように設計されてますが、RNNで取り入れている再帰を用いていません。構造としては、EncoderとDecoderの２つで構成されています。本記事ではEncoderとDecoderに分けてTransformerの仕組みについてまとめてみました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="AI" scheme="https://omathin.com/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【自然言語処理】Attentionとは何か</title>
+    <link href="https://omathin.com/2020/12/20/what-is-attention-1/"/>
+    <id>https://omathin.com/2020/12/20/what-is-attention-1/</id>
+    <published>2020-12-19T15:00:00.000Z</published>
+    <updated>2020-12-19T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Attentionとは、一言でいうと文章中のどの単語に注目すればよいのかを表すスコアです。 Attentionは、Query, Key, Valueという３つの要素に分かれて計算されます。 Queryとは、Inputデータであり、入力データの中で検索したいものを表します。Keyとは、検索すべき対象とQueryのち傘を図るために使用します。どれだけ似ているかを図るために使用します。Valueとは、Keyに基づいて適切なValueを出力する要素です。少し複雑ですが、Attentionとは何かをより詳しく見てみます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="AI" scheme="https://omathin.com/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>【入門】OpenShiftを用いてビルドとデプロイメントを行う方法</title>
@@ -441,50 +487,6 @@
       <category term="オブジェクト指向" scheme="https://omathin.com/tags/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91/"/>
     
       <category term="クラス" scheme="https://omathin.com/tags/%E3%82%AF%E3%83%A9%E3%82%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Keras基礎】ニューラルネットワークを作成してsin関数を学習して予測させてみた。</title>
-    <link href="https://omathin.com/2020/05/03/keras-nn-basic/"/>
-    <id>https://omathin.com/2020/05/03/keras-nn-basic/</id>
-    <published>2020-05-02T15:00:00.000Z</published>
-    <updated>2020-05-02T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      ニューラルネットワークとはどのようなものか。kerasという機械学習を簡単に使うためのライブラリを使ってまとめました。高校の数学でならったsin(サイン)関数をつかって、学習→予測をしてみたいと思います。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
-    
-      <category term="keras" scheme="https://omathin.com/tags/keras/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【pipが使えない？】Cloud9でtweepyをインストールする方法</title>
-    <link href="https://omathin.com/2020/05/01/twitter-api-tweepy-error/"/>
-    <id>https://omathin.com/2020/05/01/twitter-api-tweepy-error/</id>
-    <published>2020-04-30T15:00:00.000Z</published>
-    <updated>2020-04-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      TwitterのAPIを利用するライブラリであるTweepyのインストール方法です。Cloud9環境で実施しています。確認できたエラー、それに対する対応についてもまとめています。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="twitter" scheme="https://omathin.com/tags/twitter/"/>
     
   </entry>
   
