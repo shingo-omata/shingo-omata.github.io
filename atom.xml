@@ -48,7 +48,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+      本記事では、プログラミングにおけるアルゴリズムの練習として、Bubble Sortアルゴリズムを実装したいと思います。いきなり実装に入る前に、実装する上で必要なpythonの基礎もまとめていきたいと思います。 
     
     </summary>
     
