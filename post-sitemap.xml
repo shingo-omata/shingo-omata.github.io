@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/12/23/insertion-sort/</loc>
+        <lastmod>2020-12-22T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/12/22/selection-sort/</loc>
         <lastmod>2020-12-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
