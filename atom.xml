@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2020-12-28T15:00:00.000Z</updated>
+  <updated>2021-01-09T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【M1 Mac】Djangoの開発環境をdocker-composeで作成する</title>
+    <link href="https://omathin.com/2021/01/10/docker-compose-django/"/>
+    <id>https://omathin.com/2021/01/10/docker-compose-django/</id>
+    <published>2021-01-09T15:00:00.000Z</published>
+    <updated>2021-01-09T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="Django" scheme="https://omathin.com/tags/Django/"/>
+    
+      <category term="Python" scheme="https://omathin.com/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>【Windows】DockerでRuby on Rails開発環境構築方法</title>
@@ -458,29 +485,6 @@
       <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
     
       <category term="seq2seq" scheme="https://omathin.com/tags/seq2seq/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>EPAと葉酸は精神疾患に有用である可能性がある</title>
-    <link href="https://omathin.com/2020/05/15/spl-mental-health/"/>
-    <id>https://omathin.com/2020/05/15/spl-mental-health/</id>
-    <published>2020-05-14T15:00:00.000Z</published>
-    <updated>2020-05-14T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      EPAと葉酸が精神疾患に有用であることが分かりました。精神疾患の患者数は厚生労働省の発表によると増加傾向にあり、うつや自殺の対策が求められています。EPA、葉酸が一助になるかもしれません。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="EPA" scheme="https://omathin.com/tags/EPA/"/>
-    
-      <category term="葉酸" scheme="https://omathin.com/tags/%E8%91%89%E9%85%B8/"/>
     
   </entry>
   
