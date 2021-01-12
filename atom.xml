@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-09T15:00:00.000Z</updated>
+  <updated>2021-01-11T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】Icarusテーマに吹き出しを加える方法</title>
+    <link href="https://omathin.com/2021/01/12/hexo-icarus-speech-bubble/"/>
+    <id>https://omathin.com/2021/01/12/hexo-icarus-speech-bubble/</id>
+    <published>2021-01-11T15:00:00.000Z</published>
+    <updated>2021-01-11T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      HexoでIcarusテーマにおいて、キャラクター付きの吹き出しコメントを加える方法をまとめました。私の記事は、愛犬の写真に青い吹き出しをつけたデザインを用いています。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
+    
+  </entry>
   
   <entry>
     <title>【M1 Mac】Djangoの開発環境をdocker-composeで作成する</title>
@@ -418,7 +441,7 @@
   </entry>
   
   <entry>
-    <title>【Hexo】更新日を表示させる方法</title>
+    <title>【Hexo】Icarusテーマに更新日を表示させる方法</title>
     <link href="https://omathin.com/2020/05/21/hexo-icarus-updated/"/>
     <id>https://omathin.com/2020/05/21/hexo-icarus-updated/</id>
     <published>2020-05-20T15:00:00.000Z</published>
@@ -426,7 +449,7 @@
     
     <summary type="html">
     
-      HexoでIcarusテーマを適用すると、更新日の表示がありません。本記事であIvarus(v3.0)で更新日を表示させる方法をまとめています。また、Font Awesomeという文字アイコンを用いて、視覚的に記事作成日と更新日が分かるようにしました。
+      HexoでIcarusテーマを適用すると、更新日の表示がありません。本記事であIcarus(v3.0)で更新日を表示させる方法をまとめています。また、Font Awesomeという文字アイコンを用いて、視覚的に記事作成日と更新日が分かるようにしました。
     
     </summary>
     
@@ -462,29 +485,6 @@
       <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
     
       <category term="BULMA" scheme="https://omathin.com/tags/BULMA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【翻訳技術】seq2seqを実装しながら理解してみた</title>
-    <link href="https://omathin.com/2020/05/17/seq2seq-study/"/>
-    <id>https://omathin.com/2020/05/17/seq2seq-study/</id>
-    <published>2020-05-16T15:00:00.000Z</published>
-    <updated>2020-12-08T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      日本語から英語に翻訳するなどの用途で活用されるseq2seqをputhonで実装しながら仕組みを理解しました。cos関数をsin関数に翻訳してみたいと思います。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
-    
-      <category term="seq2seq" scheme="https://omathin.com/tags/seq2seq/"/>
     
   </entry>
   
