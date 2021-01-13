@@ -1,10 +1,23 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>【M1 Mac】Djangoの開発環境をdocker-composeで作成する - omathin blog</title><meta description="M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"><meta property="og:type" content="article"><meta property="og:title" content="【M1 Mac】Djangoの開発環境をdocker-composeで作成する"><meta property="og:url" content="https://omathin.com/2021/01/10/docker-compose-django/"><meta property="og:site_name" content="omathin blog"><meta property="og:description" content="M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"><meta property="og:locale" content="ja_JP"><meta property="og:image" content="https://omathin.com/images/docker.PNG"><meta property="article:published_time" content="2021-01-09T15:00:00.000Z"><meta property="article:modified_time" content="2021-01-09T15:00:00.000Z"><meta property="article:author" content="omathin"><meta property="article:tag" content="docker"><meta property="article:tag" content="コンテナ"><meta property="article:tag" content="Django"><meta property="article:tag" content="Python"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image" content="https://omathin.com/images/docker.PNG"><meta property="twitter:creator" content="@omathin"><meta property="twitter:site" content="@omathin"><meta property="fb:admins" content="101334259962451"><meta property="fb:app_id" content="932634520523650"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://omathin.com/2021/01/10/docker-compose-django/"},"headline":"omathin blog","image":[],"datePublished":"2021-01-09T15:00:00.000Z","dateModified":"2021-01-09T15:00:00.000Z","author":{"@type":"Person","name":"omathin"},"description":"M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"}</script><link rel="canonical" href="https://omathin.com/2021/01/10/docker-compose-django/"><link rel="alternative" href="/atom.xml" title="omathin blog" type="application/atom+xml"><link rel="icon" href="/img/favicon/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-155874331-1" async></script><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->window.dataLayer = window.dataLayer || [];
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>【M1 Mac】Djangoの開発環境をdocker-composeで作成する - omathin blog</title><meta description="M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"><meta property="og:type" content="article"><meta property="og:title" content="【M1 Mac】Djangoの開発環境をdocker-composeで作成する"><meta property="og:url" content="https://omathin.com/2021/01/10/docker-compose-django/"><meta property="og:site_name" content="omathin blog"><meta property="og:description" content="M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"><meta property="og:locale" content="ja_JP"><meta property="og:image" content="https://omathin.com/images/docker.PNG"><meta property="article:published_time" content="2021-01-09T15:00:00.000Z"><meta property="article:modified_time" content="2021-01-12T15:00:00.000Z"><meta property="article:author" content="omathin"><meta property="article:tag" content="docker"><meta property="article:tag" content="コンテナ"><meta property="article:tag" content="Django"><meta property="article:tag" content="Python"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image" content="https://omathin.com/images/docker.PNG"><meta property="twitter:creator" content="@omathin"><meta property="twitter:site" content="@omathin"><meta property="fb:admins" content="101334259962451"><meta property="fb:app_id" content="932634520523650"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://omathin.com/2021/01/10/docker-compose-django/"},"headline":"omathin blog","image":[],"datePublished":"2021-01-09T15:00:00.000Z","dateModified":"2021-01-12T15:00:00.000Z","author":{"@type":"Person","name":"omathin"},"description":"M1 MacでDjangoの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。"}</script><link rel="canonical" href="https://omathin.com/2021/01/10/docker-compose-django/"><link rel="alternative" href="/atom.xml" title="omathin blog" type="application/atom+xml"><link rel="icon" href="/img/favicon/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-155874331-1" async></script><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
-        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="fas fa-clock">作成日:</i><time class="level-item" dateTime="2021-01-09T15:00:00.000Z" title="2021-01-09T15:00:00.000Z">2021-01-10</time><i class="fas fa-wrench">更新日:</i><time class="level-item" dateTime="2021-01-09T15:00:00.000Z" title="2021-01-09T15:00:00.000Z">2021-01-10</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">【M1 Mac】Djangoの開発環境をdocker-composeで作成する</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://omathin.com/images/docker.PNG" alt="【M1 Mac】Djangoの開発環境をdocker-composeで作成する"></span></div><div class="content"><p><br><br></p>
+        gtag('config', 'UA-155874331-1');</script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6448951289738527" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logor1.svg" alt="omathin blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/2020/01/08/about-this-blog/">About</a><a class="navbar-item" href="/2020/01/08/disclaimer/">Disclaimer</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="fas fa-clock">作成日:</i><time class="level-item" dateTime="2021-01-09T15:00:00.000Z" title="2021-01-09T15:00:00.000Z">2021-01-10</time><i class="fas fa-wrench">更新日:</i><time class="level-item" dateTime="2021-01-12T15:00:00.000Z" title="2021-01-12T15:00:00.000Z">2021-01-13</time><span class="level-item"><a class="link-muted" href="/categories/IT/">IT</a></span></div></div><h1 class="title is-3 is-size-4-mobile has-text-weight-semibold">【M1 Mac】Djangoの開発環境をdocker-composeで作成する</h1><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://omathin.com/images/docker.PNG" alt="【M1 Mac】Djangoの開発環境をdocker-composeで作成する"></span></div><div class="content"><p><br><br></p>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><a id="more"></a>
+<p><br><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>M1 MacでもDockerでDjango開発環境作れるの？という疑問に答えていきます！</p>
+    </div>
+  </div>
+</div>
+
+<p><br><br></p>
 <h2><span id="目次">✓目次</span></h2><p><br></p>
 <!-- toc -->
 <ul>
@@ -19,6 +32,8 @@
 <li><a href="#起動">起動</a></li>
 </ul>
 </li>
+<li><a href="#makemigrationとmigrateコマンド">makemigrationとmigrateコマンド</a></li>
+<li><a href="#dockerの停止">Dockerの停止</a></li>
 </ul>
 <!-- tocstop -->
 <h2><span id="この記事の対象者">この記事の対象者</span></h2><p><br></p>
@@ -42,36 +57,90 @@
 <h3><span id="docker-desktop-for-macのインストール">Docker Desktop for Macのインストール</span></h3><p><br></p>
 <p>以下の記事にまとめられているインストール方法で問題なく導入できます。<br><a href="https://qiita.com/ao41/items/5feb96cd01c312407a2b">Macbook Pro M1(Apple Silicon) で Dockerを動かす - Qiita</a></p>
 <p><br></p>
-<p>インストールが完了したらバージョンの確認とともに動作確認。</p>
+<p>インストールが完了したらバージョンと動作確認。</p>
 <p><br></p>
 <figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ docker --version</span><br><span class="line">Docker version 20.10.1, build 831ebeae96</span><br><span class="line"></span><br><span class="line">$ docker-compose --version</span><br><span class="line">docker-compose version 1.27.4, build 40524192</span><br></pre></td></tr></table></figure>
 <h3><span id="dockerfileの作成">Dockerfileの作成</span></h3><p><br></p>
-<p>まずは、任意の空のディレクトリを用意して、Dockerfileを用意していきます。</p>
+<p>まずは任意の空のディレクトリを用意して、Dockerfileを用意していきます。</p>
+<p><br><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>この記事では``django``という名前の空ディレクトリを作ります。</p>
+    </div>
+  </div>
+</div>
+
+
 <p><br></p>
 <figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir ~&#x2F;django</span><br><span class="line">$ cd ~&#x2F;django</span><br><span class="line">$ vim Dockerfile</span><br></pre></td></tr></table></figure>
 <p><br></p>
 <p>docker-composeを使う場合、docker-compose.ymlがおいてあるディレクトリ名が、コンテナ名やvolume名の接頭字として使用されます。</p>
 <p><strong>実際の開発においては、プロジェクトの名前など、意味のあるディレクトリ名にしておいたほうが望ましいです。</strong></p>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>例えば、ToDoアプリを作るプロジェクトなら、Todoapppjという名前のフォルダを用意したほうが良いということだね。</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
 <p>また、作成したディレクトリをビルドコンテキストとするので、不要なファイルは含めないようにしましょう。</p>
 <p>Dockerfileでは、pythonの実行環境のイメージを作成します。</p>
 <figure class="highlight plain"><figcaption><span>Dockerfile</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">FROM python:3</span><br><span class="line">ENV PYTHONUNBUFFERED 1</span><br><span class="line">RUN mkdir &#x2F;code</span><br><span class="line">WORKDIR &#x2F;code</span><br><span class="line">COPY requirements.txt &#x2F;code&#x2F;</span><br><span class="line">RUN pip install -r requirements.txt</span><br><span class="line">COPY . &#x2F;code&#x2F;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>Dockerfileの中身を以下にまとめます。<ul>
 <li><code>FROM python:3</code>: イメージ名にpython3の実行環境のイメージを指定</li>
-<li><code>ENV PYTHONUNBUFFERED 1</code>: PYTHONUNBUFFERED`という環境変数に1という値を設定している。環境変数の意味は、pythonの標準出力、標準エラー出力をバッファーにため込まないための設定。1という数字自体に意味はないがこの環境変数に何らかの値を設定するとバッファーを無効化できる。</li>
-<li><code>RUN mkdir /code</code>と<code>WORKDIR /code</code>: codeディレクトリを作成し、作業ディレクトリをcodeディレクトリに移動している</li>
-<li><code>COPY requirements.txt /code/</code>: ビルドコンテキスト上に存在するrequirements.txtをcodeディレクトリ内に置き、<code>RUN pip install -r requirements.txt</code>でpipインストールを実行している。pipはpythonのパッケージ管理ツールで、pip installコマンドは、-rで指定した、requirements.txtに記載されているパッケージのインストールを実行する。rewuirements.txtは、この後ビルドコンテキスト内に作成するが、このファイルにはDjangoとPosgreのドライバのパッケージ名を記載する。</li>
-<li><code>COPY . /code/</code>: ビルドコンテキストの内容をすべて/code内に置いていする</li>
+<li><code>ENV PYTHONUNBUFFERED 1</code>: PYTHONUNBUFFERED`という環境変数に1という値を設定している。環境変数の意味は、pythonの標準出力、標準エラー出力をバッファーにため込まないための設定。1という数字自体に意味はないがこの環境変数に何らかの値を設定するとバッファーを無効化できます。</li>
+<li><code>RUN mkdir /code</code>と<code>WORKDIR /code</code>: codeディレクトリを作成し、作業ディレクトリをcodeディレクトリに移動しています。</li>
+<li><code>COPY requirements.txt /code/</code>: ビルドコンテキスト上に存在するrequirements.txtをcodeディレクトリ内に置き、<code>RUN pip install -r requirements.txt</code>でpipインストールを実行しています。pipはpythonのパッケージ管理ツールで、pip installコマンドは、-rで指定した、requirements.txtに記載されているパッケージのインストールを実行します。rewuirements.txtは、この後ビルドコンテキスト内に作成しますが、このファイルにはDjangoとPosgreのドライバのパッケージ名を記載します。</li>
+<li><code>COPY . /code/</code>: ビルドコンテキストの内容をすべて/code内に置いています。</li>
 </ul>
 </li>
 </ul>
-<h3><span id="requirementtxtの作成">requirement.txtの作成</span></h3><figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim requirements.txt</span><br></pre></td></tr></table></figure>
+<h3><span id="requirementtxtの作成">requirement.txtの作成</span></h3><p><br><br></p>
+<figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim requirements.txt</span><br></pre></td></tr></table></figure>
 <p>requirements.txtは、pipインストールコマンドで、インストールするパッケージを定義したもの。</p>
 <p>本記事作成時点で最新バージョンの、Djangoパッケージ3.1.2を指定します。</p>
 <p>psycopg2は、pythonでPostgreSQLに接続するためにドライバです。こちらについてはバージョンの指定はしません。</p>
 <figure class="highlight plain"><figcaption><span>requirements.txt</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Django&#x3D;&#x3D;3.1.2</span><br><span class="line">psycopg</span><br></pre></td></tr></table></figure>
-<h3><span id="docker-composeymlの作成">docker-compose,ymlの作成</span></h3><figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim docker-compose.yml</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>この時点でフォルダの中には、Dockerfileとrequirements.txtの２つのみが存在しているかな？この２つ以外のファイルがあったら別の場所に移すか削除しようね！</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
+<h3><span id="docker-composeymlの作成">docker-compose,ymlの作成</span></h3><p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>docker-compose.ymlで最後だから頑張ろう！</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
+<figure class="highlight bash"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim docker-compose.yml</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><figcaption><span>docker-compose.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">version: &#39;3&#39;</span><br><span class="line">services:</span><br><span class="line">  db:</span><br><span class="line">    image: postgres</span><br><span class="line">    environment:</span><br><span class="line">      POSTGRES_PASSWORD: password</span><br><span class="line">      POSTGRES_USER: postgres</span><br><span class="line">    volumes:</span><br><span class="line">      - pgdatavol:&#x2F;var&#x2F;lib&#x2F;postgresql&#x2F;data # postgresqlのデータ領域である&#x2F;var&#x2F;lib&#x2F;postgresql&#x2F;dataのディレクトリにマウント</span><br><span class="line"></span><br><span class="line">  web:</span><br><span class="line">    build: .</span><br><span class="line">    command: python3 manage.py runserver 0.0.0.0:8000</span><br><span class="line">    volumes:</span><br><span class="line">      - .:&#x2F;code</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;8000:8000&quot;</span><br><span class="line">    depends_on:</span><br><span class="line">      - db</span><br><span class="line"></span><br><span class="line">volumes:</span><br><span class="line">  pgdatavol: # データ永続化のため、pgdatavolというvolumeを作成</span><br></pre></td></tr></table></figure>
+<p><br><br></p>
 <ul>
 <li><p>各コードの意味を以下にまとめます。</p>
 <ul>
@@ -91,17 +160,83 @@
 </li>
 </ul>
 <p>これで、コンテナを立ち上げる設定ファイルの準備が完了しました。</p>
-<h3><span id="djangoプロジェクトの作成">Djangoプロジェクトの作成</span></h3><p>ここまで作成した、Dockerfile, requirements.txt, docker-compose.ymlの３ファイルのみが配置されているフォルダで、以下のコマンドを実行する。プロジェクト名は<code>examplepj</code>としていますが、任意のプロジェクト名でOKです。</p>
+<h3><span id="djangoプロジェクトの作成">Djangoプロジェクトの作成</span></h3><p><br><br></p>
+<p>ここまで作成した、Dockerfile, requirements.txt, docker-compose.ymlの３ファイルのみが配置されているフォルダで、以下のコマンドを実行しましょう。</p>
+<p>ここでは、プロジェクト名を<code>examplepj</code>としていますが、任意のプロジェクト名でOKです。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose run web django-admin.py startproject examplepj .</span><br></pre></td></tr></table></figure>
-<p>すると、examplepjフォルダとmanage.pyファイルが自動生成されます。この時点で以下のようなディレクトリ構成になっていると思います。</p>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>このコマンドは、今いるディレクトリに配置されたdocker-compose.ymlファイルで定義している「web」というコンテナに対して、"django-admin.py startproject examplepj ."というコマンドを実施してね、という命令を出しているんだね。
+    </p></div>
+  </div>
+</div>
+
+<p><br></p>
+<p>すると、examplepjフォルダとmanage.pyファイルがカレントディレクトリに自動生成されます。この時点で以下のようなディレクトリ構成になっていると思います。</p>
 <figure class="highlight plain"><figcaption><span>tree</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── Dockerfile</span><br><span class="line">├── docker-compose.yml</span><br><span class="line">├── examplepj</span><br><span class="line">│   ├── __init__.py</span><br><span class="line">│   ├── __pycache__</span><br><span class="line">│   │   ├── __init__.cpython-39.pyc</span><br><span class="line">│   │   ├── settings.cpython-39.pyc</span><br><span class="line">│   │   ├── urls.cpython-39.pyc</span><br><span class="line">│   │   ├── views.cpython-39.pyc</span><br><span class="line">│   │   └── wsgi.cpython-39.pyc</span><br><span class="line">│   ├── asgi.py</span><br><span class="line">│   ├── settings.py</span><br><span class="line">│   ├── urls.py</span><br><span class="line">│   ├── views.py</span><br><span class="line">│   └── wsgi.py</span><br><span class="line">├── manage.py</span><br><span class="line">├── requirements.txt</span><br></pre></td></tr></table></figure>
-<h3><span id="dbの設定">DBの設定</span></h3><p>作成されたexamplepjのsettings.pyファイルに、DBの設定を記述していきます。</p>
+<h3><span id="dbの設定">DBの設定</span></h3><p><br><br></p>
+<p>作成されたexamplepjのsettings.pyファイルに、DBの設定を記述していきます。</p>
 <figure class="highlight plain"><figcaption><span>/examplepj/settings.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># Database</span><br><span class="line"># https:&#x2F;&#x2F;docs.djangoproject.com&#x2F;en&#x2F;3.1&#x2F;ref&#x2F;settings&#x2F;#databases</span><br><span class="line"></span><br><span class="line">DATABASES &#x3D; &#123;</span><br><span class="line">    &#39;default&#39;: &#123;</span><br><span class="line">        &#39;ENGINE&#39;: &#39;django.db.backends.postgresql&#39;,</span><br><span class="line">        &#39;NAME&#39;: &#39;postgres&#39;,</span><br><span class="line">        &#39;USER&#39;: &#39;postgres&#39;,</span><br><span class="line">        &#39;PASSWORD&#39;: &#39;password&#39;,</span><br><span class="line">        &#39;HOST&#39;: &#39;db&#39;,</span><br><span class="line">        &#39;PORT&#39;: 5432</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>PASSWORDは簡単なものにしているけど、ちゃんとした開発のときは注意しようね！</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
 <h3><span id="起動">起動</span></h3><p>デタッチドモードで各サービスを起動します。</p>
 <figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose up -d</span><br></pre></td></tr></table></figure>
 <p><code>localhost:8000</code>にブラウザでアクセスすると、以下のようにDjangoの画面が表示されます。</p>
 <p><img src="/images/django-start.png" alt="localhost:8000にアクセスした様子"></p>
-<p>以上です。</p>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>おめでとう！これで開発できるね！</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
+<h2><span id="makemigrationとmigrateコマンド">makemigrationとmigrateコマンド</span></h2><p><br><br></p>
+<p>makemigrationは以下のコマンドで実行できます。</p>
+<p><br><br></p>
+<figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose exec web python manage.py makemigrations</span><br></pre></td></tr></table></figure>
+<p><br><br></p>
+<p><code>0001_initial.py</code>というファイルが作成されていれば成功です。</p>
+<p>migrateコマンドは以下で実行できます。</p>
+<figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose exec web python manage.py migrate</span><br></pre></td></tr></table></figure>
+<h2><span id="dockerの停止">Dockerの停止</span></h2><p>Dockerコンテナを停止する際は以下のコマンドで停止できます。</p>
+<figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose stop</span><br></pre></td></tr></table></figure>
+<p>Dockerコンテナの停止とイメージの削除をしたい場合は以下のコマンドです。</p>
+<figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose down</span><br></pre></td></tr></table></figure>
+<p><br></p>
+<div class="balloon5">
+  <div class="faceicon">
+    <img src="/images/wanko.png">
+  </div>
+  <div class="chatting">
+    <div class="says">
+      <p>コンテナイメージの停止やイメージの削除をしても、データベースの情報は消えないので安心してくださいね！</p>
+    </div>
+  </div>
+</div>
+
+<p><br></p>
 <h4><span id="あわせて読みたい記事">あわせて読みたい記事</span></h4>
 
 <p><br></p>
@@ -116,17 +251,17 @@
 
 
 <ul>
-<li>Djangoを基礎から学びたい方は以下がおすすめ。</li>
+<li>Djangoを基礎から学びたい方は以下がおすすめ。ものすごく丁寧な解説でDjangoの構造を解説してくれてます。</li>
 </ul>
 <p><a href="https://px.a8.net/svt/ejp?a8mat=3B51QR+67V08I+3L4M+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdjango-3app%2F" rel="nofollow">【徹底的に解説！】Djangoの基礎をマスターして、3つのアプリを作ろう！（Django2版 / 3版を同時公開中です）</a><br><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=3B51QR+67V08I+3L4M+BW8O2" alt></p>
 <p><span class="a8ad 3wqAvAY-g7-slHH1qM"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript('body').showAd({"req": {"mat":"3B51QR+67V08I+3L4M+BWGDT","alt":"商品リンク","id":"3wqAvAY-g7-slHH1qM"},"goods": {"ejp":"h"+"ttps://www.udemy.com/course/django-3app/","imu":"h"+"ttps://img-a.udemycdn.com/course/240x135/2290835_ef37_3.jpg?iwC9RW_9PjLKmknE8irPPhLDsDPidR5qIrmzzfZqYa2cHJ2KrGBH2xKXJMMq_gF4S6654Vd0NbW7jcYjgNxBxM2fCvSoJeJ9FbJheiHecen7tTDUvew9J0N4qgcuUA"}});</script></p>
 <ul>
-<li>Dockerに特化した学習は以下のUdemy講座がおすすめです。質、ボリューム共に豊富です。(私はこの講座を終えるのに2か月かかりましたが、非常に詳しく分かりやすくまとめられた講座です。)</li>
+<li>Dockerに特化した学習は以下のUdemy講座がおすすめです。Dockerに関する基礎から応用まで、この講座１つで問題ありません！</li>
 </ul>
 <p><a href="https://px.a8.net/svt/ejp?a8mat=3B51QR+67V08I+3L4M+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdocker-k%2F" rel="nofollow">ゼロからはじめる Dockerによるアプリケーション実行環境構築</a><br><img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=3B51QR+67V08I+3L4M+BW8O2" alt></p>
 <p><span class="a8ad 3wqAvAY-g7-rWzatOk"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript('body').showAd({"req": {"mat":"3B51QR+67V08I+3L4M+BWGDT","alt":"商品リンク","id":"3wqAvAY-g7-rWzatOk"},"goods": {"ejp":"h"+"ttps://www.udemy.com/course/docker-k/","imu":"h"+"ttps://img-a.udemycdn.com/course/240x135/1401310_1c83_3.jpg"}});</script></p>
 <ul>
-<li>Dockerの基礎や復習に加え、コンテナオーケストレーションを行うKubernetesについて学びたい場合は以下の講座がおすすめです。質、ボリュームもちょうどよく、Kubernetesの各種リソースの解説に加え、Web3層構造(MongoDB, Node.js, Nginx)の環境を構築をするので、実践的なスキルが身につくと思います。</li>
+<li>Dockerの基礎や復習に加え、コンテナオーケストレーションを行うKubernetesについて学びたい場合は以下の講座がおすすめです。Kubernetesの各種リソースの解説に加え、Web3層構造(MongoDB, Node.js, Nginx)のシステムをKubernetesで作るなど、実践的なスキルが身につきます。</li>
 </ul>
 <p><a href="https://px.a8.net/svt/ejp?a8mat=3B51QR+67V08I+3L4M+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fweb-application-with-docker-kubernetes%2F" rel="nofollow">Docker + Kubernetes で構築する Webアプリケーション 実践講座</a><br><img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=3B51QR+67V08I+3L4M+BW8O2" alt></p>
 <p><span class="a8ad 3wqAvAY-g7-rWzbiR3"></span><script type="text/javascript" src="//statics.a8.net/ad/ad.js"></script><script type="text/javascript">a8adscript('body').showAd({"req": {"mat":"3B51QR+67V08I+3L4M+BWGDT","alt":"商品リンク","id":"3wqAvAY-g7-rWzbiR3"},"goods": {"ejp":"h"+"ttps://www.udemy.com/course/web-application-with-docker-kubernetes/","imu":"h"+"ttps://img-a.udemycdn.com/course/240x135/2331992_6ec8_5.jpg"}});</script></p>
@@ -141,7 +276,7 @@
                     fold: 'unfolded'
                 }
             }
-        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Zurück nach oben" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to Top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
             if (typeof $.fn.lightGallery === 'function') {
                 $('.article').lightGallery({ selector: '.gallery-item' });
             }
