@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-11T15:00:00.000Z</updated>
+  <updated>2021-01-15T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【M1 Mac】Railsの開発環境をdocker-composeで作成する</title>
+    <link href="https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/"/>
+    <id>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</id>
+    <published>2021-01-15T15:00:00.000Z</published>
+    <updated>2021-01-15T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      M1 MacでRailsの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="Rails" scheme="https://omathin.com/tags/Rails/"/>
+    
+      <category term="Ruby" scheme="https://omathin.com/tags/Ruby/"/>
+    
+      <category term="mysql" scheme="https://omathin.com/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】Icarusテーマに吹き出しを加える方法</title>
@@ -460,31 +489,6 @@
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
       <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】Icarusテーマで強調メッセージブロックを使う方法</title>
-    <link href="https://omathin.com/2020/05/19/icarus-bulma/"/>
-    <id>https://omathin.com/2020/05/19/icarus-bulma/</id>
-    <published>2020-05-18T15:00:00.000Z</published>
-    <updated>2020-05-18T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Hexo(Icarus)+Github pagesで無料ブログを作成した際、記事の中でページの一部を強調するために色付きのメッセージブロックを使いたくなる時があります。IcarusはBULMAというCSSフレームワークが適用されているので簡単に導入できます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
-    
-      <category term="BULMA" scheme="https://omathin.com/tags/BULMA/"/>
     
   </entry>
   
