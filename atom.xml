@@ -365,9 +365,9 @@
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
-      <category term="Git" scheme="https://omathin.com/tags/Git/"/>
-    
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+      <category term="Git" scheme="https://omathin.com/tags/Git/"/>
     
   </entry>
   
@@ -390,9 +390,9 @@
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
       <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
+    
+      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
   </entry>
   
