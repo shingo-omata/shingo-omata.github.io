@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/05/24/blueberries-improve/</loc>
+        <lastmod>2021-01-16T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</loc>
         <lastmod>2021-01-15T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -210,14 +218,6 @@
     <url>
         <loc>https://omathin.com/2020/05/28/hexo-image-center/</loc>
         <lastmod>2020-05-27T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/05/24/blueberries-improve/</loc>
-        <lastmod>2020-05-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
