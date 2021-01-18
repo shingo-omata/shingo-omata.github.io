@@ -413,9 +413,9 @@
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
-      <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
-    
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
+    
+      <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
     
   </entry>
   
@@ -438,11 +438,11 @@
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
     
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
       <category term="docker" scheme="https://omathin.com/tags/docker/"/>
     
       <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
   </entry>
   
