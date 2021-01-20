@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/01/18/road-to-web-engineer/</loc>
+        <lastmod>2021-01-19T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <lastmod>2021-01-19T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/01/20/udemy-python/</loc>
         <lastmod>2021-01-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +33,6 @@
 
     <url>
         <loc>https://omathin.com/2020/05/15/spl-mental-health/</loc>
-        <lastmod>2021-01-17T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/01/18/road-to-web-engineer/</loc>
         <lastmod>2021-01-17T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -57,14 +65,6 @@
 
     <url>
         <loc>https://omathin.com/2021/01/10/docker-compose-django/</loc>
-        <lastmod>2021-01-12T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
         <lastmod>2021-01-12T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
