@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-19T15:00:00.000Z</updated>
+  <updated>2021-01-20T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【腰痛解消】人間工学基づいた座椅子がリモートワークに最適過ぎた</title>
+    <link href="https://omathin.com/2021/01/21/chair-remote/"/>
+    <id>https://omathin.com/2021/01/21/chair-remote/</id>
+    <published>2021-01-20T15:00:00.000Z</published>
+    <updated>2021-01-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      リモートワークが続く中、腰痛に悩まされていませんか？本記事では人間工学に基づき、腰痛持ちの方にフォーカスして作られた座椅子を紹介します。私はこの椅子のおかげで快適なリモートワークライフを送れています。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="chair" scheme="https://omathin.com/tags/chair/"/>
+    
+      <category term="remotework" scheme="https://omathin.com/tags/remotework/"/>
+    
+  </entry>
   
   <entry>
     <title>【85講座受講】技術者が推奨するUdemyのPython講座オススメ集</title>
@@ -468,29 +491,6 @@
       <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
     
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】Icarusテーマで画像を中心に寄せる方法</title>
-    <link href="https://omathin.com/2020/05/28/hexo-image-center/"/>
-    <id>https://omathin.com/2020/05/28/hexo-image-center/</id>
-    <published>2020-05-27T15:00:00.000Z</published>
-    <updated>2020-05-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      HexoでIcarusテーマを適用すると、画像が左よりになってしまいます。記事に掲載させる画像を中心に寄せたので、その方法をまとめたいと思います。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="Icarus" scheme="https://omathin.com/tags/Icarus/"/>
     
   </entry>
   
