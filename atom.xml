@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-20T15:00:00.000Z</updated>
+  <updated>2021-01-22T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Djangoの開発環境をDockerで構築した後の初期設定</title>
+    <link href="https://omathin.com/2021/01/23/django-startapp/"/>
+    <id>https://omathin.com/2021/01/23/django-startapp/</id>
+    <published>2021-01-22T15:00:00.000Z</published>
+    <updated>2021-01-22T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Djangoの開発環境を構築した後の初期設定を詳しくまとめました。Djangoのアプリ作成、settings.pyファイルの編集、プロジェクトとアプリのurls.pyファイルの設定など具体的なコードも掲載！DjangoですぐにWebアプリ開発に取り掛かるには、モチベーションが燃え尽きないようにスタートが大事です。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="python" scheme="https://omathin.com/tags/python/"/>
+    
+      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
+    
+      <category term="Django" scheme="https://omathin.com/tags/Django/"/>
+    
+  </entry>
   
   <entry>
     <title>【腰痛解消】人間工学に基づいた座椅子がリモートワークに最適過ぎた</title>
@@ -464,33 +489,6 @@
       <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
       <category term="VisualStudioCode" scheme="https://omathin.com/tags/VisualStudioCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Swagger EditorをDockerで動かす方法</title>
-    <link href="https://omathin.com/2020/07/31/swagger-get-start/"/>
-    <id>https://omathin.com/2020/07/31/swagger-get-start/</id>
-    <published>2020-07-30T15:00:00.000Z</published>
-    <updated>2020-10-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      SwaggerはOpen APIを作成、表示、利用するツール郡です。Docker Playgroundという環境で手軽にSwagger Editorの環境を整え、使うことができますのでその方法を紹介します。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
   </entry>
   
