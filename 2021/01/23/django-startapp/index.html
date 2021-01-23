@@ -18,7 +18,7 @@
 </div>
 
 <p><br><br></p>
-<p>環境構築の方法については以下の記事を参照ください。</p>
+<p>環境構築方法は、以下の記事を参照ください。</p>
 <p><br></p>
 <iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://omathin.com/2021/01/10/docker-compose-django/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 <h2><span id="目次">✓目次</span></h2><p><br></p>
@@ -36,10 +36,12 @@
 <li><a href="#まとめ">まとめ</a></li>
 </ul>
 <!-- tocstop -->
-<h2><span id="アプリの作成">アプリの作成</span></h2><p>ここで言う「アプリ」というのは、一般的にいうスマホアプリとかWebアプリのことではなくDjangoが機能としているアプリになります。</p>
+<h2><span id="アプリの作成">アプリの作成</span></h2><p>ここで言う「アプリ」というのは、一般的にいうスマホアプリとかWebアプリのことではありません。</p>
+<p>Djangoが機能として備えているアプリです。</p>
 <p>Djangoの構造は大きく分けて、<strong>プロジェクト</strong>と<strong>アプリ</strong>という要素に分けられます。</p>
 <p><img src="/images/django-app-prof.png" alt="Djangoにおけるプロジェクトとアプリの関係"></p>
-<p>ざっくりいうとプロジェクトが各アプリを統括する役割で、アプリがここの機能部という分担です。</p>
+<p>ざっくりいうと、プロジェクトはそれぞれのアプリを統括する役割。</p>
+<p>アプリは、個々の機能部という分担です。</p>
 <p>環境構築の段階でプロジェクトは作成済なので、以下のコマンドでアプリを作成します。</p>
 <figure class="highlight plain"><figcaption><span>terminal</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose exec web python manage.py startapp hogehogeapp</span><br></pre></td></tr></table></figure>
 <p>これで<code>hogehogeapp</code>というフォルダと各種ファイルが生成されます。</p>
@@ -50,14 +52,14 @@
   </div>
   <div class="chatting">
     <div class="says">
-      <p>プロジェクトとアプリに分けると、機能を分割できるので、ごちゃごちゃにならなくて済むよ。複数人で開発する際も、データへのアクセスが分離されてカオスにならなくて済むね！ </p>
+      <p>プロジェクトとアプリに分けると機能を分割できるので、ごちゃごちゃにならなくて済むよ。複数人で開発する際も、データへのアクセスが分離されてカオスにならなくて済むね！ </p>
     </div>
   </div>
 </div>
 
 <h2><span id="settingspyファイルに作成したアプリを記述する">settings.pyファイルに作成したアプリを記述する</span></h2><p>settings.pyファイルはプロジェクトフォルダ配下にあります。このファイルに、先程作成したhogehogeappというのを記述し、プロジェクトにアプリの存在を認識させます。</p>
 <p><br><br></p>
-<figure class="highlight plain"><figcaption><span>/examplepj/settings.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">INSTALLED_APPS &#x3D; [</span><br><span class="line">    &#39;django.contrib.admin&#39;,</span><br><span class="line">    &#39;django.contrib.auth&#39;,</span><br><span class="line">    &#39;django.contrib.contenttypes&#39;,</span><br><span class="line">    &#39;django.contrib.sessions&#39;,</span><br><span class="line">    &#39;django.contrib.messages&#39;,</span><br><span class="line">    &#39;django.contrib.staticfiles&#39;,</span><br><span class="line">    &#39;boardapp.apps.BoardappConfig&#39;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>/examplepj/settings.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">INSTALLED_APPS &#x3D; [</span><br><span class="line">    &#39;django.contrib.admin&#39;,</span><br><span class="line">    &#39;django.contrib.auth&#39;,</span><br><span class="line">    &#39;django.contrib.contenttypes&#39;,</span><br><span class="line">    &#39;django.contrib.sessions&#39;,</span><br><span class="line">    &#39;django.contrib.messages&#39;,</span><br><span class="line">    &#39;django.contrib.staticfiles&#39;,</span><br><span class="line">    &#39;hogehogeapp.apps.HogehogeappConfig&#39;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
 <p><br><br></p>
 <div class="balloon5">
   <div class="faceicon">
@@ -75,16 +77,16 @@
 <p>次に<code>settings.py</code>ファイルの<code>TEMPLATES</code>の<code>DIRS</code>に<code>BASE_DIR / &#39;templates&#39;</code>と記述</p>
 <p><br><br></p>
 <figure class="highlight plain"><figcaption><span>/examplepj/settings.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">TEMPLATES &#x3D; [</span><br><span class="line">    &#123;</span><br><span class="line">        &#39;BACKEND&#39;: &#39;django.template.backends.django.DjangoTemplates&#39;,</span><br><span class="line">        &#39;DIRS&#39;: [BASE_DIR &#x2F; &#39;templates&#39;],</span><br><span class="line">        &#39;APP_DIRS&#39;: True,</span><br><span class="line">        &#39;OPTIONS&#39;: &#123;</span><br><span class="line">            &#39;context_processors&#39;: [</span><br><span class="line">                &#39;django.template.context_processors.debug&#39;,</span><br><span class="line">                &#39;django.template.context_processors.request&#39;,</span><br><span class="line">                &#39;django.contrib.auth.context_processors.auth&#39;,</span><br><span class="line">                &#39;django.contrib.messages.context_processors.messages&#39;,</span><br><span class="line">            ],</span><br><span class="line">        &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<h2><span id="プロジェクトのurlspyにアプリのurlspyファイルへのルーティングを記述する">プロジェクトのurls.pyにアプリのurls.pyファイルへのルーティングを記述する</span></h2><p>ブラウザなどからくるHTTPリクエストは、プロジェクトのurls.pyファイルが受け取ります。</p>
-<p>プロジェクトのurls.pyファイルは受け取ったリクエストURLの文字列（リソースパス）を識別して、どのアプリのurls.pyファイルに送ればよいかを振り分けます。</p>
+<h2><span id="プロジェクトのurlspyにアプリのurlspyファイルへのルーティングを記述する">プロジェクトのurls.pyにアプリのurls.pyファイルへのルーティングを記述する</span></h2><p>ブラウザなどから送られるHTTPリクエストは、プロジェクトのurls.pyが受け取ります。</p>
+<p>プロジェクトのurls.pyファイルは、受け取ったリクエストURLの文字列（リソースパス）を識別して、どのアプリのurls.pyファイルに送ればよいか振り分けます。</p>
 <p>ここでは、いかなるURLリクエストにおいても<code>hogehogeapp</code>のurls.pyファイルの定義に従う記述にしておきます。</p>
 <p><br><br></p>
-<figure class="highlight plain"><figcaption><span>/examplepj/urls.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from django.contrib import admin</span><br><span class="line">from django.urls import path, include</span><br><span class="line"></span><br><span class="line">urlpatterns &#x3D; [</span><br><span class="line">    path(&#39;admin&#x2F;&#39;, admin.site.urls),</span><br><span class="line">    path(&#39;&#39;, include(&#39;boardapp.urls&#39;))</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>/examplepj/urls.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from django.contrib import admin</span><br><span class="line">from django.urls import path, include</span><br><span class="line"></span><br><span class="line">urlpatterns &#x3D; [</span><br><span class="line">    path(&#39;admin&#x2F;&#39;, admin.site.urls),</span><br><span class="line">    path(&#39;&#39;, include(&#39;hogehogeapp.urls&#39;))</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
 <h2><span id="アプリにurlspyファイルを作成する">アプリにurls.pyファイルを作成する</span></h2><p>作成したhogehogeappフォルダにはデフォルトで<code>urls.py</code>が存在しません。</p>
 <p>なので新規に<code>urls.py</code>を作成します。コードはプロジェクトのurls.pyファイルのコードをコピペして以下のように編集します。</p>
 <p><br><br></p>
 <figure class="highlight plain"><figcaption><span>/examplepj/hogehogeapp/urls.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from django.contrib import admin</span><br><span class="line">from django.urls import path, include</span><br><span class="line">from django.urls import path</span><br><span class="line"></span><br><span class="line">urlpatterns &#x3D; [</span><br><span class="line">    path(&#39;admin&#x2F;&#39;, admin.site.urls),</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<h2><span id="アプリのurlspyにurlパスを設定">アプリのurls.pyにURLパスを設定</span></h2><p>adminのpathは削除して、任意のURLパスを設定します。今回は<code>sighup/</code>というパスを作成します。</p>
+<h2><span id="アプリのurlspyにurlパスを設定">アプリのurls.pyにURLパスを設定</span></h2><p>adminのpathは削除して、任意のURLパスを設定します。今回は<code>signup/</code>というパスを作成します。</p>
 <p>合わせて、これから作成する<code>signupfunc</code>という関数も記述。</p>
 <p><br><br></p>
 <figure class="highlight plain"><figcaption><span>/examplepj/hogehogeapp/urls.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from django.contrib import admin</span><br><span class="line">from django.urls import path, include</span><br><span class="line">from .views import signupfunc</span><br><span class="line"></span><br><span class="line">urlpatterns &#x3D; [</span><br><span class="line">    path(&#39;signup&#x2F;&#39;, signupfunc),</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
@@ -123,7 +125,7 @@
                     fold: 'unfolded'
                 }
             }
-        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Zurück nach oben" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="Kembali ke atas" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
             if (typeof $.fn.lightGallery === 'function') {
                 $('.article').lightGallery({ selector: '.gallery-item' });
             }
