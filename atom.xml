@@ -63,6 +63,29 @@
   </entry>
   
   <entry>
+    <title>Twitter APIの登録と利用開始までの流れ</title>
+    <link href="https://omathin.com/2021/01/24/twitter-api-getstart/"/>
+    <id>https://omathin.com/2021/01/24/twitter-api-getstart/</id>
+    <published>2021-01-23T15:00:00.000Z</published>
+    <updated>2021-01-23T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Twitter　APIの利用開始までの流れをまとめました。使用理由や公開範囲、利用用途などを英語で記述しなければならないので少し大変です。DeepLを使って効率よく適切に登録すれば即日使えるようになるので、頑張って利用開始まで取り組んでいきましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="API" scheme="https://omathin.com/tags/API/"/>
+    
+      <category term="twitter" scheme="https://omathin.com/tags/twitter/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Djangoの開発環境をDockerで構築した後の初期設定</title>
     <link href="https://omathin.com/2021/01/23/django-startapp/"/>
     <id>https://omathin.com/2021/01/23/django-startapp/</id>
@@ -452,29 +475,6 @@
     <summary type="html">
     
       Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorで作成する際は基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>REST API設計時に気を付ける主なポイント</title>
-    <link href="https://omathin.com/2020/10/31/swagger-editor-design-firststep/"/>
-    <id>https://omathin.com/2020/10/31/swagger-editor-design-firststep/</id>
-    <published>2020-10-30T15:00:00.000Z</published>
-    <updated>2020-10-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      REST APIを設計する際に気を付けるポイントは数多く存在します。その中でも、特に気を付けるべきポイントに絞って、記事をまとめてみました。
     
     </summary>
     
