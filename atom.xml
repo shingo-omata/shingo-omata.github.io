@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-23T15:00:00.000Z</updated>
+  <updated>2021-01-24T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】メモアプリを作成してpythonの配列操作、辞書型、while文を学ぶ</title>
+    <link href="https://omathin.com/2021/01/25/memoapp-python/"/>
+    <id>https://omathin.com/2021/01/25/memoapp-python/</id>
+    <published>2021-01-24T15:00:00.000Z</published>
+    <updated>2021-01-24T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      プログラミングは何からのアプリを作成することが上達の近道です。本記事では、簡単なメモアプリを作成しながらpythonの基礎である、while文、配列、辞書型、input関数の扱い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="python" scheme="https://omathin.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>DjangoのUserモデルを使用してみる</title>
@@ -462,29 +483,6 @@
     
     
       <category term="OpenShift" scheme="https://omathin.com/tags/OpenShift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【入門】Swagger EditorでOpen APIを作る</title>
-    <link href="https://omathin.com/2020/11/01/openapi-helloworld/"/>
-    <id>https://omathin.com/2020/11/01/openapi-helloworld/</id>
-    <published>2020-10-31T15:00:00.000Z</published>
-    <updated>2020-11-01T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Swagger editorを用いてOpenAPIを作成します。OpenAPIをSwagger Editorで作成する際は基本要素となるルートオブジェクトというものを理解する必要があります。必須項目であるオブジェクトは何なのかをしっかり把握してSwagger specを作成しましょう。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="swagger" scheme="https://omathin.com/tags/swagger/"/>
     
   </entry>
   
