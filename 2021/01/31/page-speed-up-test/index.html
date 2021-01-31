@@ -17,8 +17,23 @@
 
 <p><br></p>
 <a id="more"></a>
-<h2><span id="目次">✓目次</span></h2><h3><span id="参考にした記事">参考にした記事</span></h3><p><a href="https://dizzy.zone/2018/01/04/Speeding-hexo-for-PageSpeed-insights/">Speeding hexo (or any page) for PageSpeed insights · dizzy.zone</a></p>
-<h3><span id="設定前の読み込みスピード">設定前の読み込みスピード</span></h3><ul>
+<h2><span id="目次">✓目次</span></h2><p><br></p>
+<!-- toc -->
+<ul>
+<li><a href="#設定前の読み込みスピード">設定前の読み込みスピード</a></li>
+<li><a href="#レンダリングブロッキングcss">レンダリングブロッキングCSS</a></li>
+<li><a href="#hexo-img-optimizationの適用">hexo-img-optimizationの適用</a><ul>
+<li><a href="#まとめ">まとめ</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<p><br></p>
+<h5><span id="参考にした記事"> 参考にした記事</span></h5>
+
+<p><a href="https://dizzy.zone/2018/01/04/Speeding-hexo-for-PageSpeed-insights/">Speeding hexo (or any page) for PageSpeed insights · dizzy.zone</a></p>
+<h3><span id="設定前の読み込みスピード">設定前の読み込みスピード</span></h3><p><br></p>
+<ul>
 <li>GoogleのPageSpeed Insightsで読み込みスピードを計測したところ、以下のような結果でした。</li>
 </ul>
 <p><br><br></p>
@@ -55,10 +70,14 @@
 </div>
 
 <p><br></p>
-<h3><span id="レンダリングブロッキングcss">レンダリングブロッキングCSS</span></h3><p><br><br></p>
-<p>CSSが非同期に読み込まれるようにします。参考記事と同様にheadタグで外部CSSを読み込んでいる部分に適用してみました。※これで良いのかよくわかりませんが。。。</p>
+<h3><span id="レンダリングブロッキングcss">レンダリングブロッキングCSS</span></h3><p><br></p>
+<ul>
+<li>CSSが非同期に読み込まれるようにします。参考記事と同様にheadタグで外部CSSを読み込んでいる部分に適用してみました。※これで良いのかよくわかりませんが。。。</li>
+</ul>
 <figure class="highlight plain"><figcaption><span>themes/icarus/layout/common/head.jsx</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#123;hlTheme ? &lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&#123;cdn(&#39;highlight.js&#39;, &#39;9.12.0&#39;, &#39;styles&#x2F;&#39; + hlTheme + &#39;.css&#39;)&#125; as&#x3D;&quot;style&quot; onload&#x3D;&quot;this.onload&#x3D;null,this.rel&#x3D;&quot;stylesheet&quot;&quot;&#x2F;&gt; : null&#125;</span><br><span class="line">&lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&#123;url_for(&#39;&#x2F;css&#x2F;&#39; + variant + &#39;.css&#39;)&#125; as&#x3D;&quot;style&quot; onload&#x3D;&quot;this.onload&#x3D;null,this.rel&#x3D;&quot;stylesheet&quot;&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
-<p>この状態で測定してみたところ下記のとおりでした。</p>
+<ul>
+<li>この状態で測定してみたところ下記のとおりでした。</li>
+</ul>
 <div class="table-container">
 <table>
 <thead>
@@ -92,7 +111,7 @@
 </div>
 
 <p><br></p>
-<h3><span id="hexo-img-optimizationの適用">hexo-img-optimizationの適用</span></h3><p><br><br></p>
+<h3><span id="hexo-img-optimizationの適用">hexo-img-optimizationの適用</span></h3><p><br></p>
 <p>hexoのシンプルな画像最適化ライブラリを適用します。</p>
 <p>hexoブログフォルダで、以下のコマンドを実行します。</p>
 <figure class="highlight plain"><figcaption><span>インストール</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save hexo-img-optimization</span><br></pre></td></tr></table></figure>
@@ -133,7 +152,7 @@
 </div>
 
 <p><br></p>
-<h2><span id="まとめ">まとめ</span></h2><p><br><br></p>
+<h2><span id="まとめ">まとめ</span></h2><p><br></p>
 <p>HexoのIcarusテーマにおけるページ読み込みの改善についてまとめてみました。</p>
 <p>とはいっても、まだまだ読み込みが遅いので、改めて改善柵を検討してみたいと思います。</p>
 <p>この記事が役に立った、という方はTwitterのフォローよろしくおねがいします。</p>
