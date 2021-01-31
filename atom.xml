@@ -38,6 +38,31 @@
   </entry>
   
   <entry>
+    <title>page-speed-up-test</title>
+    <link href="https://omathin.com/2021/01/31/page-speed-up-test/"/>
+    <id>https://omathin.com/2021/01/31/page-speed-up-test/</id>
+    <published>2021-01-30T15:00:00.000Z</published>
+    <updated>2021-01-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Hexoブログのテーマの一つであるIcarusにおいて、ページ読み込みスピードを上げるために試したいくつかのことをまとめます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="ブログ" scheme="https://omathin.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+      <category term="icarus" scheme="https://omathin.com/tags/icarus/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Python】メモアプリを作成してpythonの配列操作、辞書型、while文を学ぶ</title>
     <link href="https://omathin.com/2021/01/25/memoapp-python/"/>
     <id>https://omathin.com/2021/01/25/memoapp-python/</id>
@@ -460,29 +485,6 @@
       <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
     
       <category term="AI" scheme="https://omathin.com/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【入門】OpenShiftを用いてビルドとデプロイメントを行う方法</title>
-    <link href="https://omathin.com/2020/12/10/openshift-builds-and-deployments/"/>
-    <id>https://omathin.com/2020/12/10/openshift-builds-and-deployments/</id>
-    <published>2020-12-09T15:00:00.000Z</published>
-    <updated>2020-12-09T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      RedHatが提供するOpenShiftを活用してPython on Flaskアプリをビルドする方法をまとめました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="OpenShift" scheme="https://omathin.com/tags/OpenShift/"/>
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
     
   </entry>
   
