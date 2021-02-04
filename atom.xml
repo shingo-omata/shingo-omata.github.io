@@ -46,7 +46,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+      Homebrewをインストールしたら、nodebrewをインストール。その後、node.jsのインストールと有効化を行い、環境パスの設定を行います。そしれReact開発環境を作成するコマンドを実行すれば完了です。M1 Macでも問題なくReact開発環境の構築が可能です。
     
     </summary>
     
