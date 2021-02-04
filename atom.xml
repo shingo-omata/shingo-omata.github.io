@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-01-30T15:00:00.000Z</updated>
+  <updated>2021-02-02T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【実体験】英会話力向上はレアジョブで決まり | 毎日続けられるポイント3つを紹介</title>
+    <link href="https://omathin.com/2021/02/03/get-start-rarejob/"/>
+    <id>https://omathin.com/2021/02/03/get-start-rarejob/</id>
+    <published>2021-02-02T15:00:00.000Z</published>
+    <updated>2021-02-02T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      オンライン英会話の業界No1であるレアジョブ体験記です。スムーズにレアジョブで英会話を始めるためのポイントを実体験に基づいてまとめました。
+    
+    </summary>
+    
+    
+      <category term="English" scheme="https://omathin.com/categories/English/"/>
+    
+    
+      <category term="レアジョブ" scheme="https://omathin.com/tags/%E3%83%AC%E3%82%A2%E3%82%B8%E3%83%A7%E3%83%96/"/>
+    
+  </entry>
   
   <entry>
     <title>【M1 Mac】React開発環境の構築</title>
@@ -452,29 +473,6 @@
     <summary type="html">
     
       Transformerとは、ディープラーニングモデルの一つで、主に自然言語処理の分野で使用されます。自然言語処理などの時系列データを処理するように設計されてますが、RNNで取り入れている再帰を用いていません。構造としては、EncoderとDecoderの２つで構成されています。本記事ではEncoderとDecoderに分けてTransformerの仕組みについてまとめてみました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
-    
-      <category term="AI" scheme="https://omathin.com/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【自然言語処理】Attentionとは何か</title>
-    <link href="https://omathin.com/2020/12/20/what-is-attention-1/"/>
-    <id>https://omathin.com/2020/12/20/what-is-attention-1/</id>
-    <published>2020-12-19T15:00:00.000Z</published>
-    <updated>2020-12-19T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Attentionとは、一言でいうと文章中のどの単語に注目すればよいのかを表すスコアです。 Attentionは、Query, Key, Valueという３つの要素に分かれて計算されます。 Queryとは、Inputデータであり、入力データの中で検索したいものを表します。Keyとは、検索すべき対象とQueryのち傘を図るために使用します。どれだけ似ているかを図るために使用します。Valueとは、Keyに基づいて適切なValueを出力する要素です。少し複雑ですが、Attentionとは何かをより詳しく見てみます。
     
     </summary>
     
