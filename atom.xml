@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-02-02T15:00:00.000Z</updated>
+  <updated>2021-02-11T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【実録】レアジョブ英会話の予約〜予習〜本番〜レビューの流れを公開</title>
+    <link href="https://omathin.com/2021/02/12/reajob-eikaiwa-1/"/>
+    <id>https://omathin.com/2021/02/12/reajob-eikaiwa-1/</id>
+    <published>2021-02-11T15:00:00.000Z</published>
+    <updated>2021-02-11T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="English" scheme="https://omathin.com/categories/English/"/>
+    
+    
+      <category term="レアジョブ" scheme="https://omathin.com/tags/%E3%83%AC%E3%82%A2%E3%82%B8%E3%83%A7%E3%83%96/"/>
+    
+  </entry>
   
   <entry>
     <title>【実体験】オンライン英会話はレアジョブで決まり | 毎日続けられるポイント3つを紹介</title>
@@ -460,29 +481,6 @@
       <category term="python" scheme="https://omathin.com/tags/python/"/>
     
       <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【自然言語処理】Transformerとは何か</title>
-    <link href="https://omathin.com/2020/12/20/what-is-transformer/"/>
-    <id>https://omathin.com/2020/12/20/what-is-transformer/</id>
-    <published>2020-12-19T15:00:00.000Z</published>
-    <updated>2020-12-19T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Transformerとは、ディープラーニングモデルの一つで、主に自然言語処理の分野で使用されます。自然言語処理などの時系列データを処理するように設計されてますが、RNNで取り入れている再帰を用いていません。構造としては、EncoderとDecoderの２つで構成されています。本記事ではEncoderとDecoderに分けてTransformerの仕組みについてまとめてみました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
-    
-      <category term="AI" scheme="https://omathin.com/tags/AI/"/>
     
   </entry>
   
