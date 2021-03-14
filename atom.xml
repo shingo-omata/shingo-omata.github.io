@@ -141,27 +141,6 @@
   </entry>
   
   <entry>
-    <title>【M1 Mac】React開発環境の構築</title>
-    <link href="https://omathin.com/2021/01/31/react-getstart/"/>
-    <id>https://omathin.com/2021/01/31/react-getstart/</id>
-    <published>2021-01-30T15:00:00.000Z</published>
-    <updated>2021-02-12T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Homebrewをインストールしたら、nodebrewをインストール。その後、node.jsのインストールと有効化を行い、環境パスの設定を行います。そしれReact開発環境を作成するコマンドを実行すれば完了です。M1 Macでも問題なくReact開発環境の構築が可能です。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="React" scheme="https://omathin.com/tags/React/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Hexo】Icarusのページ読み込みスピードを改善させてみた</title>
     <link href="https://omathin.com/2021/01/31/page-speed-up-test/"/>
     <id>https://omathin.com/2021/01/31/page-speed-up-test/</id>
@@ -179,6 +158,27 @@
     
     
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【M1 Mac】React開発環境の構築</title>
+    <link href="https://omathin.com/2021/01/31/react-getstart/"/>
+    <id>https://omathin.com/2021/01/31/react-getstart/</id>
+    <published>2021-01-30T15:00:00.000Z</published>
+    <updated>2021-02-12T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Homebrewをインストールしたら、nodebrewをインストール。その後、node.jsのインストールと有効化を行い、環境パスの設定を行います。そしれReact開発環境を作成するコマンドを実行すれば完了です。M1 Macでも問題なくReact開発環境の構築が可能です。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="React" scheme="https://omathin.com/tags/React/"/>
     
   </entry>
   
