@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-02-24T00:31:29.021Z</updated>
+  <updated>2021-03-31T12:45:29.698Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【31.5インチ】M1 Macに4Kモニター（ASUS-VA32U）を接続！購入時の注意点も解説！</title>
+    <link href="https://omathin.com/2021/03/31/4k-monitor-asus/"/>
+    <id>https://omathin.com/2021/03/31/4k-monitor-asus/</id>
+    <published>2021-03-30T15:00:00.000Z</published>
+    <updated>2021-03-31T12:45:29.698Z</updated>
+    
+    <summary type="html">
+    
+      ASUSの31.5インチの大型4KモニターであるVA32Uの使用レビュー記事です。M1 Macを接続すると、画面のチラツキが発生！原因究明とともに解決方法も合わせて記事にしましたので、4Kモニターの購入を検討している方の参考になればと思います。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="4Kディスプレイ" scheme="https://omathin.com/tags/4K%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>【31.5インチ】目に優しい大型4Kモニター(4社製品)をITエンジニアが徹底比較して購入した話</title>
@@ -442,29 +463,6 @@
       <category term="Django" scheme="https://omathin.com/tags/Django/"/>
     
       <category term="Python" scheme="https://omathin.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Windows】DockerでRuby on Rails開発環境構築方法</title>
-    <link href="https://omathin.com/2020/12/29/docker-ruby-on-rails/"/>
-    <id>https://omathin.com/2020/12/29/docker-ruby-on-rails/</id>
-    <published>2020-12-28T15:00:00.000Z</published>
-    <updated>2020-12-28T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      4つのファイル(Dockerfile, Gemfile, Gemfile.lock, docker-compose.yml)を用意する必要があります。各ファイルが何なのか、どのように作成するのかも含めて記事にまとめました。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
     
   </entry>
   
