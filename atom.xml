@@ -25,7 +25,7 @@
     
     <summary type="html">
     
-      M1 MacにDjango REST Framework APIの環境構築方法をまとめました。Anaconda NavigaterとPycharmをインストールし、
+      M1 MacにDjango REST Framework APIの環境構築方法をまとめました。Anaconda NavigaterとPycharmをインストールし、Django、そしてDjango REST Framework APIの開発環境を行います。
     
     </summary>
     
