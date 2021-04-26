@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-04-19T08:44:59.007Z</updated>
+  <updated>2021-04-26T13:40:18.470Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Win/Mac両対応】おすすめキーボード【2021年最新】</title>
+    <link href="https://omathin.com/2021/04/26/win-mac-keyboard/"/>
+    <id>https://omathin.com/2021/04/26/win-mac-keyboard/</id>
+    <published>2021-04-25T15:00:00.000Z</published>
+    <updated>2021-04-26T13:40:18.470Z</updated>
+    
+    <summary type="html">
+    
+      WindowsとMac両対応のキーボードは、logicoolかkeychronのキーボードがおすすめです。HHKBといった高級キーボードほどではないが、良いキーボードが欲しいという方向けに記事をまとめました。キーボードには、JIS配列とUS配列の2種類が存在します。キーボードを購入する際は、キーボードの配列にも気をつけて購入検討してください。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="Keyboard" scheme="https://omathin.com/tags/Keyboard/"/>
+    
+  </entry>
   
   <entry>
     <title>【テクニカルライティング】これだけ押さえれば大丈夫！わかりやすい文章の書き方</title>
@@ -430,35 +451,6 @@
       <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
     
       <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【M1 Mac】Railsの開発環境をdocker-composeで作成する</title>
-    <link href="https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/"/>
-    <id>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</id>
-    <published>2021-01-15T15:00:00.000Z</published>
-    <updated>2021-01-15T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      M1 MacでRailsの開発環境をDockerで作成する方法です。docker-composeを用いて構築する方法なので、本記事で紹介しているファイルを用いれば、簡単に自動構築してくれます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
-      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
-    
-      <category term="Rails" scheme="https://omathin.com/tags/Rails/"/>
-    
-      <category term="Ruby" scheme="https://omathin.com/tags/Ruby/"/>
-    
-      <category term="mysql" scheme="https://omathin.com/tags/mysql/"/>
     
   </entry>
   
