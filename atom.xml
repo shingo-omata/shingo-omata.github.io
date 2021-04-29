@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-04-27T00:24:04.892Z</updated>
+  <updated>2021-04-28T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【自然言語処理】Google Colaboratoryでword2vecを実装してみよう！</title>
+    <link href="https://omathin.com/2021/04/29/word2vec-python/"/>
+    <id>https://omathin.com/2021/04/29/word2vec-python/</id>
+    <published>2021-04-28T15:00:00.000Z</published>
+    <updated>2021-04-28T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Google Colaboratoryの環境でWord2Vecを実装してみました。Word2Vecとは分散表現を作成することができるツールです。Livedoorコーパスを用いて学習し、指定した単語の類似度を算出した結果を出力させます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
+    
+  </entry>
   
   <entry>
     <title>【Win/Mac両対応】おすすめキーボード【2021年最新】</title>
@@ -426,29 +451,6 @@
       <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
     
       <category term="Python" scheme="https://omathin.com/tags/Python/"/>
-    
-      <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【初心者レベル別】Web系エンジニアを目指すためのUdemyオススメ講座</title>
-    <link href="https://omathin.com/2021/01/18/road-to-web-engineer/"/>
-    <id>https://omathin.com/2021/01/18/road-to-web-engineer/</id>
-    <published>2021-01-17T15:00:00.000Z</published>
-    <updated>2021-01-19T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Udemyで初心者（Progateでちょっと学んだレベル）の人がWeb系エンジニアを目指す際にオススメするUdemy講座をまとめました。PHP, Ruby, Pythonといった言語別にオススメの講座を整理してます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
     
       <category term="Udemy" scheme="https://omathin.com/tags/Udemy/"/>
     
