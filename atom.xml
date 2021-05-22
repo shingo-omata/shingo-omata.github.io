@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-05-19T00:26:13.483Z</updated>
+  <updated>2021-05-21T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【5分で分かる】データモデルとデータベースの設計方法と関係性</title>
+    <link href="https://omathin.com/2021/05/22/datamodel/"/>
+    <id>https://omathin.com/2021/05/22/datamodel/</id>
+    <published>2021-05-21T15:00:00.000Z</published>
+    <updated>2021-05-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      データベースを作成する一連の流れを「データモデリング」といいます。データモデルはデータモデリングの過程で作成した情報です。データモデリングは3つの工程が存在し、各過程でデータモデルが作成されます。本記事では、その流れとともにデータベースを設計するポイントを紹介します。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Database" scheme="https://omathin.com/tags/Database/"/>
+    
+  </entry>
   
   <entry>
     <title>【2021年最新】ITエンジニアが高級マウスを徹底比較(4製品)して購入した話</title>
@@ -420,29 +441,6 @@
     
     
       <category term="http" scheme="https://omathin.com/tags/http/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Twitter APIの登録と利用開始までの流れ</title>
-    <link href="https://omathin.com/2021/01/24/twitter-api-getstart/"/>
-    <id>https://omathin.com/2021/01/24/twitter-api-getstart/</id>
-    <published>2021-01-23T15:00:00.000Z</published>
-    <updated>2021-01-23T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Twitter　APIの利用開始までの流れをまとめました。使用理由や公開範囲、利用用途などを英語で記述しなければならないので少し大変です。DeepLを使って効率よく適切に登録すれば即日使えるようになるので、頑張って利用開始まで取り組んでいきましょう。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-      <category term="twitter" scheme="https://omathin.com/tags/twitter/"/>
     
   </entry>
   
