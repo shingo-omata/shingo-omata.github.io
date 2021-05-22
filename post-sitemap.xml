@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
+        <lastmod>2021-05-21T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/05/22/datamodel/</loc>
         <lastmod>2021-05-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -426,14 +434,6 @@
     <url>
         <loc>https://omathin.com/2020/11/01/openapi-helloworld/</loc>
         <lastmod>2020-11-01T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
-        <lastmod>2020-10-31T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
