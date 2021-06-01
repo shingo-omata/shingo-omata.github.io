@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-05-30T15:00:00.000Z</updated>
+  <updated>2021-05-31T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【第1問〜第10問】</title>
+    <link href="https://omathin.com/2021/06/01/100knocks-1-10/"/>
+    <id>https://omathin.com/2021/06/01/100knocks-1-10/</id>
+    <published>2021-05-31T15:00:00.000Z</published>
+    <updated>2021-05-31T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の第1問から第10問の解説記事です。 
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【M1 Mac】データサイエンス100本ノックの始め方</title>
@@ -34,6 +55,8 @@
     
     
       <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
     
   </entry>
   
@@ -422,27 +445,6 @@
     
     
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【M1 Mac】React開発環境の構築</title>
-    <link href="https://omathin.com/2021/01/31/react-getstart/"/>
-    <id>https://omathin.com/2021/01/31/react-getstart/</id>
-    <published>2021-01-30T15:00:00.000Z</published>
-    <updated>2021-02-12T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Homebrewをインストールしたら、nodebrewをインストール。その後、node.jsのインストールと有効化を行い、環境パスの設定を行います。そしれReact開発環境を作成するコマンドを実行すれば完了です。M1 Macでも問題なくReact開発環境の構築が可能です。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="React" scheme="https://omathin.com/tags/React/"/>
     
   </entry>
   
