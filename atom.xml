@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-03T15:00:00.000Z</updated>
+  <updated>2021-06-05T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】手を動かしながらカウント(len関数、uniqueメソッド)を学ぶ | データサイエンス100本ノック【問21〜問22 回答】</title>
+    <link href="https://omathin.com/2021/06/06/100knock-21-22/"/>
+    <id>https://omathin.com/2021/06/06/100knock-21-22/</id>
+    <published>2021-06-05T15:00:00.000Z</published>
+    <updated>2021-06-05T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      カウントの方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の21問目〜22問目を題材に、正規表現の使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】手を動かしながらソートと表連結を学ぶ | データサイエンス100本ノック【問17〜問20 回答】</title>
@@ -424,27 +445,6 @@
     
     
       <category term="React" scheme="https://omathin.com/tags/React/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【実録】レアジョブ英会話の予約〜予習〜本番〜レビューの流れを公開</title>
-    <link href="https://omathin.com/2021/02/12/reajob-eikaiwa-1/"/>
-    <id>https://omathin.com/2021/02/12/reajob-eikaiwa-1/</id>
-    <published>2021-02-11T15:00:00.000Z</published>
-    <updated>2021-02-16T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      レアジョブ英会話のレッスン予約、準備のポイントを実体験に基づいてまとめました。レッスン予約時の講師検索時に、最適な講師を出力するための条件を設定するのが大事です。またレッスン前にカリキュラムの選択、自己紹介の準備と教材の読み込み、そしてカメラの確認を行うと安心です。
-    
-    </summary>
-    
-    
-      <category term="English" scheme="https://omathin.com/categories/English/"/>
-    
-    
-      <category term="レアジョブ" scheme="https://omathin.com/tags/%E3%83%AC%E3%82%A2%E3%82%B8%E3%83%A7%E3%83%96/"/>
     
   </entry>
   
