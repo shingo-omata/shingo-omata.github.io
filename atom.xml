@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-06T15:00:00.000Z</updated>
+  <updated>2021-06-08T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】手を動かしながらグループ分け、最大最小値の抽出方法を学ぶ | データサイエンス100本ノック【問23〜問26 回答】</title>
+    <link href="https://omathin.com/2021/06/09/100knock-23-26/"/>
+    <id>https://omathin.com/2021/06/09/100knock-23-26/</id>
+    <published>2021-06-08T15:00:00.000Z</published>
+    <updated>2021-06-08T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の23問目〜26問目を題材に、pythonのgroupby, agg, reset_index, min関数, max関数の使い方を無料で手を動かしながら練習するための記事です。。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【徹底比較】完全リモートワークエンジニアが毎日飲みたいホエイプロテイン</title>
@@ -46,7 +67,7 @@
     
     <summary type="html">
     
-      カウントの方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の21問目〜22問目を題材に、正規表現の使い方を学びます。
+      カウントの方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の21問目〜22問目を題材に、len関数とuniqueメソッドの使い方を学びます。
     
     </summary>
     
@@ -424,27 +445,6 @@
     
     
       <category term="management" scheme="https://omathin.com/tags/management/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【React】fetchメソッドでREST APIを叩く方法</title>
-    <link href="https://omathin.com/2021/02/14/react-api-2/"/>
-    <id>https://omathin.com/2021/02/14/react-api-2/</id>
-    <published>2021-02-13T15:00:00.000Z</published>
-    <updated>2021-02-13T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Reactでfetchメソッドを用いて外部のREST APIを叩き、取得した情報をブラウザ上に出力する方法をまとめました。JSON Placeholderの/postsを呼び出し、ブラウザ上にAPIで取得したオブジェクトを表示させます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="React" scheme="https://omathin.com/tags/React/"/>
     
   </entry>
   
