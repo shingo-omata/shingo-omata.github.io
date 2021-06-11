@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-08T15:00:00.000Z</updated>
+  <updated>2021-06-10T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】手を動かしながら平均値と中央値の抽出方法を学ぶ | データサイエンス100本ノック【問27〜問28 回答】</title>
+    <link href="https://omathin.com/2021/06/11/100knock-27-28/"/>
+    <id>https://omathin.com/2021/06/11/100knock-27-28/</id>
+    <published>2021-06-10T15:00:00.000Z</published>
+    <updated>2021-06-10T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の27問目〜28問目を題材に、pythonのgroupby, agg, reset_indexの使い方を無料で手を動かしながら練習するための記事です。。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】手を動かしながらグループ分け、最大最小値の抽出方法を学ぶ | データサイエンス100本ノック【問23〜問26 回答】</title>
@@ -426,25 +447,6 @@
     
     
       <category term="4Kディスプレイ" scheme="https://omathin.com/tags/4K%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>明日から実践できる5つのアンガーマネジメント</title>
-    <link href="https://omathin.com/2021/02/15/anger-management/"/>
-    <id>https://omathin.com/2021/02/15/anger-management/</id>
-    <published>2021-02-14T15:00:00.000Z</published>
-    <updated>2021-02-14T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      アンガーマネジメントとは怒りと上手に付き合うための心理トレーニングです。自分の「怒り」の正体を知ることが第一歩です。絶対にしてはいけないこと（3つ）も抑えましょう。他、明日からすぐに使える具体的な方法をまとめます。
-    
-    </summary>
-    
-    
-    
-      <category term="management" scheme="https://omathin.com/tags/management/"/>
     
   </entry>
   
