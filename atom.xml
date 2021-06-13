@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-11T15:00:00.000Z</updated>
+  <updated>2021-06-12T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
+    <link href="https://omathin.com/2021/06/13/100knock-30-33/"/>
+    <id>https://omathin.com/2021/06/13/100knock-30-33/</id>
+    <published>2021-06-12T15:00:00.000Z</published>
+    <updated>2021-06-12T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の30問目〜33問目を題材に、Pythonで標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【データサイエンス】Pythonで最頻値を表示する方法 | データサイエンス100本ノック【問29 回答】</title>
@@ -426,27 +447,6 @@
       <category term="Django" scheme="https://omathin.com/tags/Django/"/>
     
       <category term="API" scheme="https://omathin.com/tags/API/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【31.5インチ】M1 Macに4Kモニター（ASUS-VA32U）を接続！購入時の注意点も解説！</title>
-    <link href="https://omathin.com/2021/03/31/4k-monitor-asus/"/>
-    <id>https://omathin.com/2021/03/31/4k-monitor-asus/</id>
-    <published>2021-03-30T15:00:00.000Z</published>
-    <updated>2021-03-31T12:45:29.698Z</updated>
-    
-    <summary type="html">
-    
-      ASUSの31.5インチの大型4KモニターであるVA32Uの使用レビュー記事です。M1 Macを接続すると、画面のチラツキが発生！原因究明とともに解決方法も合わせて記事にしましたので、4Kモニターの購入を検討している方の参考になればと思います。
-    
-    </summary>
-    
-    
-      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
-    
-    
-      <category term="4Kディスプレイ" scheme="https://omathin.com/tags/4K%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4/"/>
     
   </entry>
   
