@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-12T15:00:00.000Z</updated>
+  <updated>2021-06-14T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
+    <link href="https://omathin.com/2021/06/15/100knock-34-35/"/>
+    <id>https://omathin.com/2021/06/15/100knock-34-35/</id>
+    <published>2021-06-14T15:00:00.000Z</published>
+    <updated>2021-06-14T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の33問目〜34問目を題材に、Pythonで副問合せの表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
@@ -424,29 +445,6 @@
     
     
       <category term="Writing" scheme="https://omathin.com/tags/Writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【M1 Mac】AnacondaとPycharmでDjangoの開発環境を構築する方法</title>
-    <link href="https://omathin.com/2021/04/03/django-rest-framework-api/"/>
-    <id>https://omathin.com/2021/04/03/django-rest-framework-api/</id>
-    <published>2021-04-02T15:00:00.000Z</published>
-    <updated>2021-04-02T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      M1 MacにDjango REST Framework APIの環境構築方法をまとめました。Anaconda NavigaterとPycharmをインストールし、Django、そしてDjango REST Framework APIの開発環境を行います。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Django" scheme="https://omathin.com/tags/Django/"/>
-    
-      <category term="API" scheme="https://omathin.com/tags/API/"/>
     
   </entry>
   
