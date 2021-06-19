@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-14T15:00:00.000Z</updated>
+  <updated>2021-06-16T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
+    <link href="https://omathin.com/2021/06/17/100knock-36-37/"/>
+    <id>https://omathin.com/2021/06/17/100knock-36-37/</id>
+    <published>2021-06-16T15:00:00.000Z</published>
+    <updated>2021-06-16T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の36問目〜37問目を題材に、Pythonで内部結合の実施方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
@@ -243,9 +264,9 @@
       <category term="IT" scheme="https://omathin.com/categories/IT/"/>
     
     
-      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
-    
       <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
     
   </entry>
   
@@ -424,27 +445,6 @@
     
     
       <category term="Keyboard" scheme="https://omathin.com/tags/Keyboard/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【テクニカルライティング】これだけ押さえれば大丈夫！わかりやすい文章の書き方</title>
-    <link href="https://omathin.com/2021/04/19/technical-writing/"/>
-    <id>https://omathin.com/2021/04/19/technical-writing/</id>
-    <published>2021-04-18T15:00:00.000Z</published>
-    <updated>2021-04-19T08:44:59.007Z</updated>
-    
-    <summary type="html">
-    
-      わかりやすい文章を書くポイントは4つです。1. できるだけ主語と述語の揃った文を書く。2. 新しい用語や馴染みのない用語は、定義して用いる。3. できるだけ平易(わかりやすい)な言葉を使う。4. できるだけ文は短くする。この4つのポイントを例文とともにまとめました。わかりやすい文章を作成するポイントを抑えて、質の高いレポートや論文を作成しましょう。
-    
-    </summary>
-    
-    
-      <category term="Method" scheme="https://omathin.com/categories/Method/"/>
-    
-    
-      <category term="Writing" scheme="https://omathin.com/tags/Writing/"/>
     
   </entry>
   

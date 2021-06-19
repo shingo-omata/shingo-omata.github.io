@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>omathin blog</title>
+  <icon>https://omathin.com/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://omathin.com/"/>
+  <updated>2021-06-14T15:00:00.000Z</updated>
+  <id>https://omathin.com/</id>
+  
+  <author>
+    <name>omathin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
+    <link href="https://omathin.com/2021/06/15/100knock-34-35/"/>
+    <id>https://omathin.com/2021/06/15/100knock-34-35/</id>
+    <published>2021-06-14T15:00:00.000Z</published>
+    <updated>2021-06-14T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の33問目〜34問目を題材に、Pythonで副問合せの表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
+    <link href="https://omathin.com/2021/06/13/100knock-30-33/"/>
+    <id>https://omathin.com/2021/06/13/100knock-30-33/</id>
+    <published>2021-06-12T15:00:00.000Z</published>
+    <updated>2021-06-12T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の30問目〜33問目を題材に、Pythonで標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【データサイエンス】Pythonで最頻値を表示する方法 | データサイエンス100本ノック【問29 回答】</title>
+    <link href="https://omathin.com/2021/06/12/lambda-style/"/>
+    <id>https://omathin.com/2021/06/12/lambda-style/</id>
+    <published>2021-06-11T15:00:00.000Z</published>
+    <updated>2021-06-11T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      pythonで最頻値を求めるためにはapplyメソッドを活用しlambda式でmodelメソッドを適用する必要があります。本記事では、applyメソッドとlambda式の併用方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながら平均値と中央値の抽出方法を学ぶ | データサイエンス100本ノック【問27〜問28 回答】</title>
+    <link href="https://omathin.com/2021/06/11/100knock-27-28/"/>
+    <id>https://omathin.com/2021/06/11/100knock-27-28/</id>
+    <published>2021-06-10T15:00:00.000Z</published>
+    <updated>2021-06-10T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の27問目〜28問目を題材に、pythonのgroupby, agg, reset_indexの使い方を無料で手を動かしながら練習するための記事です。。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながらグループ分け、最大最小値の抽出方法を学ぶ | データサイエンス100本ノック【問23〜問26 回答】</title>
+    <link href="https://omathin.com/2021/06/09/100knock-23-26/"/>
+    <id>https://omathin.com/2021/06/09/100knock-23-26/</id>
+    <published>2021-06-08T15:00:00.000Z</published>
+    <updated>2021-06-08T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の23問目〜26問目を題材に、pythonのgroupby, agg, reset_index, min関数, max関数の使い方を無料で手を動かしながら練習するための記事です。。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【徹底比較】完全リモートワークエンジニアが毎日飲みたいホエイプロテイン</title>
+    <link href="https://omathin.com/2021/06/07/protein-comparison/"/>
+    <id>https://omathin.com/2021/06/07/protein-comparison/</id>
+    <published>2021-06-06T15:00:00.000Z</published>
+    <updated>2021-06-06T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      プレーン味ならGronG、フレーバー有ならFIXIT or Choice がおすすめです。主要プロテイン6種類を比較評価した結果をまとめています。
+    
+    </summary>
+    
+    
+      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
+    
+    
+      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながらカウント(len関数、uniqueメソッド)を学ぶ | データサイエンス100本ノック【問21〜問22 回答】</title>
+    <link href="https://omathin.com/2021/06/06/100knock-21-22/"/>
+    <id>https://omathin.com/2021/06/06/100knock-21-22/</id>
+    <published>2021-06-05T15:00:00.000Z</published>
+    <updated>2021-06-05T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      カウントの方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の21問目〜22問目を題材に、len関数とuniqueメソッドの使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながらソートと表連結を学ぶ | データサイエンス100本ノック【問17〜問20 回答】</title>
+    <link href="https://omathin.com/2021/06/04/100knock-17-20/"/>
+    <id>https://omathin.com/2021/06/04/100knock-17-20/</id>
+    <published>2021-06-03T15:00:00.000Z</published>
+    <updated>2021-06-03T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ソートと表連結の方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の17問目〜20問目を題材に、正規表現の使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながら正規表現を学ぶ | データサイエンス100本ノック【問13〜問15 回答】</title>
+    <link href="https://omathin.com/2021/06/02/regular-expression/"/>
+    <id>https://omathin.com/2021/06/02/regular-expression/</id>
+    <published>2021-06-01T15:00:00.000Z</published>
+    <updated>2021-06-03T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      正規表現の使い方を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の13問目〜15問目を題材に、正規表現の使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【第1問〜第10問】</title>
+    <link href="https://omathin.com/2021/06/01/100knocks-1-10/"/>
+    <id>https://omathin.com/2021/06/01/100knocks-1-10/</id>
+    <published>2021-05-31T15:00:00.000Z</published>
+    <updated>2021-06-15T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の第1問から第10問の解説記事です。 
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【M1 Mac】データサイエンス100本ノックの始め方</title>
+    <link href="https://omathin.com/2021/05/30/100knocks-getstart/"/>
+    <id>https://omathin.com/2021/05/30/100knocks-getstart/</id>
+    <published>2021-05-29T15:00:00.000Z</published>
+    <updated>2021-06-15T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      M1 Macで一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の問題演習をするための環境構築方法をまとめました。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【5分で分かる】Docker Composeとは何か【メリットも解説】</title>
+    <link href="https://omathin.com/2021/05/29/docker-compose/"/>
+    <id>https://omathin.com/2021/05/29/docker-compose/</id>
+    <published>2021-05-28T15:00:00.000Z</published>
+    <updated>2021-05-28T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Docker Composeとは、複数のDockerコンテナを定義し実行管理するためのツールです。Docker Composeのメリットは、設定ファイルさえ記載しておけば、たった１つのコマンドを実行するだけでシステムを起動させることが可能になります。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="コンテナ" scheme="https://omathin.com/tags/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【5分で分かる】データモデルとデータベースの設計方法と関係性</title>
+    <link href="https://omathin.com/2021/05/22/datamodel/"/>
+    <id>https://omathin.com/2021/05/22/datamodel/</id>
+    <published>2021-05-21T15:00:00.000Z</published>
+    <updated>2021-05-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      データベースを作成する一連の流れを「データモデリング」といいます。データモデルはデータモデリングの過程で作成した情報です。データモデリングは3つの工程が存在し、各過程でデータモデルが作成されます。本記事では、その流れとともにデータベースを設計するポイントを紹介します。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Database" scheme="https://omathin.com/tags/Database/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【2021年最新】ITエンジニアが高級マウスを徹底比較(4製品)して購入した話</title>
+    <link href="https://omathin.com/2021/05/14/mouse-mxanywhere3/"/>
+    <id>https://omathin.com/2021/05/14/mouse-mxanywhere3/</id>
+    <published>2021-05-13T15:00:00.000Z</published>
+    <updated>2021-05-19T00:26:13.483Z</updated>
+    
+    <summary type="html">
+    
+      ITエンジニア自ら要件を決め、4つのマウスを比較評価して購入した話をまとめました。結論としては「MX AAnywhere」を購入しました。ポイントは軽さと必要最低限の機能が搭載されていたことです。本記事を参考に、満足するマウスを選定いただけると幸いです。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="Mouse" scheme="https://omathin.com/tags/Mouse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【ふるさと納税でGET】東プレのREALFORCEがオススメ！良い点|悪い点も紹介！</title>
+    <link href="https://omathin.com/2021/05/12/realforce-keyboard/"/>
+    <id>https://omathin.com/2021/05/12/realforce-keyboard/</id>
+    <published>2021-05-11T15:00:00.000Z</published>
+    <updated>2021-05-13T23:58:59.000Z</updated>
+    
+    <summary type="html">
+    
+      東プレのREALFORCEはふるさと納税で手に入れることができます。REALFORCEのメリットは、手が疲れにくく打鍵感が最高であることです。デメリットは、他のキーボードに比べてデザインがあまり良くなくサイズが大きく重量がある点です。本記事を参考に、自分に適したキーボードを購入してください。	
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="Keyboard" scheme="https://omathin.com/tags/Keyboard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Colaboratoryで形態素解析 | MeCabとJanomeの使い方</title>
+    <link href="https://omathin.com/2021/05/05/morphological-analysis/"/>
+    <id>https://omathin.com/2021/05/05/morphological-analysis/</id>
+    <published>2021-05-04T15:00:00.000Z</published>
+    <updated>2021-05-04T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      分かち書きされていない日本語の文章を形態素解析する方法をまとめました。Google Colaboratory環境でMeCabとJanomeという形態素解析ツールを使用する方法もまとめています。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【自然言語処理】Google Colaboratoryでdoc2vecを実装してみよう！</title>
+    <link href="https://omathin.com/2021/05/03/doc2vec-python/"/>
+    <id>https://omathin.com/2021/05/03/doc2vec-python/</id>
+    <published>2021-05-02T15:00:00.000Z</published>
+    <updated>2021-05-02T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      doc2vecとはword2vecを単語レベルではなく、文または文章でも扱えるように拡張したものです。文や文章をベクトル化することができます。Google Colaboratoryの環境でDoc2Vecを実装し、特定の文章の類似度を算出してみましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="doc2vec" scheme="https://omathin.com/tags/doc2vec/"/>
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【自然言語処理】Google Colaboratoryでword2vecを実装してみよう！</title>
+    <link href="https://omathin.com/2021/04/29/word2vec-python/"/>
+    <id>https://omathin.com/2021/04/29/word2vec-python/</id>
+    <published>2021-04-28T15:00:00.000Z</published>
+    <updated>2021-05-02T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      Google Colaboratoryの環境でWord2Vecを実装してみました。Word2Vecとは分散表現を作成することができるツールです。Livedoorコーパスを用いて学習し、指定した単語の類似度を算出した結果を出力させます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
+    
+      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
+    
+      <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Win/Mac両対応】おすすめキーボード【2021年最新】</title>
+    <link href="https://omathin.com/2021/04/26/win-mac-keyboard/"/>
+    <id>https://omathin.com/2021/04/26/win-mac-keyboard/</id>
+    <published>2021-04-25T15:00:00.000Z</published>
+    <updated>2021-04-27T00:24:04.892Z</updated>
+    
+    <summary type="html">
+    
+      WindowsとMac両対応のキーボードは、logicoolかkeychronのキーボードがおすすめです。HHKBといった高級キーボードほどではないが、良いキーボードが欲しいという方向けに記事をまとめました。キーボードには、JIS配列とUS配列の2種類が存在します。キーボードを購入する際は、キーボードの配列にも気をつけて購入検討してください。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="Keyboard" scheme="https://omathin.com/tags/Keyboard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【テクニカルライティング】これだけ押さえれば大丈夫！わかりやすい文章の書き方</title>
+    <link href="https://omathin.com/2021/04/19/technical-writing/"/>
+    <id>https://omathin.com/2021/04/19/technical-writing/</id>
+    <published>2021-04-18T15:00:00.000Z</published>
+    <updated>2021-04-19T08:44:59.007Z</updated>
+    
+    <summary type="html">
+    
+      わかりやすい文章を書くポイントは4つです。1. できるだけ主語と述語の揃った文を書く。2. 新しい用語や馴染みのない用語は、定義して用いる。3. できるだけ平易(わかりやすい)な言葉を使う。4. できるだけ文は短くする。この4つのポイントを例文とともにまとめました。わかりやすい文章を作成するポイントを抑えて、質の高いレポートや論文を作成しましょう。
+    
+    </summary>
+    
+    
+      <category term="Method" scheme="https://omathin.com/categories/Method/"/>
+    
+    
+      <category term="Writing" scheme="https://omathin.com/tags/Writing/"/>
+    
+  </entry>
+  
+</feed>
