@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-16T15:00:00.000Z</updated>
+  <updated>2021-06-19T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
+    <link href="https://omathin.com/2021/06/20/100knock-11-12/"/>
+    <id>https://omathin.com/2021/06/20/100knock-11-12/</id>
+    <published>2021-06-19T15:00:00.000Z</published>
+    <updated>2021-06-19T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の11問目〜12問目を題材に、後方一致と部分一致の使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
@@ -424,27 +445,6 @@
       <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
     
       <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Win/Mac両対応】おすすめキーボード【2021年最新】</title>
-    <link href="https://omathin.com/2021/04/26/win-mac-keyboard/"/>
-    <id>https://omathin.com/2021/04/26/win-mac-keyboard/</id>
-    <published>2021-04-25T15:00:00.000Z</published>
-    <updated>2021-04-27T00:24:04.892Z</updated>
-    
-    <summary type="html">
-    
-      WindowsとMac両対応のキーボードは、logicoolかkeychronのキーボードがおすすめです。HHKBといった高級キーボードほどではないが、良いキーボードが欲しいという方向けに記事をまとめました。キーボードには、JIS配列とUS配列の2種類が存在します。キーボードを購入する際は、キーボードの配列にも気をつけて購入検討してください。
-    
-    </summary>
-    
-    
-      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
-    
-    
-      <category term="Keyboard" scheme="https://omathin.com/tags/Keyboard/"/>
     
   </entry>
   
