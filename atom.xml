@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-19T15:00:00.000Z</updated>
+  <updated>2021-06-20T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【5分で分かる】結合演算とは | 内部結合と外部結合の違いを理解する</title>
+    <link href="https://omathin.com/2021/06/21/join-operation/"/>
+    <id>https://omathin.com/2021/06/21/join-operation/</id>
+    <published>2021-06-20T15:00:00.000Z</published>
+    <updated>2021-06-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      データベースやデータサイエンティスト業務で基礎となる知識の１つ、「結合演算」について解説します。結合演算には「内部結合」と「外部結合」があります。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
@@ -285,9 +306,9 @@
       <category term="IT" scheme="https://omathin.com/categories/IT/"/>
     
     
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
       <category term="docker" scheme="https://omathin.com/tags/docker/"/>
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
     
   </entry>
   
@@ -403,7 +424,7 @@
     <link href="https://omathin.com/2021/05/03/doc2vec-python/"/>
     <id>https://omathin.com/2021/05/03/doc2vec-python/</id>
     <published>2021-05-02T15:00:00.000Z</published>
-    <updated>2021-05-02T15:00:00.000Z</updated>
+    <updated>2021-06-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -420,31 +441,6 @@
       <category term="doc2vec" scheme="https://omathin.com/tags/doc2vec/"/>
     
       <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【自然言語処理】Google Colaboratoryでword2vecを実装してみよう！</title>
-    <link href="https://omathin.com/2021/04/29/word2vec-python/"/>
-    <id>https://omathin.com/2021/04/29/word2vec-python/</id>
-    <published>2021-04-28T15:00:00.000Z</published>
-    <updated>2021-05-02T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      Google Colaboratoryの環境でWord2Vecを実装してみました。Word2Vecとは分散表現を作成することができるツールです。Livedoorコーパスを用いて学習し、指定した単語の類似度を算出した結果を出力させます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="自然言語処理" scheme="https://omathin.com/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/"/>
-    
-      <category term="ニューラルネットワーク" scheme="https://omathin.com/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/"/>
-    
-      <category term="word2vec" scheme="https://omathin.com/tags/word2vec/"/>
     
   </entry>
   
