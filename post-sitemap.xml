@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
+        <lastmod>2021-06-22T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/06/21/join-operation/</loc>
         <lastmod>2021-06-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -449,14 +457,6 @@
 
     <url>
         <loc>https://omathin.com/2021/01/12/hexo-icarus-speech-bubble/</loc>
-        <lastmod>2021-01-11T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
         <lastmod>2021-01-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
