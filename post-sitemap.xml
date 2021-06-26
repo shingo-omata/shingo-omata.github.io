@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/06/27/100knock-41-42/</loc>
+        <lastmod>2021-06-26T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/04/26/win-mac-keyboard/</loc>
+        <lastmod>2021-06-26T13:53:13.568Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/01/24/http-method/</loc>
         <lastmod>2021-06-25T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -282,14 +298,6 @@
     <url>
         <loc>https://omathin.com/2020/04/15/anaconda-enviroment/</loc>
         <lastmod>2021-05-02T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/04/26/win-mac-keyboard/</loc>
-        <lastmod>2021-04-27T00:24:04.892Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
