@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <lastmod>2021-06-26T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/06/27/100knock-41-42/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -186,14 +194,6 @@
     <url>
         <loc>https://omathin.com/2021/06/06/100knock-21-22/</loc>
         <lastmod>2021-06-05T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
-        <lastmod>2021-06-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
