@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-06-28T15:00:00.000Z</updated>
+  <updated>2021-06-30T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
+    <link href="https://omathin.com/2021/07/01/100knock-43-44/"/>
+    <id>https://omathin.com/2021/07/01/100knock-43-44/</id>
+    <published>2021-06-30T15:00:00.000Z</published>
+    <updated>2021-06-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の43問目〜44問目を題材に、Pythonを用いたデータフレームの縦横変換を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【収益報告】ブログで100記事書いたら1ヶ月で4,117円稼げた話</title>
@@ -418,27 +439,6 @@
     
     
       <category term="Database" scheme="https://omathin.com/tags/Database/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【2021年最新】ITエンジニアが高級マウスを徹底比較(4製品)して購入した話</title>
-    <link href="https://omathin.com/2021/05/14/mouse-mxanywhere3/"/>
-    <id>https://omathin.com/2021/05/14/mouse-mxanywhere3/</id>
-    <published>2021-05-13T15:00:00.000Z</published>
-    <updated>2021-05-19T00:26:13.483Z</updated>
-    
-    <summary type="html">
-    
-      ITエンジニア自ら要件を決め、4つのマウスを比較評価して購入した話をまとめました。結論としては「MX AAnywhere」を購入しました。ポイントは軽さと必要最低限の機能が搭載されていたことです。本記事を参考に、満足するマウスを選定いただけると幸いです。
-    
-    </summary>
-    
-    
-      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
-    
-    
-      <category term="Mouse" scheme="https://omathin.com/tags/Mouse/"/>
     
   </entry>
   
