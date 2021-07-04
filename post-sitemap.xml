@@ -8,7 +8,47 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/06/11/100knock-27-28/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/06/13/100knock-30-33/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/06/17/100knock-36-37/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/06/15/100knock-34-35/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/04/15/anaconda-enviroment/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/06/09/100knock-23-26/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -160,24 +200,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/17/100knock-36-37/</loc>
-        <lastmod>2021-06-16T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2021/05/30/100knocks-getstart/</loc>
         <lastmod>2021-06-15T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/15/100knock-34-35/</loc>
-        <lastmod>2021-06-14T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -192,32 +216,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/13/100knock-30-33/</loc>
-        <lastmod>2021-06-12T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2021/06/12/lambda-style/</loc>
         <lastmod>2021-06-11T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/11/100knock-27-28/</loc>
-        <lastmod>2021-06-10T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/09/100knock-23-26/</loc>
-        <lastmod>2021-06-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
