@@ -24,14 +24,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/11/100knock-27-28/</loc>
-        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2021/06/13/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,6 +41,14 @@
 
     <url>
         <loc>https://omathin.com/2021/06/15/100knock-34-35/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/06/11/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,6 +112,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/06/27/100knock-41-42/</loc>
+        <lastmod>2021-06-26T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -121,14 +129,6 @@
 
     <url>
         <loc>https://omathin.com/2021/01/20/udemy-python/</loc>
-        <lastmod>2021-06-26T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/27/100knock-41-42/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -160,14 +160,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
-        <lastmod>2021-06-22T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2020/05/03/keras-nn-basic/</loc>
         <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -177,6 +169,14 @@
 
     <url>
         <loc>https://omathin.com/2020/05/11/lstm-sandwich/</loc>
+        <lastmod>2021-06-22T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
         <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
