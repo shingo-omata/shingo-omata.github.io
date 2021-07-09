@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/02/24/4k-monitor/</loc>
+        <lastmod>2021-07-09T09:37:11.486Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/05/12/realforce-keyboard/</loc>
         <lastmod>2021-07-08T23:20:09.974Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,6 +33,14 @@
 
     <url>
         <loc>https://omathin.com/2021/02/13/react-api/</loc>
+        <lastmod>2021-07-08T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2021/07/09/100knock-52-53/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -370,14 +386,6 @@
     <url>
         <loc>https://omathin.com/2021/04/03/django-rest-framework-api/</loc>
         <lastmod>2021-04-02T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/02/24/4k-monitor/</loc>
-        <lastmod>2021-03-31T12:50:17.805Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
