@@ -16,6 +16,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/06/17/100knock-36-37/</loc>
+        <lastmod>2021-07-08T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/02/13/react-api/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
 
     <url>
         <loc>https://omathin.com/2021/06/13/100knock-30-33/</loc>
-        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/17/100knock-36-37/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
