@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-08T15:00:00.000Z</updated>
+  <updated>2021-07-09T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
+    <link href="https://omathin.com/2021/07/10/100knock-54/"/>
+    <id>https://omathin.com/2021/07/10/100knock-54/</id>
+    <published>2021-07-09T15:00:00.000Z</published>
+    <updated>2021-07-09T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の54問目を題材に、pandas.Seriexのmapメソッドを学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       正規表現の使い方を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の13問目〜15問目を題材に、正規表現の使い方を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】データサイエンス100本ノック【第1問〜第10問】</title>
-    <link href="https://omathin.com/2021/06/01/100knocks-1-10/"/>
-    <id>https://omathin.com/2021/06/01/100knocks-1-10/</id>
-    <published>2021-05-31T15:00:00.000Z</published>
-    <updated>2021-07-03T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の第1問から第10問の解説記事です。 
     
     </summary>
     
