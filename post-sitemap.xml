@@ -32,6 +32,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</loc>
+        <lastmod>2021-07-09T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/2021/07/10/100knock-54/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -544,14 +552,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</loc>
-        <lastmod>2021-01-15T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/2021/01/12/hexo-icarus-speech-bubble/</loc>
         <lastmod>2021-01-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -570,14 +570,6 @@
     <url>
         <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
         <lastmod>2021-01-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/12/29/docker-ruby-on-rails/</loc>
-        <lastmod>2020-12-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -666,6 +658,14 @@
     <url>
         <loc>https://omathin.com/2020/08/02/swagger-git/</loc>
         <lastmod>2020-08-01T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/2020/12/29/docker-ruby-on-rails/</loc>
+        <lastmod>2020-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
