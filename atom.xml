@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-14T15:00:00.000Z</updated>
+  <updated>2021-07-16T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
+    <link href="https://omathin.com/2021/07/17/raspi-getstart/"/>
+    <id>https://omathin.com/2021/07/17/raspi-getstart/</id>
+    <published>2021-07-16T15:00:00.000Z</published>
+    <updated>2021-07-16T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ラズパイの組み立てと初期設定でいくつか躓いたポイントを元に注意事項をまとめました。本記事を参考に安心してラズパイの初期設定と利用開始を進めましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="RaspberryPi" scheme="https://omathin.com/tags/RaspberryPi/"/>
+    
+  </entry>
   
   <entry>
     <title>【Python】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
@@ -414,27 +435,6 @@
     
     
       <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Python】手を動かしながらカウント(len関数、uniqueメソッド)を学ぶ | データサイエンス100本ノック【問21〜問22 回答】</title>
-    <link href="https://omathin.com/2021/06/06/100knock-21-22/"/>
-    <id>https://omathin.com/2021/06/06/100knock-21-22/</id>
-    <published>2021-06-05T15:00:00.000Z</published>
-    <updated>2021-06-05T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      カウントの方法を無料で手を動かしながら練習するための記事です。一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の21問目〜22問目を題材に、len関数とuniqueメソッドの使い方を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
     
   </entry>
   
