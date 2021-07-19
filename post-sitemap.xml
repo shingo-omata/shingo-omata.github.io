@@ -8,7 +8,55 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/17/raspi-getstart/</loc>
+        <loc>https://omathin.com/realforce-keyboard/</loc>
+        <lastmod>2021-07-19T05:30:48.347Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/4k-monitor-asus/</loc>
+        <lastmod>2021-07-19T05:23:05.671Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/4k-monitor/</loc>
+        <lastmod>2021-07-19T05:21:33.370Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/mouse-mxanywhere3/</loc>
+        <lastmod>2021-07-19T04:34:58.413Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/technical-writing/</loc>
+        <lastmod>2021-07-19T04:18:40.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/win-mac-keyboard/</loc>
+        <lastmod>2021-07-19T04:05:35.166Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/raspi-getstart/</loc>
         <lastmod>2021-07-16T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +64,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/15/100knock-55/</loc>
+        <loc>https://omathin.com/100knock-55/</loc>
         <lastmod>2021-07-14T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +72,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/14/low-table/</loc>
+        <loc>https://omathin.com/low-table/</loc>
         <lastmod>2021-07-13T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +80,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/17/seq2seq-study/</loc>
+        <loc>https://omathin.com/seq2seq-study/</loc>
         <lastmod>2021-07-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +88,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/08/01/visualstudiocode-swagge-viewer/</loc>
+        <loc>https://omathin.com/visualstudiocode-swagge-viewer/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +96,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/10/100knock-54/</loc>
+        <loc>https://omathin.com/100knock-54/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -56,7 +104,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/11/01/openapi-helloworld/</loc>
+        <loc>https://omathin.com/openapi-helloworld/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -64,7 +112,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/10/docker-compose-django/</loc>
+        <loc>https://omathin.com/docker-compose-django/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -72,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/16/m1-mac-dockercompose-rails/</loc>
+        <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -80,23 +128,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/24/4k-monitor/</loc>
-        <lastmod>2021-07-09T09:37:11.486Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/05/12/realforce-keyboard/</loc>
-        <lastmod>2021-07-08T23:20:09.974Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/17/100knock-36-37/</loc>
+        <loc>https://omathin.com/react-api/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -104,7 +136,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/13/react-api/</loc>
+        <loc>https://omathin.com/100knock-36-37/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,7 +144,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/09/100knock-52-53/</loc>
+        <loc>https://omathin.com/100knock-52-53/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -120,7 +152,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/06/100knock-49-51/</loc>
+        <loc>https://omathin.com/100knock-49-51/</loc>
         <lastmod>2021-07-05T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -128,7 +160,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/05/100knock-45-48/</loc>
+        <loc>https://omathin.com/100knock-45-48/</loc>
         <lastmod>2021-07-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,7 +168,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/13/100knock-30-33/</loc>
+        <loc>https://omathin.com/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -144,7 +176,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/11/100knock-27-28/</loc>
+        <loc>https://omathin.com/100knock-34-35/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -152,7 +184,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/15/100knock-34-35/</loc>
+        <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -160,7 +192,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/15/anaconda-enviroment/</loc>
+        <loc>https://omathin.com/anaconda-enviroment/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -168,7 +200,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/09/100knock-23-26/</loc>
+        <loc>https://omathin.com/100knock-23-26/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -176,7 +208,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/01/100knocks-1-10/</loc>
+        <loc>https://omathin.com/100knocks-1-10/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,7 +216,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/06/rnn-basic/</loc>
+        <loc>https://omathin.com/rnn-basic/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -192,7 +224,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/07/01/100knock-43-44/</loc>
+        <loc>https://omathin.com/100knock-43-44/</loc>
         <lastmod>2021-06-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -200,7 +232,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/29/blog-progress/</loc>
+        <loc>https://omathin.com/blog-progress/</loc>
         <lastmod>2021-06-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -208,15 +240,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/04/26/win-mac-keyboard/</loc>
-        <lastmod>2021-06-27T12:33:11.326Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/06/27/100knock-41-42/</loc>
+        <loc>https://omathin.com/100knock-41-42/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -224,7 +248,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/16/knee-surgery/</loc>
+        <loc>https://omathin.com/knee-surgery/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -232,7 +256,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/20/udemy-python/</loc>
+        <loc>https://omathin.com/udemy-python/</loc>
         <lastmod>2021-06-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -240,7 +264,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/24/http-method/</loc>
+        <loc>https://omathin.com/http-method/</loc>
         <lastmod>2021-06-25T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -248,7 +272,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/24/blueberries-improve/</loc>
+        <loc>https://omathin.com/blueberries-improve/</loc>
         <lastmod>2021-06-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -256,7 +280,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/24/100knock-38-40/</loc>
+        <loc>https://omathin.com/100knock-38-40/</loc>
         <lastmod>2021-06-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -264,7 +288,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/03/keras-nn-basic/</loc>
+        <loc>https://omathin.com/keras-nn-basic/</loc>
         <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -272,7 +296,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/11/lstm-sandwich/</loc>
+        <loc>https://omathin.com/lstm-sandwich/</loc>
         <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -280,7 +304,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/02/10/vitamins-and-glutamine/</loc>
+        <loc>https://omathin.com/vitamins-and-glutamine/</loc>
         <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -288,7 +312,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/21/join-operation/</loc>
+        <loc>https://omathin.com/join-operation/</loc>
         <lastmod>2021-06-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -296,7 +320,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/04/29/word2vec-python/</loc>
+        <loc>https://omathin.com/word2vec-python/</loc>
         <lastmod>2021-06-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -304,7 +328,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/05/03/doc2vec-python/</loc>
+        <loc>https://omathin.com/doc2vec-python/</loc>
         <lastmod>2021-06-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -312,7 +336,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/20/100knock-11-12/</loc>
+        <loc>https://omathin.com/100knock-11-12/</loc>
         <lastmod>2021-06-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -320,7 +344,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/05/30/100knocks-getstart/</loc>
+        <loc>https://omathin.com/100knocks-getstart/</loc>
         <lastmod>2021-06-15T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -328,7 +352,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/12/lambda-style/</loc>
+        <loc>https://omathin.com/lambda-style/</loc>
         <lastmod>2021-06-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -336,7 +360,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/07/protein-comparison/</loc>
+        <loc>https://omathin.com/protein-comparison/</loc>
         <lastmod>2021-06-06T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -344,7 +368,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/06/100knock-21-22/</loc>
+        <loc>https://omathin.com/100knock-21-22/</loc>
         <lastmod>2021-06-05T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -352,7 +376,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/26/knee-surgery-2/</loc>
+        <loc>https://omathin.com/knee-surgery-2/</loc>
         <lastmod>2021-06-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -360,7 +384,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/02/regular-expression/</loc>
+        <loc>https://omathin.com/regular-expression/</loc>
         <lastmod>2021-06-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -368,7 +392,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/06/04/100knock-17-20/</loc>
+        <loc>https://omathin.com/100knock-17-20/</loc>
         <lastmod>2021-06-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -376,7 +400,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/05/29/docker-compose/</loc>
+        <loc>https://omathin.com/docker-compose/</loc>
         <lastmod>2021-05-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -384,7 +408,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/03/14/Docker/</loc>
+        <loc>https://omathin.com/Docker/</loc>
         <lastmod>2021-05-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -392,7 +416,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/18/word2vec-overview/</loc>
+        <loc>https://omathin.com/word2vec-overview/</loc>
         <lastmod>2021-05-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -400,7 +424,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/05/22/datamodel/</loc>
+        <loc>https://omathin.com/datamodel/</loc>
         <lastmod>2021-05-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -408,15 +432,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/05/14/mouse-mxanywhere3/</loc>
-        <lastmod>2021-05-19T00:26:13.483Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/05/05/morphological-analysis/</loc>
+        <loc>https://omathin.com/morphological-analysis/</loc>
         <lastmod>2021-05-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -424,7 +440,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/29/doc2vec-overview/</loc>
+        <loc>https://omathin.com/doc2vec-overview/</loc>
         <lastmod>2021-05-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -432,15 +448,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/04/19/technical-writing/</loc>
-        <lastmod>2021-04-19T08:44:59.007Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2021/04/03/django-rest-framework-api/</loc>
+        <loc>https://omathin.com/django-rest-framework-api/</loc>
         <lastmod>2021-04-02T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -448,15 +456,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/03/31/4k-monitor-asus/</loc>
-        <lastmod>2021-03-31T12:45:29.698Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/2020/01/08/about-this-blog/</loc>
+        <loc>https://omathin.com/about-this-blog/</loc>
         <lastmod>2021-02-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -464,7 +464,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/03/get-start-rarejob/</loc>
+        <loc>https://omathin.com/get-start-rarejob/</loc>
         <lastmod>2021-02-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -472,7 +472,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/12/reajob-eikaiwa-1/</loc>
+        <loc>https://omathin.com/reajob-eikaiwa-1/</loc>
         <lastmod>2021-02-16T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -480,7 +480,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/15/anger-management/</loc>
+        <loc>https://omathin.com/anger-management/</loc>
         <lastmod>2021-02-14T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -488,7 +488,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/02/14/react-api-2/</loc>
+        <loc>https://omathin.com/react-api-2/</loc>
         <lastmod>2021-02-13T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -496,7 +496,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/31/react-getstart/</loc>
+        <loc>https://omathin.com/react-getstart/</loc>
         <lastmod>2021-02-12T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -504,7 +504,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/31/page-speed-up-test/</loc>
+        <loc>https://omathin.com/page-speed-up-test/</loc>
         <lastmod>2021-01-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -512,7 +512,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/25/memoapp-python/</loc>
+        <loc>https://omathin.com/memoapp-python/</loc>
         <lastmod>2021-01-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -520,7 +520,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/24/twitter-api-getstart/</loc>
+        <loc>https://omathin.com/twitter-api-getstart/</loc>
         <lastmod>2021-01-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -528,7 +528,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/24/django-userobject/</loc>
+        <loc>https://omathin.com/django-userobject/</loc>
         <lastmod>2021-01-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -536,7 +536,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/23/django-startapp/</loc>
+        <loc>https://omathin.com/django-startapp/</loc>
         <lastmod>2021-01-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -544,7 +544,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/21/chair-remote/</loc>
+        <loc>https://omathin.com/chair-remote/</loc>
         <lastmod>2021-01-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -552,7 +552,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/18/road-to-web-engineer/</loc>
+        <loc>https://omathin.com/road-to-web-engineer/</loc>
         <lastmod>2021-01-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -560,7 +560,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/11/programing-study-next-of-progate/</loc>
+        <loc>https://omathin.com/programing-study-next-of-progate/</loc>
         <lastmod>2021-01-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -568,7 +568,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/15/spl-mental-health/</loc>
+        <loc>https://omathin.com/spl-mental-health/</loc>
         <lastmod>2021-01-17T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -576,7 +576,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2021/01/12/hexo-icarus-speech-bubble/</loc>
+        <loc>https://omathin.com/hexo-icarus-speech-bubble/</loc>
         <lastmod>2021-01-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -584,7 +584,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/08/skill-hacks-next-step-udemy/</loc>
+        <loc>https://omathin.com/skill-hacks-next-step-udemy/</loc>
         <lastmod>2021-01-10T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -592,7 +592,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/11/rehabilitation/</loc>
+        <loc>https://omathin.com/rehabilitation/</loc>
         <lastmod>2021-01-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -600,7 +600,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/23/insertion-sort/</loc>
+        <loc>https://omathin.com/insertion-sort/</loc>
         <lastmod>2020-12-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -608,7 +608,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/22/selection-sort/</loc>
+        <loc>https://omathin.com/selection-sort/</loc>
         <lastmod>2020-12-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -616,7 +616,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/21/what-is-fine-tuning/</loc>
+        <loc>https://omathin.com/what-is-fine-tuning/</loc>
         <lastmod>2020-12-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -624,7 +624,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/21/bubble-sort/</loc>
+        <loc>https://omathin.com/bubble-sort/</loc>
         <lastmod>2020-12-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -632,7 +632,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/20/what-is-transformer/</loc>
+        <loc>https://omathin.com/what-is-transformer/</loc>
         <lastmod>2020-12-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -640,7 +640,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/20/what-is-attention-1/</loc>
+        <loc>https://omathin.com/what-is-attention-1/</loc>
         <lastmod>2020-12-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -648,7 +648,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/10/openshift-builds-and-deployments/</loc>
+        <loc>https://omathin.com/openshift-builds-and-deployments/</loc>
         <lastmod>2020-12-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -656,7 +656,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/05/get-start-openshift/</loc>
+        <loc>https://omathin.com/get-start-openshift/</loc>
         <lastmod>2020-12-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -664,7 +664,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/07/31/swagger-get-start/</loc>
+        <loc>https://omathin.com/swagger-get-start/</loc>
         <lastmod>2020-10-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -672,7 +672,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/10/31/swagger-editor-design-firststep/</loc>
+        <loc>https://omathin.com/swagger-editor-design-firststep/</loc>
         <lastmod>2020-10-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -680,7 +680,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/08/02/swagger-git/</loc>
+        <loc>https://omathin.com/swagger-git/</loc>
         <lastmod>2020-08-01T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -688,7 +688,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/12/29/docker-ruby-on-rails/</loc>
+        <loc>https://omathin.com/docker-ruby-on-rails/</loc>
         <lastmod>2020-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -696,7 +696,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/28/hexo-image-center/</loc>
+        <loc>https://omathin.com/hexo-image-center/</loc>
         <lastmod>2020-05-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -704,7 +704,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/21/hexo-icarus-updated/</loc>
+        <loc>https://omathin.com/hexo-icarus-updated/</loc>
         <lastmod>2020-05-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -712,7 +712,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/19/icarus-bulma/</loc>
+        <loc>https://omathin.com/icarus-bulma/</loc>
         <lastmod>2020-05-18T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -720,7 +720,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/05/Icarus-h2h3title-change/</loc>
+        <loc>https://omathin.com/Icarus-h2h3title-change/</loc>
         <lastmod>2020-05-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -728,7 +728,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/05/class-practice/</loc>
+        <loc>https://omathin.com/class-practice/</loc>
         <lastmod>2020-05-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -736,7 +736,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/05/01/twitter-api-tweepy-error/</loc>
+        <loc>https://omathin.com/twitter-api-tweepy-error/</loc>
         <lastmod>2020-04-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -744,7 +744,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/29/icarus-thumbnail-custom/</loc>
+        <loc>https://omathin.com/icarus-thumbnail-custom/</loc>
         <lastmod>2020-04-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -752,7 +752,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/12/study-for-child/</loc>
+        <loc>https://omathin.com/study-for-child/</loc>
         <lastmod>2020-04-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -760,7 +760,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/08/disclaimer/</loc>
+        <loc>https://omathin.com/disclaimer/</loc>
         <lastmod>2020-04-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -768,7 +768,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/09/easy_diet/</loc>
+        <loc>https://omathin.com/easy_diet/</loc>
         <lastmod>2020-04-23T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -776,7 +776,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/15/cbnoildiet/</loc>
+        <loc>https://omathin.com/cbnoildiet/</loc>
         <lastmod>2020-04-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -784,7 +784,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/19/hatenablocard-favicon-error/</loc>
+        <loc>https://omathin.com/hatenablocard-favicon-error/</loc>
         <lastmod>2020-04-20T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -792,7 +792,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/19/happy-method/</loc>
+        <loc>https://omathin.com/happy-method/</loc>
         <lastmod>2020-04-18T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -800,7 +800,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/06/hexo_post/</loc>
+        <loc>https://omathin.com/hexo_post/</loc>
         <lastmod>2020-04-11T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -808,7 +808,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/04/11/icarus-theme-change/</loc>
+        <loc>https://omathin.com/icarus-theme-change/</loc>
         <lastmod>2020-04-10T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -816,7 +816,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/03/22/commandsheat-docker-minikube/</loc>
+        <loc>https://omathin.com/commandsheat-docker-minikube/</loc>
         <lastmod>2020-03-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -824,7 +824,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/02/01/matsuba/</loc>
+        <loc>https://omathin.com/matsuba/</loc>
         <lastmod>2020-01-31T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -832,7 +832,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/27/docker-compose-run-web-rails-dbconsole-error/</loc>
+        <loc>https://omathin.com/docker-compose-run-web-rails-dbconsole-error/</loc>
         <lastmod>2020-01-26T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -840,7 +840,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/19/hexo-landscape-instagram-modify/</loc>
+        <loc>https://omathin.com/hexo-landscape-instagram-modify/</loc>
         <lastmod>2020-01-18T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -848,7 +848,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/2020/01/18/vscode-environment-with-gitbash/</loc>
+        <loc>https://omathin.com/vscode-environment-with-gitbash/</loc>
         <lastmod>2020-01-17T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

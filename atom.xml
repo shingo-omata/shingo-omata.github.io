@@ -18,8 +18,8 @@
   
   <entry>
     <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
-    <link href="https://omathin.com/2021/07/17/raspi-getstart/"/>
-    <id>https://omathin.com/2021/07/17/raspi-getstart/</id>
+    <link href="https://omathin.com/raspi-getstart/"/>
+    <id>https://omathin.com/raspi-getstart/</id>
     <published>2021-07-16T15:00:00.000Z</published>
     <updated>2021-07-16T15:00:00.000Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>【Python】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
-    <link href="https://omathin.com/2021/07/15/100knock-55/"/>
-    <id>https://omathin.com/2021/07/15/100knock-55/</id>
+    <link href="https://omathin.com/100knock-55/"/>
+    <id>https://omathin.com/100knock-55/</id>
     <published>2021-07-14T15:00:00.000Z</published>
     <updated>2021-07-14T15:00:00.000Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>【2021最新】リモートワークエンジニアがおすすめするローテーブル7選！</title>
-    <link href="https://omathin.com/2021/07/14/low-table/"/>
-    <id>https://omathin.com/2021/07/14/low-table/</id>
+    <link href="https://omathin.com/low-table/"/>
+    <id>https://omathin.com/low-table/</id>
     <published>2021-07-13T15:00:00.000Z</published>
     <updated>2021-07-13T15:00:00.000Z</updated>
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>【Python】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
-    <link href="https://omathin.com/2021/07/10/100knock-54/"/>
-    <id>https://omathin.com/2021/07/10/100knock-54/</id>
+    <link href="https://omathin.com/100knock-54/"/>
+    <id>https://omathin.com/100knock-54/</id>
     <published>2021-07-09T15:00:00.000Z</published>
     <updated>2021-07-09T15:00:00.000Z</updated>
     
@@ -102,8 +102,8 @@
   
   <entry>
     <title>【Python】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
-    <link href="https://omathin.com/2021/07/09/100knock-52-53/"/>
-    <id>https://omathin.com/2021/07/09/100knock-52-53/</id>
+    <link href="https://omathin.com/100knock-52-53/"/>
+    <id>https://omathin.com/100knock-52-53/</id>
     <published>2021-07-08T15:00:00.000Z</published>
     <updated>2021-07-08T15:00:00.000Z</updated>
     
@@ -123,8 +123,8 @@
   
   <entry>
     <title>【Python】日付要素の取り出し方法を学ぶ | データサイエンス100本ノック【問49〜問51 回答】</title>
-    <link href="https://omathin.com/2021/07/06/100knock-49-51/"/>
-    <id>https://omathin.com/2021/07/06/100knock-49-51/</id>
+    <link href="https://omathin.com/100knock-49-51/"/>
+    <id>https://omathin.com/100knock-49-51/</id>
     <published>2021-07-05T15:00:00.000Z</published>
     <updated>2021-07-05T15:00:00.000Z</updated>
     
@@ -144,8 +144,8 @@
   
   <entry>
     <title>【Python】日付データの変換方法を学ぶ | データサイエンス100本ノック【問45〜問48 回答】</title>
-    <link href="https://omathin.com/2021/07/05/100knock-45-48/"/>
-    <id>https://omathin.com/2021/07/05/100knock-45-48/</id>
+    <link href="https://omathin.com/100knock-45-48/"/>
+    <id>https://omathin.com/100knock-45-48/</id>
     <published>2021-07-04T15:00:00.000Z</published>
     <updated>2021-07-04T15:00:00.000Z</updated>
     
@@ -165,8 +165,8 @@
   
   <entry>
     <title>【Python】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
-    <link href="https://omathin.com/2021/07/01/100knock-43-44/"/>
-    <id>https://omathin.com/2021/07/01/100knock-43-44/</id>
+    <link href="https://omathin.com/100knock-43-44/"/>
+    <id>https://omathin.com/100knock-43-44/</id>
     <published>2021-06-30T15:00:00.000Z</published>
     <updated>2021-06-30T15:00:00.000Z</updated>
     
@@ -186,8 +186,8 @@
   
   <entry>
     <title>【収益報告】ブログで100記事書いたら1ヶ月で4,117円稼げた話</title>
-    <link href="https://omathin.com/2021/06/29/blog-progress/"/>
-    <id>https://omathin.com/2021/06/29/blog-progress/</id>
+    <link href="https://omathin.com/blog-progress/"/>
+    <id>https://omathin.com/blog-progress/</id>
     <published>2021-06-28T15:00:00.000Z</published>
     <updated>2021-06-28T15:00:00.000Z</updated>
     
@@ -209,8 +209,8 @@
   
   <entry>
     <title>【Python】時系列ずらしの方法を学ぶ | データサイエンス100本ノック【問41〜問42 回答】</title>
-    <link href="https://omathin.com/2021/06/27/100knock-41-42/"/>
-    <id>https://omathin.com/2021/06/27/100knock-41-42/</id>
+    <link href="https://omathin.com/100knock-41-42/"/>
+    <id>https://omathin.com/100knock-41-42/</id>
     <published>2021-06-26T15:00:00.000Z</published>
     <updated>2021-06-26T15:00:00.000Z</updated>
     
@@ -230,8 +230,8 @@
   
   <entry>
     <title>【Python】外部結合の方法を学ぶ | データサイエンス100本ノック【問38〜問40 回答】</title>
-    <link href="https://omathin.com/2021/06/24/100knock-38-40/"/>
-    <id>https://omathin.com/2021/06/24/100knock-38-40/</id>
+    <link href="https://omathin.com/100knock-38-40/"/>
+    <id>https://omathin.com/100knock-38-40/</id>
     <published>2021-06-23T15:00:00.000Z</published>
     <updated>2021-06-23T15:00:00.000Z</updated>
     
@@ -251,8 +251,8 @@
   
   <entry>
     <title>【5分で分かる】結合演算とは | 内部結合と外部結合の違いを理解する</title>
-    <link href="https://omathin.com/2021/06/21/join-operation/"/>
-    <id>https://omathin.com/2021/06/21/join-operation/</id>
+    <link href="https://omathin.com/join-operation/"/>
+    <id>https://omathin.com/join-operation/</id>
     <published>2021-06-20T15:00:00.000Z</published>
     <updated>2021-06-20T15:00:00.000Z</updated>
     
@@ -272,8 +272,8 @@
   
   <entry>
     <title>【Python】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
-    <link href="https://omathin.com/2021/06/20/100knock-11-12/"/>
-    <id>https://omathin.com/2021/06/20/100knock-11-12/</id>
+    <link href="https://omathin.com/100knock-11-12/"/>
+    <id>https://omathin.com/100knock-11-12/</id>
     <published>2021-06-19T15:00:00.000Z</published>
     <updated>2021-06-19T15:00:00.000Z</updated>
     
@@ -293,8 +293,8 @@
   
   <entry>
     <title>【Python】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
-    <link href="https://omathin.com/2021/06/17/100knock-36-37/"/>
-    <id>https://omathin.com/2021/06/17/100knock-36-37/</id>
+    <link href="https://omathin.com/100knock-36-37/"/>
+    <id>https://omathin.com/100knock-36-37/</id>
     <published>2021-06-16T15:00:00.000Z</published>
     <updated>2021-07-08T15:00:00.000Z</updated>
     
@@ -314,8 +314,8 @@
   
   <entry>
     <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
-    <link href="https://omathin.com/2021/06/15/100knock-34-35/"/>
-    <id>https://omathin.com/2021/06/15/100knock-34-35/</id>
+    <link href="https://omathin.com/100knock-34-35/"/>
+    <id>https://omathin.com/100knock-34-35/</id>
     <published>2021-06-14T15:00:00.000Z</published>
     <updated>2021-07-03T15:00:00.000Z</updated>
     
@@ -335,8 +335,8 @@
   
   <entry>
     <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
-    <link href="https://omathin.com/2021/06/13/100knock-30-33/"/>
-    <id>https://omathin.com/2021/06/13/100knock-30-33/</id>
+    <link href="https://omathin.com/100knock-30-33/"/>
+    <id>https://omathin.com/100knock-30-33/</id>
     <published>2021-06-12T15:00:00.000Z</published>
     <updated>2021-07-03T15:00:00.000Z</updated>
     
@@ -356,8 +356,8 @@
   
   <entry>
     <title>【データサイエンス】Pythonで最頻値を表示する方法 | データサイエンス100本ノック【問29 回答】</title>
-    <link href="https://omathin.com/2021/06/12/lambda-style/"/>
-    <id>https://omathin.com/2021/06/12/lambda-style/</id>
+    <link href="https://omathin.com/lambda-style/"/>
+    <id>https://omathin.com/lambda-style/</id>
     <published>2021-06-11T15:00:00.000Z</published>
     <updated>2021-06-11T15:00:00.000Z</updated>
     
@@ -377,8 +377,8 @@
   
   <entry>
     <title>【Python】手を動かしながら平均値と中央値の抽出方法を学ぶ | データサイエンス100本ノック【問27〜問28 回答】</title>
-    <link href="https://omathin.com/2021/06/11/100knock-27-28/"/>
-    <id>https://omathin.com/2021/06/11/100knock-27-28/</id>
+    <link href="https://omathin.com/100knock-27-28/"/>
+    <id>https://omathin.com/100knock-27-28/</id>
     <published>2021-06-10T15:00:00.000Z</published>
     <updated>2021-07-03T15:00:00.000Z</updated>
     
@@ -398,8 +398,8 @@
   
   <entry>
     <title>【Python】手を動かしながらグループ分け、最大最小値の抽出方法を学ぶ | データサイエンス100本ノック【問23〜問26 回答】</title>
-    <link href="https://omathin.com/2021/06/09/100knock-23-26/"/>
-    <id>https://omathin.com/2021/06/09/100knock-23-26/</id>
+    <link href="https://omathin.com/100knock-23-26/"/>
+    <id>https://omathin.com/100knock-23-26/</id>
     <published>2021-06-08T15:00:00.000Z</published>
     <updated>2021-07-03T15:00:00.000Z</updated>
     
@@ -419,8 +419,8 @@
   
   <entry>
     <title>【徹底比較】完全リモートワークエンジニアが毎日飲みたいホエイプロテイン</title>
-    <link href="https://omathin.com/2021/06/07/protein-comparison/"/>
-    <id>https://omathin.com/2021/06/07/protein-comparison/</id>
+    <link href="https://omathin.com/protein-comparison/"/>
+    <id>https://omathin.com/protein-comparison/</id>
     <published>2021-06-06T15:00:00.000Z</published>
     <updated>2021-06-06T15:00:00.000Z</updated>
     
