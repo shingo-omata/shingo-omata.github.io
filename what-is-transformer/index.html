@@ -32,7 +32,7 @@
   </div>
   <div class="message-body">
 
-<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=http://omathin.com/2020/05/06/rnn-basic/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=http://omathin.com/rnn-basic/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 
   </div>
 </article>
@@ -46,7 +46,7 @@
 <h3><span id="transformerのencoderの構造">TransformerのEncoderの構造</span></h3><p>Encoderでは、Embedding層により入力文章をベクトルに圧縮変換をしています。要するに、自然言語で記述された文章を、単語の分散表現で一定の次元に変換したベクトルに変換をしています。<br>これを、埋め込みベクトル、といいます。</p>
 <p>そして、Positional Encodingによって、単語が文章中のどの位置にあるかの位置情報を加えています。</p>
 <p>Multi-Head Attention層とは、その名の通り複数のAttentionが並んでいる領域であり、ここで入力で与えられた各単語との関連度を計算しています。Attentionについては、以下の記事で詳しくまとめていますので、こちらを参照ください。</p>
-<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=http://omathin.com/2020/12/20/what-is-attention-1/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=http://omathin.com/what-is-attention-1/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 <p>Add &amp; Normという箇所は、Normalization(正規化)などであり、要はデータの偏りを無くす処理を行っています。</p>
 <p>Feed Forwardという部分は、Positionwise fully connected feed-forward networkというものであり、２つの層からなる全結合ニューラルネットワークです。</p>
 <p>具体的には、２つの層からなるニューラルネットワークでは、まず入力に重みを掛けてバイアスを足し、活性化関数のReLUに入れる処理を行っています。つまり、0より小さければすべて0にし、0より大きければそのままの値を出力しています。これに重みを掛けて、さらにバイアスを足す、という２層構造のニューラルネットワークになっています。</p>

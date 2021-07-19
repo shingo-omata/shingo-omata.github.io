@@ -40,7 +40,7 @@
 <p>本記事では、htmlファイル(<code>signup.html</code>)</p>
 <p>のFormにHTTPメソッドを適用し、Userオブジェクトの取得方法をまとめます。</p>
 <h2><span id="httpメソッドの適用">HTTPメソッドの適用</span></h2><p>HTTPメソッドについては以下の記事でまとめているので参照ください。</p>
-<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://omathin.com/2021/01/24/http-method/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
+<iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://omathin.com/http-method/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 <p>Djangoで作成したHTMLファイルのformタグの部分にPOSTメソッドを適用する際は、formタグの内部に<code>method=&#39;POST&#39;</code>と、csrf_tokenを記述します。</p>
 <figure class="highlight plain"><figcaption><span>templates/signup.html</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form class&#x3D;&quot;form-signin&quot; method&#x3D;&#39;POST&#39;&gt;&#123;% csrf_token %&#125;</span><br></pre></td></tr></table></figure>
 <p>これでPOSTメソッドでデータを送ることができます。 </p>
