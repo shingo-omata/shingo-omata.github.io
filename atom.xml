@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-16T15:00:00.000Z</updated>
+  <updated>2021-07-18T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】Google検索結果に記事公開日ではなく最終更新日を表示させる方法</title>
+    <link href="https://omathin.com/hexo-updateday/"/>
+    <id>https://omathin.com/hexo-updateday/</id>
+    <published>2021-07-18T15:00:00.000Z</published>
+    <updated>2021-07-18T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      HexoブログでリライトしてもGoogle検索で表示される記事の日付が最終更新日になりませんでした。原因はURLに日付が含まれていたためでした。本記事では、Hexoでブログを書いている人向けに、Google検索結果に記事公開日ではなく最終更新日を表示させる方法をまとめます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
@@ -414,27 +435,6 @@
     
     
       <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【徹底比較】完全リモートワークエンジニアが毎日飲みたいホエイプロテイン</title>
-    <link href="https://omathin.com/protein-comparison/"/>
-    <id>https://omathin.com/protein-comparison/</id>
-    <published>2021-06-06T15:00:00.000Z</published>
-    <updated>2021-06-06T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      プレーン味ならGronG、フレーバー有ならFIXIT or Choice がおすすめです。主要プロテイン6種類を比較評価した結果をまとめています。
-    
-    </summary>
-    
-    
-      <category term="Health" scheme="https://omathin.com/categories/Health/"/>
-    
-    
-      <category term="サプリメント" scheme="https://omathin.com/tags/%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88/"/>
     
   </entry>
   
