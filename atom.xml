@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-18T15:00:00.000Z</updated>
+  <updated>2021-07-20T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】カテゴリデータの作成方法を学ぶ | データサイエンス100本ノック【問56〜57 回答】</title>
+    <link href="https://omathin.com/100knock-56-57/"/>
+    <id>https://omathin.com/100knock-56-57/</id>
+    <published>2021-07-20T15:00:00.000Z</published>
+    <updated>2021-07-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の56問目と57問目を題材に、データのカテゴリ化を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】Google検索結果に記事公開日ではなく最終更新日を表示させる方法</title>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の27問目〜28問目を題材に、pythonのgroupby, agg, reset_indexの使い方を無料で手を動かしながら練習するための記事です。。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Python】手を動かしながらグループ分け、最大最小値の抽出方法を学ぶ | データサイエンス100本ノック【問23〜問26 回答】</title>
-    <link href="https://omathin.com/100knock-23-26/"/>
-    <id>https://omathin.com/100knock-23-26/</id>
-    <published>2021-06-08T15:00:00.000Z</published>
-    <updated>2021-07-03T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の23問目〜26問目を題材に、pythonのgroupby, agg, reset_index, min関数, max関数の使い方を無料で手を動かしながら練習するための記事です。。
     
     </summary>
     
