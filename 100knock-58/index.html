@@ -51,16 +51,17 @@
 
 
 <p>ダミー変数とは、0か1の値を取る変数のことを言います。</p>
-<p>実際にPythonのコードで具体的に見ていきましょう。</p>
+<p>Pythonでは<code>get_dummies</code>関数を用いることで、ダミー変数化できます。</p>
+<p>実際にPythonのコードで具体的な使い方を見ていきましょう。</p>
 <figure class="highlight plain"><figcaption><span>ダミー変数化の例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line">sr &#x3D; pd.Series([&#39;male&#39;, &#39;female&#39;, &#39;female&#39;, &#39;male&#39;, &#39;female&#39;])</span><br><span class="line"></span><br><span class="line">pd.get_dummies(sr)</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><figcaption><span>出力</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">	female	male</span><br><span class="line">0	0	1</span><br><span class="line">1	1	0</span><br><span class="line">2	1	0</span><br><span class="line">3	0	1</span><br><span class="line">4	1	0</span><br></pre></td></tr></table></figure>
 <p>このように各項目において<code>male</code>なのか<code>female</code>なのかを、0と1で表現させることができます。</p>
-<p>なお、<code>male</code>, <code>female</code>ではなく、２種類以上のデータにもダミー関数は適用できます。</p>
+<p>なお、<code>male</code>, <code>female</code>ではなく、<code>apple</code>, <code>banana</code>, <code>orange</code>のように２種類以上のデータにもダミー関数は適用できます。</p>
 <figure class="highlight plain"><figcaption><span>2種類以上のデータにもダミー関数は適用できる</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line">sr &#x3D; pd.Series([&#39;apple&#39;, &#39;banana&#39;, &#39;orange&#39;, &#39;apple&#39;, &#39;orange&#39;, &#39;banana&#39;])</span><br><span class="line"></span><br><span class="line">pd.get_dummies(sr)</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><figcaption><span>出力</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">	apple	banana	orange</span><br><span class="line">0	1	0	0</span><br><span class="line">1	0	1	0</span><br><span class="line">2	0	0	1</span><br><span class="line">3	1	0	0</span><br><span class="line">4	0	0	1</span><br><span class="line">5	0	1	0</span><br></pre></td></tr></table></figure>
-<p>これで前提知識はOKなので、早速問題に取り掛かります。</p>
-<p>ダーミ変数化する対象は、顧客データフレームの性別コードですね。</p>
-<p>get_dummies関数は、引数columnsにダミー化したい列の列名をリストで指定すると、指定した列のデータを対象にダミー関数化してくれます。</p>
+<p>これで前提知識はOK。早速問題に取り掛かります。</p>
+<p>今回のダミー変数化の対象は、顧客データフレームの性別コード(<code>gender_cd</code>)ですね。</p>
+<p>get_dummies関数は、引数<code>columns</code>にダミー化したい列の列名をリストで指定すると、指定した列のデータを対象にダミー関数化してくれます。</p>
 <p>本問を解きながら、その使い方を学びましょう。</p>
 <p>以下のように書けばOKです。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pd.get_dummies(df_customer[[&#39;customer_id&#39;, &#39;gender_cd&#39;]], columns&#x3D;[&#39;gender_cd&#39;]).head(10)</span><br></pre></td></tr></table></figure>
