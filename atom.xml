@@ -38,6 +38,27 @@
   </entry>
   
   <entry>
+    <title>【Python】正規化(z-score, Min-Max normalization)を実装 | データサイエンス100本ノック【問59〜60 回答】</title>
+    <link href="https://omathin.com/100knock-59-60/"/>
+    <id>https://omathin.com/100knock-59-60/</id>
+    <published>2021-07-21T15:00:00.000Z</published>
+    <updated>2021-07-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の59問目と60問目を題材に、データの正規化方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Python】カテゴリデータの作成方法を学ぶ | データサイエンス100本ノック【問56〜57 回答】</title>
     <link href="https://omathin.com/100knock-56-57/"/>
     <id>https://omathin.com/100knock-56-57/</id>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の30問目〜33問目を題材に、Pythonで標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【データサイエンス】Pythonで最頻値を表示する方法 | データサイエンス100本ノック【問29 回答】</title>
-    <link href="https://omathin.com/lambda-style/"/>
-    <id>https://omathin.com/lambda-style/</id>
-    <published>2021-06-11T15:00:00.000Z</published>
-    <updated>2021-06-11T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      pythonで最頻値を求めるためにはapplyメソッドを活用しlambda式でmodelメソッドを適用する必要があります。本記事では、applyメソッドとlambda式の併用方法を学びます。
     
     </summary>
     
