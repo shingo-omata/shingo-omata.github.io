@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-61-62/</loc>
+        <lastmod>2021-07-24T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/docker-ruby-on-rails/</loc>
         <lastmod>2021-07-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +25,6 @@
 
     <url>
         <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
-        <lastmod>2021-07-24T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-61-62/</loc>
         <lastmod>2021-07-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -200,7 +200,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-34-35/</loc>
+        <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -208,7 +208,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-27-28/</loc>
+        <loc>https://omathin.com/100knock-34-35/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
