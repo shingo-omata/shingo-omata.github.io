@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-21T15:00:00.000Z</updated>
+  <updated>2021-07-24T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -17,7 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【Python】ダミー変数化 | データサイエンス100本ノック【問58 回答】</title>
+    <title>【解説】対数化の実装方法 | データサイエンス100本ノック【問61〜62 回答】</title>
+    <link href="https://omathin.com/100knock-61-62/"/>
+    <id>https://omathin.com/100knock-61-62/</id>
+    <published>2021-07-24T15:00:00.000Z</published>
+    <updated>2021-07-24T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の61問目と62問目を題材に、データの対数化方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】ダミー変数化 | データサイエンス100本ノック【問58 回答】</title>
     <link href="https://omathin.com/100knock-58/"/>
     <id>https://omathin.com/100knock-58/</id>
     <published>2021-07-21T15:00:00.000Z</published>
@@ -38,7 +59,7 @@
   </entry>
   
   <entry>
-    <title>【Python】正規化(z-score, Min-Max normalization)を実装 | データサイエンス100本ノック【問59〜60 回答】</title>
+    <title>【解説】正規化(z-score, Min-Max normalization)を実装 | データサイエンス100本ノック【問59〜60 回答】</title>
     <link href="https://omathin.com/100knock-59-60/"/>
     <id>https://omathin.com/100knock-59-60/</id>
     <published>2021-07-21T15:00:00.000Z</published>
@@ -59,7 +80,7 @@
   </entry>
   
   <entry>
-    <title>【Python】カテゴリデータの作成方法を学ぶ | データサイエンス100本ノック【問56〜57 回答】</title>
+    <title>【解説】カテゴリデータの作成方法を学ぶ | データサイエンス100本ノック【問56〜57 回答】</title>
     <link href="https://omathin.com/100knock-56-57/"/>
     <id>https://omathin.com/100knock-56-57/</id>
     <published>2021-07-20T15:00:00.000Z</published>
@@ -122,7 +143,7 @@
   </entry>
   
   <entry>
-    <title>【Python】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
+    <title>【解説】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
     <link href="https://omathin.com/100knock-55/"/>
     <id>https://omathin.com/100knock-55/</id>
     <published>2021-07-14T15:00:00.000Z</published>
@@ -164,7 +185,7 @@
   </entry>
   
   <entry>
-    <title>【Python】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
+    <title>【解説】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
     <link href="https://omathin.com/100knock-54/"/>
     <id>https://omathin.com/100knock-54/</id>
     <published>2021-07-09T15:00:00.000Z</published>
@@ -185,7 +206,7 @@
   </entry>
   
   <entry>
-    <title>【Python】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
+    <title>【解説】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
     <link href="https://omathin.com/100knock-52-53/"/>
     <id>https://omathin.com/100knock-52-53/</id>
     <published>2021-07-08T15:00:00.000Z</published>
@@ -206,7 +227,7 @@
   </entry>
   
   <entry>
-    <title>【Python】日付要素の取り出し方法を学ぶ | データサイエンス100本ノック【問49〜問51 回答】</title>
+    <title>【解説】日付要素の取り出し方法を学ぶ | データサイエンス100本ノック【問49〜問51 回答】</title>
     <link href="https://omathin.com/100knock-49-51/"/>
     <id>https://omathin.com/100knock-49-51/</id>
     <published>2021-07-05T15:00:00.000Z</published>
@@ -227,7 +248,7 @@
   </entry>
   
   <entry>
-    <title>【Python】日付データの変換方法を学ぶ | データサイエンス100本ノック【問45〜問48 回答】</title>
+    <title>【解説】日付データの変換方法を学ぶ | データサイエンス100本ノック【問45〜問48 回答】</title>
     <link href="https://omathin.com/100knock-45-48/"/>
     <id>https://omathin.com/100knock-45-48/</id>
     <published>2021-07-04T15:00:00.000Z</published>
@@ -248,7 +269,7 @@
   </entry>
   
   <entry>
-    <title>【Python】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
+    <title>【解説】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
     <link href="https://omathin.com/100knock-43-44/"/>
     <id>https://omathin.com/100knock-43-44/</id>
     <published>2021-06-30T15:00:00.000Z</published>
@@ -292,7 +313,7 @@
   </entry>
   
   <entry>
-    <title>【Python】時系列ずらしの方法を学ぶ | データサイエンス100本ノック【問41〜問42 回答】</title>
+    <title>【解説】時系列ずらしの方法を学ぶ | データサイエンス100本ノック【問41〜問42 回答】</title>
     <link href="https://omathin.com/100knock-41-42/"/>
     <id>https://omathin.com/100knock-41-42/</id>
     <published>2021-06-26T15:00:00.000Z</published>
@@ -313,7 +334,7 @@
   </entry>
   
   <entry>
-    <title>【Python】外部結合の方法を学ぶ | データサイエンス100本ノック【問38〜問40 回答】</title>
+    <title>【解説】外部結合の方法を学ぶ | データサイエンス100本ノック【問38〜問40 回答】</title>
     <link href="https://omathin.com/100knock-38-40/"/>
     <id>https://omathin.com/100knock-38-40/</id>
     <published>2021-06-23T15:00:00.000Z</published>
@@ -355,7 +376,7 @@
   </entry>
   
   <entry>
-    <title>【Python】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
+    <title>【解説】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
     <link href="https://omathin.com/100knock-11-12/"/>
     <id>https://omathin.com/100knock-11-12/</id>
     <published>2021-06-19T15:00:00.000Z</published>
@@ -376,7 +397,7 @@
   </entry>
   
   <entry>
-    <title>【Python】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
+    <title>【解説】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
     <link href="https://omathin.com/100knock-36-37/"/>
     <id>https://omathin.com/100knock-36-37/</id>
     <published>2021-06-16T15:00:00.000Z</published>
@@ -397,7 +418,7 @@
   </entry>
   
   <entry>
-    <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
+    <title>【解説】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
     <link href="https://omathin.com/100knock-34-35/"/>
     <id>https://omathin.com/100knock-34-35/</id>
     <published>2021-06-14T15:00:00.000Z</published>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の33問目〜34問目を題材に、Pythonで副問合せの表示方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
-    <link href="https://omathin.com/100knock-30-33/"/>
-    <id>https://omathin.com/100knock-30-33/</id>
-    <published>2021-06-12T15:00:00.000Z</published>
-    <updated>2021-07-03T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の30問目〜33問目を題材に、Pythonで標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学びます。
     
     </summary>
     

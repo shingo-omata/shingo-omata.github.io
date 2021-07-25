@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>omathin blog</title>
+  <icon>https://omathin.com/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://omathin.com/"/>
+  <updated>2021-07-21T15:00:00.000Z</updated>
+  <id>https://omathin.com/</id>
+  
+  <author>
+    <name>omathin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】ダミー変数化 | データサイエンス100本ノック【問58 回答】</title>
+    <link href="https://omathin.com/100knock-58/"/>
+    <id>https://omathin.com/100knock-58/</id>
+    <published>2021-07-21T15:00:00.000Z</published>
+    <updated>2021-07-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の58問目を題材に、データのカテゴリ化を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】正規化(z-score, Min-Max normalization)を実装 | データサイエンス100本ノック【問59〜60 回答】</title>
+    <link href="https://omathin.com/100knock-59-60/"/>
+    <id>https://omathin.com/100knock-59-60/</id>
+    <published>2021-07-21T15:00:00.000Z</published>
+    <updated>2021-07-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の59問目と60問目を題材に、データの正規化方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】カテゴリデータの作成方法を学ぶ | データサイエンス100本ノック【問56〜57 回答】</title>
+    <link href="https://omathin.com/100knock-56-57/"/>
+    <id>https://omathin.com/100knock-56-57/</id>
+    <published>2021-07-20T15:00:00.000Z</published>
+    <updated>2021-07-21T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の56問目と57問目を題材に、データのカテゴリ化を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】Google検索結果に記事公開日ではなく最終更新日を表示させる方法</title>
+    <link href="https://omathin.com/hexo-updateday/"/>
+    <id>https://omathin.com/hexo-updateday/</id>
+    <published>2021-07-18T15:00:00.000Z</published>
+    <updated>2021-07-18T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      HexoブログでリライトしてもGoogle検索で表示される記事の日付が最終更新日になりませんでした。原因はURLに日付が含まれていたためでした。本記事では、Hexoでブログを書いている人向けに、Google検索結果に記事公開日ではなく最終更新日を表示させる方法をまとめます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
+    <link href="https://omathin.com/raspi-getstart/"/>
+    <id>https://omathin.com/raspi-getstart/</id>
+    <published>2021-07-16T15:00:00.000Z</published>
+    <updated>2021-07-16T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ラズパイの組み立てと初期設定でいくつか躓いたポイントを元に注意事項をまとめました。本記事を参考に安心してラズパイの初期設定と利用開始を進めましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="RaspberryPi" scheme="https://omathin.com/tags/RaspberryPi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
+    <link href="https://omathin.com/100knock-55/"/>
+    <id>https://omathin.com/100knock-55/</id>
+    <published>2021-07-14T15:00:00.000Z</published>
+    <updated>2021-07-19T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の55問目を題材に、四分位点(np.quantile)を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【2021最新】リモートワークエンジニアがおすすめするローテーブル7選！</title>
+    <link href="https://omathin.com/low-table/"/>
+    <id>https://omathin.com/low-table/</id>
+    <published>2021-07-13T15:00:00.000Z</published>
+    <updated>2021-07-13T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      リモートワークに最適な大型ローテーブル７種類を比較評価しました。価格、カスタマイズ性、リモートワークエンジニアに必要な機材の配置などを考慮して、ゲキカグ パソコンデスク ロータイプ(150cm幅) DKW150020が良いという結論に至りました。
+    
+    </summary>
+    
+    
+      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
+    
+    
+      <category term="Table" scheme="https://omathin.com/tags/Table/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
+    <link href="https://omathin.com/100knock-54/"/>
+    <id>https://omathin.com/100knock-54/</id>
+    <published>2021-07-09T15:00:00.000Z</published>
+    <updated>2021-07-09T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の54問目を題材に、pandas.Seriexのmapメソッドを学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
+    <link href="https://omathin.com/100knock-52-53/"/>
+    <id>https://omathin.com/100knock-52-53/</id>
+    <published>2021-07-08T15:00:00.000Z</published>
+    <updated>2021-07-08T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の52問目〜53問目を題材に、Pythonを用いたデータフレームの2値化の方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】日付要素の取り出し方法を学ぶ | データサイエンス100本ノック【問49〜問51 回答】</title>
+    <link href="https://omathin.com/100knock-49-51/"/>
+    <id>https://omathin.com/100knock-49-51/</id>
+    <published>2021-07-05T15:00:00.000Z</published>
+    <updated>2021-07-05T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の49問目〜51問目を題材に、Pythonを用いたデータフレームの日付要素の取り出し方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】日付データの変換方法を学ぶ | データサイエンス100本ノック【問45〜問48 回答】</title>
+    <link href="https://omathin.com/100knock-45-48/"/>
+    <id>https://omathin.com/100knock-45-48/</id>
+    <published>2021-07-04T15:00:00.000Z</published>
+    <updated>2021-07-04T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の45問目〜48問目を題材に、Pythonを用いたデータフレームの日付データの変換方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
+    <link href="https://omathin.com/100knock-43-44/"/>
+    <id>https://omathin.com/100knock-43-44/</id>
+    <published>2021-06-30T15:00:00.000Z</published>
+    <updated>2021-06-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の43問目〜44問目を題材に、Pythonを用いたデータフレームの縦横変換を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【収益報告】ブログで100記事書いたら1ヶ月で4,117円稼げた話</title>
+    <link href="https://omathin.com/blog-progress/"/>
+    <id>https://omathin.com/blog-progress/</id>
+    <published>2021-06-28T15:00:00.000Z</published>
+    <updated>2021-06-28T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ブログで100記事書いた結果報告をまとめます。6月の収益は4,033円でした。100記事作成するまでの道のりを振り返りながら100記事作成まで継続できたポイントを整理したいと思います。
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
+    
+    
+      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+      <category term="writing" scheme="https://omathin.com/tags/writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】時系列ずらしの方法を学ぶ | データサイエンス100本ノック【問41〜問42 回答】</title>
+    <link href="https://omathin.com/100knock-41-42/"/>
+    <id>https://omathin.com/100knock-41-42/</id>
+    <published>2021-06-26T15:00:00.000Z</published>
+    <updated>2021-06-26T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の41問目〜42問目を題材に、Pythonで時系列ずらしの実施方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】外部結合の方法を学ぶ | データサイエンス100本ノック【問38〜問40 回答】</title>
+    <link href="https://omathin.com/100knock-38-40/"/>
+    <id>https://omathin.com/100knock-38-40/</id>
+    <published>2021-06-23T15:00:00.000Z</published>
+    <updated>2021-06-23T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の38問目〜40問目を題材に、Pythonで外部結合の実施方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【5分で分かる】結合演算とは | 内部結合と外部結合の違いを理解する</title>
+    <link href="https://omathin.com/join-operation/"/>
+    <id>https://omathin.com/join-operation/</id>
+    <published>2021-06-20T15:00:00.000Z</published>
+    <updated>2021-06-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      データベースやデータサイエンティスト業務で基礎となる知識の１つ、「結合演算」について解説します。結合演算には「内部結合」と「外部結合」があります。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
+    <link href="https://omathin.com/100knock-11-12/"/>
+    <id>https://omathin.com/100knock-11-12/</id>
+    <published>2021-06-19T15:00:00.000Z</published>
+    <updated>2021-06-19T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の11問目〜12問目を題材に、後方一致と部分一致の使い方を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
+    <link href="https://omathin.com/100knock-36-37/"/>
+    <id>https://omathin.com/100knock-36-37/</id>
+    <published>2021-06-16T15:00:00.000Z</published>
+    <updated>2021-07-08T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の36問目〜37問目を題材に、Pythonで内部結合の実施方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
+    <link href="https://omathin.com/100knock-34-35/"/>
+    <id>https://omathin.com/100knock-34-35/</id>
+    <published>2021-06-14T15:00:00.000Z</published>
+    <updated>2021-07-03T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の33問目〜34問目を題材に、Pythonで副問合せの表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学ぶ | データサイエンス100本ノック【問30〜問33 回答】</title>
+    <link href="https://omathin.com/100knock-30-33/"/>
+    <id>https://omathin.com/100knock-30-33/</id>
+    <published>2021-06-12T15:00:00.000Z</published>
+    <updated>2021-07-03T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の30問目〜33問目を題材に、Pythonで標本分散、標本標準偏差、パーセンタイル値、平均の表示方法を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+</feed>
