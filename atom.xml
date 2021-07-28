@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-24T15:00:00.000Z</updated>
+  <updated>2021-07-28T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【厳選4つ】30代未経験におすすめのプログラミングスクール・教材！</title>
+    <link href="https://omathin.com/30s-programming-school/"/>
+    <id>https://omathin.com/30s-programming-school/</id>
+    <published>2021-07-28T15:00:00.000Z</published>
+    <updated>2021-07-28T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      30歳からプログラミングを本格的に学び始め、ハッカソンで入賞、研究で賞を獲得した筆者が、実体験も交えつつおすすめのプログラミングスクールを紹介します。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>【解説】対数化の実装方法 | データサイエンス100本ノック【問61〜62 回答】</title>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の36問目〜37問目を題材に、Pythonで内部結合の実施方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】副問合せ（サブクエリ）の設定方法を学ぶ | データサイエンス100本ノック【問34〜問35 回答】</title>
-    <link href="https://omathin.com/100knock-34-35/"/>
-    <id>https://omathin.com/100knock-34-35/</id>
-    <published>2021-06-14T15:00:00.000Z</published>
-    <updated>2021-07-03T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の33問目〜34問目を題材に、Pythonで副問合せの表示方法を学びます。
     
     </summary>
     
