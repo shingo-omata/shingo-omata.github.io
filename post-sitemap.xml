@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/30s-programming-school/</loc>
-        <lastmod>2021-07-28T15:00:00.000Z</lastmod>
+        <loc>https://omathin.com/100knock-59-60/</loc>
+        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,23 @@
 
     <url>
         <loc>https://omathin.com/100knock-61-62/</loc>
-        <lastmod>2021-07-24T15:00:00.000Z</lastmod>
+        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/100knock-63-65/</loc>
+        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/30s-programming-school/</loc>
+        <lastmod>2021-07-28T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -49,14 +65,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-58/</loc>
-        <lastmod>2021-07-21T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-59-60/</loc>
         <lastmod>2021-07-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -208,6 +216,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-27-28/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -217,14 +233,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-34-35/</loc>
-        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

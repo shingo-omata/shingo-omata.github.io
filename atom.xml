@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-28T15:00:00.000Z</updated>
+  <updated>2021-07-30T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問63〜65 回答】</title>
+    <link href="https://omathin.com/100knock-63-65/"/>
+    <id>https://omathin.com/100knock-63-65/</id>
+    <published>2021-07-30T15:00:00.000Z</published>
+    <updated>2021-07-30T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の63問目から65問目を題材に、データの四則演算を学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【厳選4つ】30代未経験におすすめのプログラミングスクール・教材！</title>
@@ -42,7 +63,7 @@
     <link href="https://omathin.com/100knock-61-62/"/>
     <id>https://omathin.com/100knock-61-62/</id>
     <published>2021-07-24T15:00:00.000Z</published>
-    <updated>2021-07-24T15:00:00.000Z</updated>
+    <updated>2021-07-30T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -84,7 +105,7 @@
     <link href="https://omathin.com/100knock-59-60/"/>
     <id>https://omathin.com/100knock-59-60/</id>
     <published>2021-07-21T15:00:00.000Z</published>
-    <updated>2021-07-21T15:00:00.000Z</updated>
+    <updated>2021-07-30T15:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の11問目〜12問目を題材に、後方一致と部分一致の使い方を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】内部結合の方法を学ぶ | データサイエンス100本ノック【問36〜問37 回答】</title>
-    <link href="https://omathin.com/100knock-36-37/"/>
-    <id>https://omathin.com/100knock-36-37/</id>
-    <published>2021-06-16T15:00:00.000Z</published>
-    <updated>2021-07-08T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の36問目〜37問目を題材に、Pythonで内部結合の実施方法を学びます。
     
     </summary>
     
