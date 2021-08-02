@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-07-30T15:00:00.000Z</updated>
+  <updated>2021-08-01T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問66〜68 回答】</title>
+    <link href="https://omathin.com/100knock-66-68/"/>
+    <id>https://omathin.com/100knock-66-68/</id>
+    <published>2021-08-01T15:00:00.000Z</published>
+    <updated>2021-08-01T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の66問目から68問目を題材に、小数の扱いについて学びます。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【解説】データサイエンス100本ノック【問63〜65 回答】</title>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       データベースやデータサイエンティスト業務で基礎となる知識の１つ、「結合演算」について解説します。結合演算には「内部結合」と「外部結合」があります。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】手を動かしながら後方一致と部分一致を学ぶ | データサイエンス100本ノック【問11〜問12 回答】</title>
-    <link href="https://omathin.com/100knock-11-12/"/>
-    <id>https://omathin.com/100knock-11-12/</id>
-    <published>2021-06-19T15:00:00.000Z</published>
-    <updated>2021-06-19T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の11問目〜12問目を題材に、後方一致と部分一致の使い方を学びます。
     
     </summary>
     
