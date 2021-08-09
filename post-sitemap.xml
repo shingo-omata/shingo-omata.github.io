@@ -16,6 +16,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/protein-comparison/</loc>
+        <lastmod>2021-08-08T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-66-68/</loc>
         <lastmod>2021-08-01T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -418,14 +426,6 @@
     <url>
         <loc>https://omathin.com/lambda-style/</loc>
         <lastmod>2021-06-11T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/protein-comparison/</loc>
-        <lastmod>2021-06-06T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
