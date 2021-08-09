@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/mouse-mxanywhere3/</loc>
+        <lastmod>2021-08-08T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-66-68/</loc>
         <lastmod>2021-08-01T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -16,7 +24,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-59-60/</loc>
+        <loc>https://omathin.com/100knock-61-62/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +40,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-61-62/</loc>
+        <loc>https://omathin.com/100knock-59-60/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,7 +192,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-52-53/</loc>
+        <loc>https://omathin.com/100knock-36-37/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -192,7 +200,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-36-37/</loc>
+        <loc>https://omathin.com/100knock-52-53/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -474,14 +482,6 @@
     <url>
         <loc>https://omathin.com/datamodel/</loc>
         <lastmod>2021-05-21T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/mouse-mxanywhere3/</loc>
-        <lastmod>2021-05-13T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
