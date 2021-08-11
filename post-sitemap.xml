@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/get-start-openshift/</loc>
+        <lastmod>2021-08-10T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/100knock-70-74/</loc>
+        <lastmod>2021-08-10T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-69/</loc>
         <lastmod>2021-08-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -40,7 +56,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-63-65/</loc>
+        <loc>https://omathin.com/100knock-59-60/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -56,7 +72,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-59-60/</loc>
+        <loc>https://omathin.com/100knock-63-65/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -248,7 +264,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-27-28/</loc>
+        <loc>https://omathin.com/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -264,7 +280,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-30-33/</loc>
+        <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -730,14 +746,6 @@
     <url>
         <loc>https://omathin.com/openshift-builds-and-deployments/</loc>
         <lastmod>2020-12-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/get-start-openshift/</loc>
-        <lastmod>2020-12-04T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

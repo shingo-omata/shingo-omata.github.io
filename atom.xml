@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-08-09T15:00:00.000Z</updated>
+  <updated>2021-08-10T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問70〜74 回答】</title>
+    <link href="https://omathin.com/100knock-70-74/"/>
+    <id>https://omathin.com/100knock-70-74/</id>
+    <published>2021-08-10T15:00:00.000Z</published>
+    <updated>2021-08-10T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の70問目から74問目を解答解説を行います。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【解説】データサイエンス100本ノック【問69回答】</title>
@@ -406,27 +427,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の41問目〜42問目を題材に、Pythonで時系列ずらしの実施方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】外部結合の方法を学ぶ | データサイエンス100本ノック【問38〜問40 回答】</title>
-    <link href="https://omathin.com/100knock-38-40/"/>
-    <id>https://omathin.com/100knock-38-40/</id>
-    <published>2021-06-23T15:00:00.000Z</published>
-    <updated>2021-06-23T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の38問目〜40問目を題材に、Pythonで外部結合の実施方法を学びます。
     
     </summary>
     
