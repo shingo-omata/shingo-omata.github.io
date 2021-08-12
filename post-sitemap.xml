@@ -8,6 +8,38 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/django-startapp/</loc>
+        <lastmod>2021-08-11T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/docker-compose-django/</loc>
+        <lastmod>2021-08-11T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/docker-ruby-on-rails/</loc>
+        <lastmod>2021-08-11T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
+        <lastmod>2021-08-11T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/get-start-openshift/</loc>
         <lastmod>2021-08-10T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -56,6 +88,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-63-65/</loc>
+        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-59-60/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,32 +112,8 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-63-65/</loc>
-        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/30s-programming-school/</loc>
         <lastmod>2021-07-28T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/docker-ruby-on-rails/</loc>
-        <lastmod>2021-07-24T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
-        <lastmod>2021-07-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -200,14 +216,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/docker-compose-django/</loc>
-        <lastmod>2021-07-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/4k-monitor/</loc>
         <lastmod>2021-07-08T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -264,6 +272,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-27-28/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -273,14 +289,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-34-35/</loc>
-        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -634,14 +642,6 @@
     <url>
         <loc>https://omathin.com/django-userobject/</loc>
         <lastmod>2021-01-23T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/django-startapp/</loc>
-        <lastmod>2021-01-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
