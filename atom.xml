@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-08-10T15:00:00.000Z</updated>
+  <updated>2021-08-20T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問77〜78 回答】</title>
+    <link href="https://omathin.com/100knock-77-78/"/>
+    <id>https://omathin.com/100knock-77-78/</id>
+    <published>2021-08-20T15:00:00.000Z</published>
+    <updated>2021-08-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の77問目から78問目を題材に、外れ値・異常値の抽出方法を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問75〜76 回答】</title>
+    <link href="https://omathin.com/100knock-75-76/"/>
+    <id>https://omathin.com/100knock-75-76/</id>
+    <published>2021-08-20T15:00:00.000Z</published>
+    <updated>2021-08-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の75問目から76問目を題材に、データのサンプリング手法を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
+    <link href="https://omathin.com/100knock-84/"/>
+    <id>https://omathin.com/100knock-84/</id>
+    <published>2021-08-20T15:00:00.000Z</published>
+    <updated>2021-08-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問79〜83 回答】</title>
+    <link href="https://omathin.com/100knock-79-83/"/>
+    <id>https://omathin.com/100knock-79-83/</id>
+    <published>2021-08-20T15:00:00.000Z</published>
+    <updated>2021-08-20T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の79問目から83問目を題材に、欠損値の補完方法を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【解説】データサイエンス100本ノック【問70〜74 回答】</title>
@@ -341,92 +425,6 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の49問目〜51問目を題材に、Pythonを用いたデータフレームの日付要素の取り出し方を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】日付データの変換方法を学ぶ | データサイエンス100本ノック【問45〜問48 回答】</title>
-    <link href="https://omathin.com/100knock-45-48/"/>
-    <id>https://omathin.com/100knock-45-48/</id>
-    <published>2021-07-04T15:00:00.000Z</published>
-    <updated>2021-07-04T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の45問目〜48問目を題材に、Pythonを用いたデータフレームの日付データの変換方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】縦横変換の方法を学ぶ | データサイエンス100本ノック【問43〜問44 回答】</title>
-    <link href="https://omathin.com/100knock-43-44/"/>
-    <id>https://omathin.com/100knock-43-44/</id>
-    <published>2021-06-30T15:00:00.000Z</published>
-    <updated>2021-06-30T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の43問目〜44問目を題材に、Pythonを用いたデータフレームの縦横変換を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【収益報告】ブログで100記事書いたら1ヶ月で4,117円稼げた話</title>
-    <link href="https://omathin.com/blog-progress/"/>
-    <id>https://omathin.com/blog-progress/</id>
-    <published>2021-06-28T15:00:00.000Z</published>
-    <updated>2021-06-28T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      ブログで100記事書いた結果報告をまとめます。6月の収益は4,033円でした。100記事作成するまでの道のりを振り返りながら100記事作成まで継続できたポイントを整理したいと思います。
-    
-    </summary>
-    
-    
-      <category term="Blog" scheme="https://omathin.com/categories/Blog/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-      <category term="Writing" scheme="https://omathin.com/tags/Writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】時系列ずらしの方法を学ぶ | データサイエンス100本ノック【問41〜問42 回答】</title>
-    <link href="https://omathin.com/100knock-41-42/"/>
-    <id>https://omathin.com/100knock-41-42/</id>
-    <published>2021-06-26T15:00:00.000Z</published>
-    <updated>2021-06-26T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の41問目〜42問目を題材に、Pythonで時系列ずらしの実施方法を学びます。
     
     </summary>
     
