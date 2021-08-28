@@ -59,15 +59,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
-    <link href="https://omathin.com/100knock-84/"/>
-    <id>https://omathin.com/100knock-84/</id>
+    <title>【解説】データサイエンス100本ノック【問79〜83 回答】</title>
+    <link href="https://omathin.com/100knock-79-83/"/>
+    <id>https://omathin.com/100knock-79-83/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の79問目から83問目を題材に、欠損値の補完方法を学びます
     
     </summary>
     
@@ -80,15 +80,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問79〜83 回答】</title>
-    <link href="https://omathin.com/100knock-79-83/"/>
-    <id>https://omathin.com/100knock-79-83/</id>
+    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
+    <link href="https://omathin.com/100knock-84/"/>
+    <id>https://omathin.com/100knock-84/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の79問目から83問目を題材に、欠損値の補完方法を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
     
     </summary>
     
