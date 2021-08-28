@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2021-08-20T15:00:00.000Z</updated>
+  <updated>2021-08-27T15:00:00.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,132 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問91回答】</title>
+    <link href="https://omathin.com/100knock-91/"/>
+    <id>https://omathin.com/100knock-91/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の91問目を題材に、不均衡データを学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
+    <link href="https://omathin.com/100knock-94-100/"/>
+    <id>https://omathin.com/100knock-94-100/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問92〜93回答】</title>
+    <link href="https://omathin.com/100knock-92-93/"/>
+    <id>https://omathin.com/100knock-92-93/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
+    <link href="https://omathin.com/100knock-89-90/"/>
+    <id>https://omathin.com/100knock-89-90/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の89から90問目を題材に、データの分割を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
+    <link href="https://omathin.com/100knock-87-88/"/>
+    <id>https://omathin.com/100knock-87-88/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問85〜86回答】</title>
+    <link href="https://omathin.com/100knock-85-86/"/>
+    <id>https://omathin.com/100knock-85-86/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の85から86問目を題材に、座標データを学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
   
   <entry>
     <title>【解説】データサイエンス100本ノック【問77〜78 回答】</title>
@@ -59,15 +185,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問79〜83 回答】</title>
-    <link href="https://omathin.com/100knock-79-83/"/>
-    <id>https://omathin.com/100knock-79-83/</id>
+    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
+    <link href="https://omathin.com/100knock-84/"/>
+    <id>https://omathin.com/100knock-84/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の79問目から83問目を題材に、欠損値の補完方法を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
     
     </summary>
     
@@ -80,15 +206,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
-    <link href="https://omathin.com/100knock-84/"/>
-    <id>https://omathin.com/100knock-84/</id>
+    <title>【解説】データサイエンス100本ノック【問79〜83 回答】</title>
+    <link href="https://omathin.com/100knock-79-83/"/>
+    <id>https://omathin.com/100knock-79-83/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の79問目から83問目を題材に、欠損値の補完方法を学びます
     
     </summary>
     
@@ -307,132 +433,6 @@
     
     
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
-    <link href="https://omathin.com/raspi-getstart/"/>
-    <id>https://omathin.com/raspi-getstart/</id>
-    <published>2021-07-16T15:00:00.000Z</published>
-    <updated>2021-07-16T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      ラズパイの組み立てと初期設定でいくつか躓いたポイントを元に注意事項をまとめました。本記事を参考に安心してラズパイの初期設定と利用開始を進めましょう。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="RaspberryPi" scheme="https://omathin.com/tags/RaspberryPi/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】四分位点を学ぶ | データサイエンス100本ノック【問55 回答】</title>
-    <link href="https://omathin.com/100knock-55/"/>
-    <id>https://omathin.com/100knock-55/</id>
-    <published>2021-07-14T15:00:00.000Z</published>
-    <updated>2021-07-19T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の55問目を題材に、四分位点(np.quantile)を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【2021最新】リモートワークエンジニアがおすすめするローテーブル7選！</title>
-    <link href="https://omathin.com/low-table/"/>
-    <id>https://omathin.com/low-table/</id>
-    <published>2021-07-13T15:00:00.000Z</published>
-    <updated>2021-07-13T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      リモートワークに最適な大型ローテーブル７種類を比較評価しました。価格、カスタマイズ性、リモートワークエンジニアに必要な機材の配置などを考慮して、ゲキカグ パソコンデスク ロータイプ(150cm幅) DKW150020が良いという結論に至りました。
-    
-    </summary>
-    
-    
-      <category term="Goods" scheme="https://omathin.com/categories/Goods/"/>
-    
-    
-      <category term="Table" scheme="https://omathin.com/tags/Table/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】map関数とpandas.Seriesのmapメソッドの違いを学ぶ | データサイエンス100本ノック【問54 回答】</title>
-    <link href="https://omathin.com/100knock-54/"/>
-    <id>https://omathin.com/100knock-54/</id>
-    <published>2021-07-09T15:00:00.000Z</published>
-    <updated>2021-07-09T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の54問目を題材に、pandas.Seriexのmapメソッドを学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】2値化の方法を学ぶ | データサイエンス100本ノック【問52〜問53 回答】</title>
-    <link href="https://omathin.com/100knock-52-53/"/>
-    <id>https://omathin.com/100knock-52-53/</id>
-    <published>2021-07-08T15:00:00.000Z</published>
-    <updated>2021-07-08T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の52問目〜53問目を題材に、Pythonを用いたデータフレームの2値化の方法を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】日付要素の取り出し方法を学ぶ | データサイエンス100本ノック【問49〜問51 回答】</title>
-    <link href="https://omathin.com/100knock-49-51/"/>
-    <id>https://omathin.com/100knock-49-51/</id>
-    <published>2021-07-05T15:00:00.000Z</published>
-    <updated>2021-07-05T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の49問目〜51問目を題材に、Pythonを用いたデータフレームの日付要素の取り出し方を学びます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
     
   </entry>
   
