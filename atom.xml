@@ -17,15 +17,15 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問91回答】</title>
-    <link href="https://omathin.com/100knock-91/"/>
-    <id>https://omathin.com/100knock-91/</id>
+    <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
+    <link href="https://omathin.com/100knock-89-90/"/>
+    <id>https://omathin.com/100knock-89-90/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の91問目を題材に、不均衡データを学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の89から90問目を題材に、データの分割を学びます
     
     </summary>
     
@@ -38,15 +38,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
-    <link href="https://omathin.com/100knock-94-100/"/>
-    <id>https://omathin.com/100knock-94-100/</id>
+    <title>【解説】データサイエンス100本ノック【問91回答】</title>
+    <link href="https://omathin.com/100knock-91/"/>
+    <id>https://omathin.com/100knock-91/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の91問目を題材に、不均衡データを学びます
     
     </summary>
     
@@ -80,36 +80,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
-    <link href="https://omathin.com/100knock-89-90/"/>
-    <id>https://omathin.com/100knock-89-90/</id>
+    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
+    <link href="https://omathin.com/100knock-94-100/"/>
+    <id>https://omathin.com/100knock-94-100/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の89から90問目を題材に、データの分割を学びます
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
-    <link href="https://omathin.com/100knock-87-88/"/>
-    <id>https://omathin.com/100knock-87-88/</id>
-    <published>2021-08-27T15:00:00.000Z</published>
-    <updated>2021-08-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
     
     </summary>
     
@@ -131,6 +110,27 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の85から86問目を題材に、座標データを学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
+    <link href="https://omathin.com/100knock-87-88/"/>
+    <id>https://omathin.com/100knock-87-88/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
     
     </summary>
     
