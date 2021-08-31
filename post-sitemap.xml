@@ -8,15 +8,23 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/about-this-blog/</loc>
-        <lastmod>2021-08-27T15:00:00.000Z</lastmod>
+        <loc>https://omathin.com/keras-nn-basic/</loc>
+        <lastmod>2021-08-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-89-90/</loc>
+        <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
+        <lastmod>2021-08-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/about-this-blog/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -33,6 +41,14 @@
 
     <url>
         <loc>https://omathin.com/100knock-92-93/</loc>
+        <lastmod>2021-08-27T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/100knock-89-90/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,14 +152,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/m1-mac-dockercompose-rails/</loc>
-        <lastmod>2021-08-11T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/get-start-openshift/</loc>
         <lastmod>2021-08-10T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -184,6 +192,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-59-60/</loc>
+        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-63-65/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -193,14 +209,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-61-62/</loc>
-        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-59-60/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -474,14 +482,6 @@
     <url>
         <loc>https://omathin.com/100knock-38-40/</loc>
         <lastmod>2021-06-23T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/keras-nn-basic/</loc>
-        <lastmod>2021-06-22T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

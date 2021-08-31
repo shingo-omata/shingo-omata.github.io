@@ -17,27 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
-    <link href="https://omathin.com/100knock-89-90/"/>
-    <id>https://omathin.com/100knock-89-90/</id>
-    <published>2021-08-27T15:00:00.000Z</published>
-    <updated>2021-08-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の89から90問目を題材に、データの分割を学びます
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【解説】データサイエンス100本ノック【問91回答】</title>
     <link href="https://omathin.com/100knock-91/"/>
     <id>https://omathin.com/100knock-91/</id>
@@ -68,6 +47,27 @@
     <summary type="html">
     
       一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
+    <link href="https://omathin.com/100knock-89-90/"/>
+    <id>https://omathin.com/100knock-89-90/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の89から90問目を題材に、データの分割を学びます
     
     </summary>
     
