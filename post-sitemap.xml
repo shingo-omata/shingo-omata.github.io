@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knocks-getstart/</loc>
+        <lastmod>2021-09-26T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/about-this-blog/</loc>
         <lastmod>2021-09-06T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -40,7 +48,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-91/</loc>
+        <loc>https://omathin.com/100knock-92-93/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +56,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-92-93/</loc>
+        <loc>https://omathin.com/100knock-91/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -64,7 +72,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knocks-getstart/</loc>
+        <loc>https://omathin.com/100knock-85-86/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -73,14 +81,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-87-88/</loc>
-        <lastmod>2021-08-27T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-85-86/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -200,7 +200,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-61-62/</loc>
+        <loc>https://omathin.com/100knock-63-65/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -208,7 +208,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-63-65/</loc>
+        <loc>https://omathin.com/100knock-61-62/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
