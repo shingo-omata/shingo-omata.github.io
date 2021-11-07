@@ -17,27 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問92〜93回答】</title>
-    <link href="https://omathin.com/100knock-92-93/"/>
-    <id>https://omathin.com/100knock-92-93/</id>
-    <published>2021-08-27T15:00:00.000Z</published>
-    <updated>2021-08-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【解説】データサイエンス100本ノック【問89〜90回答】</title>
     <link href="https://omathin.com/100knock-89-90/"/>
     <id>https://omathin.com/100knock-89-90/</id>
@@ -59,15 +38,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
-    <link href="https://omathin.com/100knock-94-100/"/>
-    <id>https://omathin.com/100knock-94-100/</id>
+    <title>【解説】データサイエンス100本ノック【問91回答】</title>
+    <link href="https://omathin.com/100knock-91/"/>
+    <id>https://omathin.com/100knock-91/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の91問目を題材に、不均衡データを学びます
     
     </summary>
     
@@ -80,15 +59,36 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問91回答】</title>
-    <link href="https://omathin.com/100knock-91/"/>
-    <id>https://omathin.com/100knock-91/</id>
+    <title>【解説】データサイエンス100本ノック【問92〜93回答】</title>
+    <link href="https://omathin.com/100knock-92-93/"/>
+    <id>https://omathin.com/100knock-92-93/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の91問目を題材に、不均衡データを学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
+    <link href="https://omathin.com/100knock-94-100/"/>
+    <id>https://omathin.com/100knock-94-100/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
     
     </summary>
     
@@ -311,27 +311,6 @@
   </entry>
   
   <entry>
-    <title>【厳選4つ】30代未経験におすすめの買い切り型プログラミングスクール・教材！</title>
-    <link href="https://omathin.com/30s-programming-school/"/>
-    <id>https://omathin.com/30s-programming-school/</id>
-    <published>2021-07-28T15:00:00.000Z</published>
-    <updated>2021-07-28T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      30歳からプログラミングを本格的に学び始め、ハッカソンで入賞、研究で賞を獲得した筆者が、実体験も交えつつおすすめのプログラミングスクールを紹介します。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="プログラミング" scheme="https://omathin.com/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【解説】対数化の実装方法 | データサイエンス100本ノック【問61〜62 回答】</title>
     <link href="https://omathin.com/100knock-61-62/"/>
     <id>https://omathin.com/100knock-61-62/</id>
@@ -433,6 +412,27 @@
     
     
       <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【ラズパイ入門】Raspberry Pi 3 Model B+の組み立てと初期設定の注意事項！</title>
+    <link href="https://omathin.com/raspi-getstart/"/>
+    <id>https://omathin.com/raspi-getstart/</id>
+    <published>2021-07-16T15:00:00.000Z</published>
+    <updated>2021-07-16T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      ラズパイの組み立てと初期設定でいくつか躓いたポイントを元に注意事項をまとめました。本記事を参考に安心してラズパイの初期設定と利用開始を進めましょう。
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="RaspberryPi" scheme="https://omathin.com/tags/RaspberryPi/"/>
     
   </entry>
   
