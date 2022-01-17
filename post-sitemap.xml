@@ -8,8 +8,16 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/mouse-mxanywhere3/</loc>
-        <lastmod>2022-01-01T15:00:00.000Z</lastmod>
+        <loc>https://omathin.com/react-api-2/</loc>
+        <lastmod>2022-01-16T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/react-getstart/</loc>
+        <lastmod>2022-01-16T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +25,15 @@
 
     <url>
         <loc>https://omathin.com/react-api/</loc>
-        <lastmod>2021-10-21T15:00:00.000Z</lastmod>
+        <lastmod>2022-01-16T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/mouse-mxanywhere3/</loc>
+        <lastmod>2022-01-01T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,7 +72,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-91/</loc>
+        <loc>https://omathin.com/100knock-89-90/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -64,7 +80,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-89-90/</loc>
+        <loc>https://omathin.com/100knock-91/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -88,7 +104,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-85-86/</loc>
+        <loc>https://omathin.com/100knock-87-88/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -96,7 +112,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-87-88/</loc>
+        <loc>https://omathin.com/100knock-85-86/</loc>
         <lastmod>2021-08-27T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -208,7 +224,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-61-62/</loc>
+        <loc>https://omathin.com/100knock-63-65/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -216,7 +232,7 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-63-65/</loc>
+        <loc>https://omathin.com/100knock-61-62/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -368,6 +384,14 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/100knock-30-33/</loc>
+        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/100knock-27-28/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -377,14 +401,6 @@
 
     <url>
         <loc>https://omathin.com/100knock-34-35/</loc>
-        <lastmod>2021-07-03T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-30-33/</loc>
         <lastmod>2021-07-03T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -658,22 +674,6 @@
     <url>
         <loc>https://omathin.com/anger-management/</loc>
         <lastmod>2021-02-14T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/react-api-2/</loc>
-        <lastmod>2021-02-13T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/react-getstart/</loc>
-        <lastmod>2021-02-12T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
