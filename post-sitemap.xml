@@ -8,6 +8,54 @@
     </url>
 
     <url>
+        <loc>https://omathin.com/http-method/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/100knock-54/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/100knock-61-62/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/swagger-editor-design-firststep/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/what-is-attention-1/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://omathin.com/datamodel/</loc>
+        <lastmod>2022-11-06T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://omathin.com/docker-compose-run-web-rails-dbconsole-error/</loc>
         <lastmod>2022-11-02T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -82,14 +130,6 @@
     <url>
         <loc>https://omathin.com/rnn-basic/</loc>
         <lastmod>2022-09-23T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/swagger-editor-design-firststep/</loc>
-        <lastmod>2022-08-25T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -280,14 +320,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/100knock-61-62/</loc>
-        <lastmod>2021-07-30T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/100knock-63-65/</loc>
         <lastmod>2021-07-30T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -369,14 +401,6 @@
 
     <url>
         <loc>https://omathin.com/visualstudiocode-swagge-viewer/</loc>
-        <lastmod>2021-07-09T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/100knock-54/</loc>
         <lastmod>2021-07-09T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -520,14 +544,6 @@
     </url>
 
     <url>
-        <loc>https://omathin.com/http-method/</loc>
-        <lastmod>2021-06-25T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://omathin.com/blueberries-improve/</loc>
         <lastmod>2021-06-24T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -642,14 +658,6 @@
     <url>
         <loc>https://omathin.com/word2vec-overview/</loc>
         <lastmod>2021-05-22T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/datamodel/</loc>
-        <lastmod>2021-05-21T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -817,14 +825,6 @@
 
     <url>
         <loc>https://omathin.com/what-is-transformer/</loc>
-        <lastmod>2020-12-19T15:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://omathin.com/what-is-attention-1/</loc>
         <lastmod>2020-12-19T15:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
