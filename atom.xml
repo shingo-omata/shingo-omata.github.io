@@ -101,6 +101,27 @@
   </entry>
   
   <entry>
+    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
+    <link href="https://omathin.com/100knock-87-88/"/>
+    <id>https://omathin.com/100knock-87-88/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
     <link href="https://omathin.com/100knock-94-100/"/>
     <id>https://omathin.com/100knock-94-100/</id>
@@ -143,27 +164,6 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
-    <link href="https://omathin.com/100knock-87-88/"/>
-    <id>https://omathin.com/100knock-87-88/</id>
-    <published>2021-08-27T15:00:00.000Z</published>
-    <updated>2021-08-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【解説】データサイエンス100本ノック【問77〜78 回答】</title>
     <link href="https://omathin.com/100knock-77-78/"/>
     <id>https://omathin.com/100knock-77-78/</id>
@@ -185,15 +185,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
-    <link href="https://omathin.com/100knock-84/"/>
-    <id>https://omathin.com/100knock-84/</id>
+    <title>【解説】データサイエンス100本ノック【問75〜76 回答】</title>
+    <link href="https://omathin.com/100knock-75-76/"/>
+    <id>https://omathin.com/100knock-75-76/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の75問目から76問目を題材に、データのサンプリング手法を学びます
     
     </summary>
     
@@ -206,15 +206,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問75〜76 回答】</title>
-    <link href="https://omathin.com/100knock-75-76/"/>
-    <id>https://omathin.com/100knock-75-76/</id>
+    <title>【解説】データサイエンス100本ノック【問84 回答】</title>
+    <link href="https://omathin.com/100knock-84/"/>
+    <id>https://omathin.com/100knock-84/</id>
     <published>2021-08-20T15:00:00.000Z</published>
     <updated>2021-08-20T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の75問目から76問目を題材に、データのサンプリング手法を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の84問目を題材に、除算エラー対応を学びます
     
     </summary>
     
