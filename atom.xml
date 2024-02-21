@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omathin.com/"/>
-  <updated>2024-01-15T15:00:00.000Z</updated>
+  <updated>2024-02-21T09:06:08.000Z</updated>
   <id>https://omathin.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Python】kintone(キントーン)にJSONPlaceholder APIから得たデータを登録する方法</title>
+    <link href="https://omathin.com/kintone-python-api-jsonplaceholder/"/>
+    <id>https://omathin.com/kintone-python-api-jsonplaceholder/</id>
+    <published>2024-02-21T09:06:08.000Z</published>
+    <updated>2024-02-21T09:06:08.000Z</updated>
+    
+    <summary type="html">
+    
+      Pythonを活用して、kintoneと他のAPIを連携させる例として、JSONPlaceholderとkintone REST APIの連携を実施しました。
+    
+    </summary>
+    
+    
+      <category term="kintone" scheme="https://omathin.com/categories/kintone/"/>
+    
+    
+      <category term="Customize" scheme="https://omathin.com/tags/Customize/"/>
+    
+  </entry>
   
   <entry>
     <title>【初心者】kintone（キントーン）でログインユーザーに応じてヘッダー上部の情報を変更するカスタマイズ</title>
@@ -59,27 +80,6 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問92〜93回答】</title>
-    <link href="https://omathin.com/100knock-92-93/"/>
-    <id>https://omathin.com/100knock-92-93/</id>
-    <published>2021-08-27T15:00:00.000Z</published>
-    <updated>2021-08-27T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【解説】データサイエンス100本ノック【問91回答】</title>
     <link href="https://omathin.com/100knock-91/"/>
     <id>https://omathin.com/100knock-91/</id>
@@ -101,15 +101,15 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
-    <link href="https://omathin.com/100knock-87-88/"/>
-    <id>https://omathin.com/100knock-87-88/</id>
+    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
+    <link href="https://omathin.com/100knock-94-100/"/>
+    <id>https://omathin.com/100knock-94-100/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
     
     </summary>
     
@@ -122,15 +122,36 @@
   </entry>
   
   <entry>
-    <title>【解説】データサイエンス100本ノック【問94〜100回答】</title>
-    <link href="https://omathin.com/100knock-94-100/"/>
-    <id>https://omathin.com/100knock-94-100/</id>
+    <title>【解説】データサイエンス100本ノック【問92〜93回答】</title>
+    <link href="https://omathin.com/100knock-92-93/"/>
+    <id>https://omathin.com/100knock-92-93/</id>
     <published>2021-08-27T15:00:00.000Z</published>
     <updated>2021-08-27T15:00:00.000Z</updated>
     
     <summary type="html">
     
-      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の94から100問目を題材に、ファイルの入出力を学びます
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の92から93問目を題材に、正規化・非正規化を学びます
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
+    
+    
+      <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【解説】データサイエンス100本ノック【問87〜88回答】</title>
+    <link href="https://omathin.com/100knock-87-88/"/>
+    <id>https://omathin.com/100knock-87-88/</id>
+    <published>2021-08-27T15:00:00.000Z</published>
+    <updated>2021-08-27T15:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      一般社団法人データサイエンティスト協会がGithubに公開している「データサイエンス100本ノック」の87から88問目を題材に、名寄せを学びます
     
     </summary>
     
@@ -412,27 +433,6 @@
     
     
       <category term="datascience" scheme="https://omathin.com/tags/datascience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】Google検索結果に記事公開日ではなく最終更新日を表示させる方法</title>
-    <link href="https://omathin.com/hexo-updateday/"/>
-    <id>https://omathin.com/hexo-updateday/</id>
-    <published>2021-07-18T15:00:00.000Z</published>
-    <updated>2021-07-18T15:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      HexoブログでリライトしてもGoogle検索で表示される記事の日付が最終更新日になりませんでした。原因はURLに日付が含まれていたためでした。本記事では、Hexoでブログを書いている人向けに、Google検索結果に記事公開日ではなく最終更新日を表示させる方法をまとめます。
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="https://omathin.com/categories/IT/"/>
-    
-    
-      <category term="Hexo" scheme="https://omathin.com/tags/Hexo/"/>
     
   </entry>
   
